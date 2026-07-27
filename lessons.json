@@ -1,0 +1,102 @@
+[
+  {
+    "date": "2026-07-27",
+    "title": "The Quiet Value of Urban Green Spaces",
+    "titleCn": "城市绿地的无声价值",
+    "topic": "环境与城市",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "As cities expand at an unprecedented pace, parks, community gardens and tree-lined streets are increasingly viewed not as luxuries but as essential infrastructure. Urban researchers argue that green spaces deliver measurable benefits to public health, social cohesion and even local economies — benefits that concrete and glass alone can never provide.",
+        "cn": "随着城市以前所未有的速度扩张，公园、社区花园和绿树成荫的街道正日益被视为必不可少的基础设施，而非奢侈品。城市研究者认为，绿地为公共健康、社会凝聚力乃至地方经济带来了可量化的益处——这些是钢筋水泥与玻璃幕墙永远无法提供的。"
+      },
+      {
+        "en": "The physiological evidence is compelling. A landmark Danish study that tracked nearly one million residents over three decades found that children who grew up near green areas were significantly less likely to develop mental health problems in adulthood. Similar research in Japan and the United Kingdom suggests that even brief contact with nature can alleviate mental fatigue, lower blood pressure and restore the capacity for focused attention.",
+        "cn": "生理层面的证据十分有力。丹麦一项追踪近百万居民长达三十年的里程碑式研究发现，在绿地附近长大的儿童成年后出现心理健康问题的可能性显著更低。日本和英国的类似研究表明，哪怕与自然的短暂接触也能缓解精神疲劳、降低血压，并恢复集中注意力的能力。"
+      },
+      {
+        "en": "The advantages extend well beyond the individual. Communal gardens foster interaction among neighbours who might otherwise remain strangers, strengthening the social fabric of a district. On a larger scale, vegetation helps to mitigate the urban heat island effect, absorbs stormwater that would otherwise flood streets, and filters airborne pollutants — services that would cost municipalities millions if provided artificially.",
+        "cn": "绿地的好处远不止于个人层面。社区花园促进了邻里之间的交流——若非如此，他们可能永远是陌生人——从而加强了社区的社会纽带。在更大尺度上，植被有助于缓解城市热岛效应，吸收原本会淹没街道的雨水，并过滤空气中的污染物——如果用人工方式提供这些服务，将花费市政数百万计的资金。"
+      },
+      {
+        "en": "Critics, however, contend that in cities where land is scarce and housing increasingly unaffordable, reserving large plots for parks is a questionable priority. Every hectare devoted to lawns, they argue, is a hectare unavailable for homes. This trade-off is genuine, and it explains why debates over land use often become heated in fast-growing metropolitan areas.",
+        "cn": "然而，批评者认为，在土地稀缺、住房日益难以负担的城市里，将大片土地留作公园的优先级值得质疑。他们认为，每一公顷用于草坪的土地，就是一公顷无法用于住宅的土地。这种权衡是真实存在的，也解释了为什么在快速发展的大都市地区，土地使用的争论常常变得激烈。"
+      },
+      {
+        "en": "Nevertheless, planners are finding ways to reconcile the two demands. Vertical gardens, green roofs and 'pocket parks' squeezed into leftover corners allow nature to be woven into dense neighbourhoods without displacing housing. The emerging consensus is clear: green space is not an ornament to be added when budgets allow, but a long-term investment in the wellbeing of urban populations.",
+        "cn": "尽管如此，规划者正在寻找调和这两种需求的方法。垂直花园、绿色屋顶以及见缝插针建在角落里的'口袋公园'，让自然得以融入高密度社区而不挤占住房空间。正在形成的共识十分明确：绿地不是预算宽裕时才添置的装饰品，而是对城市人口福祉的一项长期投资。"
+      }
+    ],
+    "vocab": [
+      {"word": "unprecedented", "phonetic": "/ʌnˈpresɪdentɪd/", "pos": "adj.", "cn": "前所未有的，空前的", "en_def": "never having happened before", "example": "Cities are expanding at an unprecedented pace.", "example_cn": "城市正以前所未有的速度扩张。"},
+      {"word": "infrastructure", "phonetic": "/ˈɪnfrəstrʌktʃə(r)/", "pos": "n.", "cn": "基础设施", "en_def": "basic systems and services of a country or city", "example": "Green spaces are now seen as essential infrastructure.", "example_cn": "绿地如今被视为必不可少的基础设施。"},
+      {"word": "cohesion", "phonetic": "/kəʊˈhiːʒn/", "pos": "n.", "cn": "凝聚力，团结", "en_def": "the state of sticking together as a united whole", "example": "Parks contribute to the social cohesion of a community.", "example_cn": "公园有助于增强社区的社会凝聚力。"},
+      {"word": "compelling", "phonetic": "/kəmˈpelɪŋ/", "pos": "adj.", "cn": "令人信服的，有说服力的", "en_def": "very convincing", "example": "The physiological evidence is compelling.", "example_cn": "生理层面的证据十分令人信服。"},
+      {"word": "alleviate", "phonetic": "/əˈliːvieɪt/", "pos": "v.", "cn": "缓解，减轻", "en_def": "to make something less severe", "example": "Contact with nature can alleviate mental fatigue.", "example_cn": "接触自然可以缓解精神疲劳。"},
+      {"word": "foster", "phonetic": "/ˈfɒstə(r)/", "pos": "v.", "cn": "促进，培养", "en_def": "to encourage the development of something", "example": "Communal gardens foster interaction among neighbours.", "example_cn": "社区花园促进邻里之间的交流。"},
+      {"word": "mitigate", "phonetic": "/ˈmɪtɪɡeɪt/", "pos": "v.", "cn": "缓和，减轻（危害）", "en_def": "to make something harmful less serious", "example": "Vegetation helps to mitigate the urban heat island effect.", "example_cn": "植被有助于缓解城市热岛效应。"},
+      {"word": "contend", "phonetic": "/kənˈtend/", "pos": "v.", "cn": "主张，认为（用于引出观点）", "en_def": "to argue or claim that something is true", "example": "Critics contend that parks are a questionable priority.", "example_cn": "批评者主张，公园的优先级值得质疑。"},
+      {"word": "scarce", "phonetic": "/skeəs/", "pos": "adj.", "cn": "稀缺的，不足的", "en_def": "insufficient for the demand", "example": "Land is scarce in most major cities.", "example_cn": "在大多数大城市，土地都很稀缺。"},
+      {"word": "trade-off", "phonetic": "/ˈtreɪd ɒf/", "pos": "n.", "cn": "权衡，取舍", "en_def": "a balance between two opposing things", "example": "There is a trade-off between housing and green space.", "example_cn": "住房与绿地之间存在权衡取舍。"}
+    ],
+    "quiz": [
+      {
+        "q": "What is the main idea of the passage?",
+        "options": [
+          "Parks are too expensive for most modern cities to maintain.",
+          "Urban green spaces provide wide-ranging benefits and deserve to be treated as essential investments.",
+          "Housing shortages should always take priority over building parks.",
+          "Children must grow up near nature to stay healthy."
+        ],
+        "answer": 1,
+        "explain": "全文围绕绿地对健康、社会、经济的多重益处展开，并在末段总结'绿地是长期投资而非装饰品'，B 为主旨。A、C 只反映批评者的局部观点，D 过度绝对化。"
+      },
+      {
+        "q": "According to paragraph 2, the Danish study found that…",
+        "options": [
+          "one million adults moved closer to green areas.",
+          "green areas cured mental health problems in children.",
+          "children raised near green areas had a lower risk of mental health problems later in life.",
+          "brief contact with nature lowers blood pressure."
+        ],
+        "answer": 2,
+        "explain": "原文：children who grew up near green areas were significantly less likely to develop mental health problems in adulthood。C 是同义改写。B 中 cured（治愈）程度过重；D 是日本/英国研究的内容，属张冠李戴。"
+      },
+      {
+        "q": "The word 'mitigate' in paragraph 3 is closest in meaning to…",
+        "options": ["measure", "reduce", "create", "ignore"],
+        "answer": 1,
+        "explain": "mitigate 意为'缓解、减轻'，与 reduce 最接近。这是雅思阅读高频词汇题型：结合上下文'缓解热岛效应'即可判断。"
+      },
+      {
+        "q": "What do critics argue about urban parks?",
+        "options": [
+          "They believe parks make housing more affordable.",
+          "They think land used for parks could otherwise be used for homes.",
+          "They claim parks increase the urban heat island effect.",
+          "They suggest parks should be replaced by vertical gardens."
+        ],
+        "answer": 1,
+        "explain": "原文第 4 段：Every hectare devoted to lawns is a hectare unavailable for homes——公园用地挤占了住房用地。B 正确；D 是规划者（而非批评者）的方案。"
+      },
+      {
+        "q": "What can be inferred from the final paragraph?",
+        "options": [
+          "The conflict between housing and green space cannot be resolved.",
+          "Green roofs are more expensive than traditional parks.",
+          "Planners believe nature and dense housing can coexist in cities.",
+          "Green space should only be built when budgets allow."
+        ],
+        "answer": 2,
+        "explain": "末段指出垂直花园、绿色屋顶、口袋公园可以让自然'woven into dense neighbourhoods without displacing housing'，即两者可以共存，C 正确。D 恰好与原文 'not an ornament to be added when budgets allow' 相反。"
+      }
+    ],
+    "summary": [
+      "文章结构：现象引入 → 个人健康证据 → 社会/环境效益 → 批评者观点（让步）→ 解决方案与结论。这是雅思阅读最典型的'议论文让步-反驳'结构，遇到 however/nevertheless 要特别留意态度转折。",
+      "核心论点：城市绿地在健康（缓解精神疲劳、降血压）、社会（促进邻里交流）、环境（缓解热岛、吸收雨水、过滤污染）三个层面都有可量化价值。",
+      "让步与反驳：批评者认为土地稀缺时公园挤占住房（trade-off）；作者用垂直花园、绿色屋顶、口袋公园回应——密度与绿化可以兼得。",
+      "高频写作素材：本文的论证链可直接用于雅思写作 Task 2 城市化/环境类话题，如 'Some people think parks are a waste of valuable urban land'。",
+      "今日必背词：unprecedented（前所未有的）、alleviate（缓解）、mitigate（减轻）、foster（促进）、trade-off（权衡）——这五个词在雅思阅读与写作中出现频率极高。"
+    ]
+  }
+]
