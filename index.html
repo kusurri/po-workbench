@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#9b8cc4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>po</title>
+<style>
+:root{
+  --bg:#f4f1ea; --card:#fffdf8; --text:#2b2b2f; --text2:#8a857c;
+  --border:#ece6da; --primary:#9b7ede; --primary-light:#c4b3ec; --primary-bg:#f1ecfa;
+  --tt-purple:#9b7ede; --tt-green:#7fc9a3; --tt-yellow:#f2cf6b; --tt-red:#ee8a8a;
+  --green:#5fae8c; --orange:#e0a85e; --red:#d97a7a;
+  --radius:22px; --shadow:0 4px 20px rgba(60,50,40,.07);
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden}
+/* 天线宝宝圆顶光晕装饰 */
+body::before{content:"";position:fixed;top:-160px;right:-120px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(155,126,222,.18), rgba(242,207,107,.10) 55%, transparent 72%);pointer-events:none;z-index:0}
+body::after{content:"";position:fixed;bottom:-150px;left:-110px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle at 60% 40%, rgba(127,201,163,.16), rgba(238,138,138,.10) 55%, transparent 72%);pointer-events:none;z-index:0}
+button{font-family:inherit;border:none;background:none;cursor:pointer;color:inherit}
+input,select,textarea{font-family:inherit;font-size:15px;border:1px solid var(--border);border-radius:13px;padding:11px 12px;width:100%;background:#fff;color:var(--text);outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--primary-light)}
+
+/* ===== 顶栏 ===== */
+.topbar{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:10px;padding:14px 16px;padding-top:calc(14px + env(safe-area-inset-top));background:rgba(244,241,234,.85);backdrop-filter:blur(14px)}
+.topbar h1{font-size:18px;font-weight:700;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.icon-btn{width:38px;height:38px;border-radius:13px;background:var(--card);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+
+/* ===== 侧边栏 ===== */
+.overlay{position:fixed;inset:0;background:rgba(43,43,47,.35);z-index:40;opacity:0;pointer-events:none;transition:opacity .25s}
+.overlay.show{opacity:1;pointer-events:auto}
+.sidebar{position:fixed;top:0;left:0;bottom:0;width:280px;max-width:82vw;background:var(--card);z-index:50;transform:translateX(-105%);transition:transform .28s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top);box-shadow:6px 0 30px rgba(60,50,40,.12)}
+.sidebar.show{transform:translateX(0)}
+.sb-head{padding:24px 20px 16px;display:flex;align-items:center;gap:12px}
+.sb-avatar{width:46px;height:46px;border-radius:16px;background:linear-gradient(135deg,var(--tt-purple),var(--tt-green));display:flex;align-items:center;justify-content:center;font-size:23px;box-shadow:0 4px 14px rgba(155,126,222,.3);object-fit:cover;overflow:hidden;border:2px solid #fff}
+.sb-head .t{font-size:16px;font-weight:800;letter-spacing:.3px}
+.sb-head .s{font-size:12px;color:var(--text2);margin-top:2px}
+.sb-list{flex:1;overflow-y:auto;padding:6px 12px}
+.sb-item{display:flex;align-items:center;gap:12px;width:100%;padding:13px 14px;border-radius:15px;font-size:15px;font-weight:500;margin-bottom:4px;text-align:left;position:relative;transition:background .15s}
+.sb-item:active{background:var(--primary-bg)}
+.sb-item.active{background:var(--primary-bg);color:var(--primary);font-weight:700}
+.sb-item .emoji{font-size:20px;width:26px;text-align:center}
+.sb-item .name{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb-item .del{width:26px;height:26px;border-radius:9px;background:#fbeaea;color:var(--red);font-size:14px;display:none;align-items:center;justify-content:center;flex-shrink:0}
+.sidebar.editing .sb-item .del{display:flex}
+.sb-item .ren{width:26px;height:26px;border-radius:9px;background:var(--tt-purple-bg);color:var(--tt-purple);font-size:14px;display:none;align-items:center;justify-content:center;flex-shrink:0}
+.sidebar.editing .sb-item .ren{display:flex}
+.sb-foot{padding:12px;border-top:1px solid var(--border);display:flex;gap:8px;padding-bottom:calc(12px + env(safe-area-inset-bottom))}
+.sb-foot button{flex:1;padding:11px;border-radius:14px;font-size:14px;font-weight:600}
+.btn-add{background:var(--primary);color:#fff}
+.btn-manage{background:var(--bg);color:var(--text2)}
+.btn-manage.on{background:#fbeaea;color:var(--red)}
+
+/* ===== 内容 ===== */
+.content{padding:4px 16px 40px;max-width:640px;margin:0 auto;position:relative;z-index:1}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;margin-bottom:14px;border:1px solid rgba(236,230,218,.7)}
+.section-title{font-size:14px;color:var(--text2);font-weight:600;margin:18px 4px 10px}
+
+/* 首页 */
+.hero{background:linear-gradient(135deg,var(--tt-purple),var(--tt-green));color:#fff;border-radius:26px;padding:24px 22px;margin-bottom:16px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-30px;top:-30px;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(242,207,107,.45), transparent 70%);}
+.hero .greet{font-size:21px;font-weight:800;letter-spacing:.5px}
+.hero .date{font-size:13px;opacity:.88;margin-top:4px}
+.hero .stats{display:flex;gap:10px;margin-top:16px}
+.hero .stat{flex:1;background:rgba(255,255,255,.18);border-radius:16px;padding:10px 12px;text-align:center}
+.hero .stat .n{font-size:20px;font-weight:800}
+.hero .stat .l{font-size:11px;opacity:.88;margin-top:2px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mod-card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;text-align:left;border:1px solid rgba(236,230,218,.7);transition:transform .15s}
+.mod-card:active{transform:translateY(2px)}
+.mod-card .emoji{font-size:28px}
+.mod-card .name{font-size:15px;font-weight:700;margin-top:8px}
+.mod-card .desc{font-size:12px;color:var(--text2);margin-top:3px}
+.mod-card .badge{display:inline-block;margin-top:8px;font-size:11px;padding:3px 9px;border-radius:99px;background:var(--primary-bg);color:var(--primary);font-weight:600}
+.mod-card .badge.done{background:#e6f3ec;color:var(--green)}
+
+/* 打卡页 */
+.checkin-hero{text-align:center;padding:26px 18px}
+.checkin-btn{width:124px;height:124px;border-radius:50%;background:linear-gradient(135deg,var(--tt-purple),var(--tt-green));color:#fff;font-size:17px;font-weight:800;box-shadow:0 10px 28px rgba(155,126,222,.35);transition:transform .15s}
+.checkin-btn:active{transform:scale(.94)}
+.checkin-btn.done{background:linear-gradient(135deg,var(--green),#9bd6b8);box-shadow:0 10px 28px rgba(95,174,140,.3)}
+.streak-row{display:flex;gap:10px;margin-top:20px}
+.streak-box{flex:1;background:var(--bg);border-radius:16px;padding:12px;text-align:center}
+.streak-box .n{font-size:22px;font-weight:800;color:var(--primary)}
+.streak-box .l{font-size:11px;color:var(--text2);margin-top:2px}
+.cal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.cal-head .m{font-size:15px;font-weight:700}
+.cal-head button{width:32px;height:32px;border-radius:11px;background:var(--bg);font-size:14px}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;text-align:center}
+.cal-grid .wd{font-size:11px;color:var(--text2);padding:4px 0}
+.cal-day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:13px;border-radius:11px;position:relative}
+.cal-day.checked{background:var(--tt-purple);color:#fff;font-weight:700}
+.cal-day.today{outline:2px solid var(--tt-yellow);outline-offset:-2px;font-weight:700}
+.note-item{display:flex;gap:10px;padding:12px 0;border-bottom:1px solid var(--border);font-size:14px}
+.note-item:last-child{border-bottom:none}
+.note-item .d{color:var(--text2);font-size:12px;flex-shrink:0;width:74px;padding-top:2px}
+
+/* 列表页 */
+.tabs{display:flex;gap:8px;margin-bottom:14px;overflow-x:auto;padding-bottom:2px}
+.tab{padding:8px 16px;border-radius:99px;background:var(--card);font-size:13px;font-weight:600;color:var(--text2);white-space:nowrap;box-shadow:var(--shadow)}
+.tab.active{background:var(--tt-purple);color:#fff}
+.item-card{display:flex;align-items:flex-start;gap:12px;background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:15px;margin-bottom:10px;border:1px solid rgba(236,230,218,.7)}
+.item-card .info{flex:1;min-width:0}
+.item-card .title{font-size:15px;font-weight:700;word-break:break-all}
+.item-card .meta{display:flex;align-items:center;gap:8px;margin-top:6px;flex-wrap:wrap}
+.status-pill{font-size:11px;padding:3px 10px;border-radius:99px;font-weight:600}
+.sp-0{background:#fbeede;color:#c98a3e}.sp-1{background:var(--primary-bg);color:var(--primary)}.sp-2{background:#e6f3ec;color:var(--green)}
+.stars{color:#e8b84b;font-size:13px;letter-spacing:1px}
+.item-card .note{font-size:12.5px;color:var(--text2);margin-top:6px;word-break:break-all}
+.item-card .ops{display:flex;flex-direction:column;gap:6px}
+.item-card .ops button{width:30px;height:30px;border-radius:10px;background:var(--bg);font-size:13px}
+.fab{position:fixed;right:20px;bottom:calc(24px + env(safe-area-inset-bottom));width:56px;height:56px;border-radius:50%;background:var(--tt-purple);color:#fff;font-size:26px;box-shadow:0 8px 22px rgba(155,126,222,.45);z-index:20;display:flex;align-items:center;justify-content:center}
+.empty{text-align:center;color:var(--text2);padding:50px 20px;font-size:14px}
+.empty .e{font-size:44px;margin-bottom:10px}
+
+/* 体重页 */
+.w-now{text-align:center;padding:6px 0 14px}
+.w-now .v{font-size:40px;font-weight:800;color:var(--primary)}
+.w-now .v small{font-size:16px;color:var(--text2);font-weight:600;margin-left:2px}
+.w-now .c{font-size:13px;margin-top:4px;font-weight:600}
+.w-up{color:var(--orange)}.w-down{color:var(--green)}.w-flat{color:var(--text2)}
+.w-form{display:flex;gap:8px}
+.w-form input[type=number]{flex:1.2}
+.w-form input[type=date]{flex:1.5;font-size:13px;padding:11px 8px}
+.w-form button{flex-shrink:0;padding:0 18px;border-radius:10px;background:var(--primary);color:#fff;font-size:14px;font-weight:700}
+.month-row{display:flex;align-items:center;padding:12px 0;border-bottom:1px solid var(--border);font-size:14px;gap:6px}
+.month-row:last-child{border-bottom:none}
+.month-row .m{width:76px;font-weight:700;flex-shrink:0}
+.month-row .rng{flex:1;color:var(--text2);font-size:13px}
+.month-row .diff{font-weight:700;font-size:14px}
+.w-log{display:flex;align-items:center;padding:11px 0;border-bottom:1px solid var(--border);font-size:14px;gap:8px}
+.w-log:last-child{border-bottom:none}
+.w-log .d{width:86px;color:var(--text2);font-size:12.5px;flex-shrink:0}
+.w-log .v{font-weight:700;flex:1}
+.w-log .dl{width:28px;height:28px;border-radius:8px;background:var(--bg);font-size:12px}
+
+/* 雅思精读 */
+.lesson-dates{display:flex;gap:8px;overflow-x:auto;margin-bottom:12px;padding-bottom:2px}
+.ldate{padding:7px 13px;border-radius:99px;background:var(--card);font-size:12px;font-weight:600;color:var(--text2);white-space:nowrap;box-shadow:var(--shadow)}
+.ldate.active{background:var(--primary);color:#fff}
+.lesson-title{font-size:17px;font-weight:800;line-height:1.45}
+.lesson-title-cn{font-size:13px;color:var(--text2);margin-top:4px}
+.lesson-meta{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.lmeta{font-size:11px;padding:3px 10px;border-radius:99px;background:var(--primary-bg);color:var(--primary);font-weight:600}
+.para{font-size:15px;line-height:1.78;margin-bottom:14px;cursor:pointer}
+.para .cn{display:none;font-size:13.5px;color:#5a6470;line-height:1.7;margin-top:7px;padding:10px 13px;background:var(--bg);border-radius:10px;border-left:3px solid var(--primary-light)}
+.para.open .cn{display:block}
+mark.hl{background:var(--primary-bg);color:var(--primary);font-weight:700;padding:1px 4px;border-radius:5px}
+.trans-tip{font-size:12px;color:var(--text2);text-align:center;margin-bottom:12px}
+.vcard{border:1px solid var(--border);border-radius:14px;padding:14px;margin-bottom:10px;cursor:pointer}
+.vcard .w{font-size:17px;font-weight:800;color:var(--primary)}
+.vcard .ph{font-size:12.5px;color:var(--text2);margin-left:7px}
+.vcard .pos{font-size:11px;background:var(--bg);padding:2px 8px;border-radius:6px;color:var(--text2);margin-left:7px}
+.vcard .mean{margin-top:8px;font-size:14px;font-weight:600}
+.vcard .ex{margin-top:6px;font-size:13px;color:var(--text2);line-height:1.6;font-style:italic}
+.vcard .excn{font-size:12.5px;color:var(--text2);margin-top:2px}
+.vcard.hidemean .mean,.vcard.hidemean .ex,.vcard.hidemean .excn{display:none}
+.vcard.hidemean::after{content:'👆 点击显示释义';font-size:12px;color:var(--primary);display:block;margin-top:8px}
+.q-item{margin-bottom:20px}
+.q-q{font-size:14.5px;font-weight:700;line-height:1.6;margin-bottom:10px}
+.q-opt{display:flex;gap:8px;padding:11px 13px;border:1.5px solid var(--border);border-radius:12px;font-size:13.5px;margin-bottom:8px;line-height:1.5;cursor:pointer}
+.q-opt.sel{border-color:var(--primary);background:var(--primary-bg)}
+.q-opt.right{border-color:var(--green);background:#e3f9f2}
+.q-opt.wrong{border-color:var(--red);background:#fdecea}
+.q-exp{font-size:12.5px;color:#5a6470;background:var(--bg);border-radius:10px;padding:10px 13px;line-height:1.65;margin-top:4px}
+.sum-li{display:flex;gap:9px;font-size:14px;line-height:1.72;margin-bottom:11px}
+.sum-li .n{color:var(--primary);font-weight:800;flex-shrink:0}
+.lesson-btn{width:100%;padding:13px;border-radius:13px;background:var(--primary);color:#fff;font-weight:700;font-size:14.5px;margin-top:6px}
+.lesson-btn.ghost{background:var(--bg);color:var(--text2)}
+.lesson-btn:disabled{opacity:.5}
+.score-banner{text-align:center;padding:14px;border-radius:14px;background:var(--primary-bg);color:var(--primary);font-weight:800;font-size:16px;margin-bottom:16px}
+
+/* ===== 每周书单 ===== */
+.rb-theme{font-size:12.5px;color:var(--text2);text-align:center;margin-bottom:8px}
+.rec-book{padding:12px 0;border-bottom:1px solid var(--border)}
+.rec-book:last-child{border-bottom:none;padding-bottom:4px}
+.rb-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.rb-title{font-size:15px;font-weight:700}
+.rb-author{font-size:12px;color:var(--text2)}
+.rb-tags{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.rb-tag{font-size:11px;padding:2.5px 8px;border-radius:99px;background:var(--bg);color:var(--text2)}
+.rb-tag.mys{background:rgba(155,126,222,.12);color:var(--primary);font-weight:600}
+.rb-intro{font-size:13px;line-height:1.7;color:var(--text);margin:4px 0}
+.rb-reason{font-size:12px;color:var(--text2);background:var(--bg);border-radius:10px;padding:8px 10px;margin:6px 0;line-height:1.6}
+.rb-add{margin-top:6px;font-size:12.5px;font-weight:600;color:var(--primary);border:1.5px solid var(--primary);border-radius:99px;padding:6px 14px;background:var(--card)}
+.nt-tabs{display:flex;gap:8px;margin-bottom:12px}
+.nt-tab{flex:1;padding:10px;border-radius:13px;background:var(--card);box-shadow:var(--shadow);font-size:14px;font-weight:600;color:var(--text2)}
+.nt-tab.sel{background:linear-gradient(135deg,var(--tt-purple),var(--tt-green));color:#fff}
+.rb-add.owned{color:var(--green);border-color:var(--green);opacity:.75}
+
+/* ===== 运动记录 ===== */
+.wo-today{text-align:center;font-size:13px;color:var(--green);font-weight:600;margin:8px 0 2px}
+.wo-cmp{font-size:12.5px;color:var(--text2);text-align:center;margin:8px 0 2px}
+.wo-type-grid{display:flex;flex-wrap:wrap;gap:7px;max-height:150px;overflow-y:auto}
+.wo-chip{border:1.5px solid var(--border);border-radius:99px;padding:7px 11px;font-size:13px;background:var(--card)}
+.wo-chip.sel{border-color:var(--primary);background:rgba(155,126,222,.1);color:var(--primary);font-weight:600}
+.wo-form2{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}
+.wo-row{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border)}
+.wo-row:last-child{border-bottom:none}
+.wo-row .ic{font-size:22px;flex-shrink:0}
+.wo-row .mid{flex:1;min-width:0}
+.wo-row .t{font-size:14px;font-weight:600}
+.wo-row .t .nt{font-weight:400;color:var(--text2);font-size:12.5px}
+.wo-row .s{font-size:12px;color:var(--text2);margin-top:1px}
+.wo-row .dl{width:28px;height:28px;border-radius:8px;background:var(--bg);font-size:12px;flex-shrink:0}
+.wo-dist{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:12.5px}
+.wo-dist .ic{font-size:15px}
+.wo-dist .nm{width:60px;flex-shrink:0}
+.wo-dist .bar{flex:1;height:8px;background:var(--bg);border-radius:99px;overflow:hidden}
+.wo-dist .fill{height:100%;background:linear-gradient(90deg,var(--tt-purple),var(--tt-green));border-radius:99px}
+.wo-dist .vv{color:var(--text2);font-size:11.5px;flex-shrink:0;width:86px;text-align:right}
+.wo-manageline{margin-bottom:12px}
+.wo-manage{width:100%;padding:11px;border-radius:14px;background:var(--card);box-shadow:var(--shadow);font-size:14px;font-weight:600;color:var(--tt-purple);display:flex;align-items:center;justify-content:center;gap:6px}
+.wo-manage:active{background:var(--tt-purple-bg)}
+.link-btn{background:none;color:var(--tt-purple);font-size:13px;font-weight:600;padding:4px 2px}
+.wo-chip.wo-add{border-style:dashed;border-color:var(--tt-purple);color:var(--tt-purple);font-weight:600}
+.wo-typelist{display:flex;flex-direction:column;gap:2px;margin-bottom:14px;max-height:46vh;overflow-y:auto}
+.wo-typerow{display:flex;align-items:center;gap:10px;padding:9px 4px;border-bottom:1px solid var(--border)}
+.wo-typerow .ic{font-size:18px;width:24px;text-align:center}
+.wo-typerow .nm{flex:1;font-size:14.5px;font-weight:600}
+.wo-disttag{font-size:10.5px;color:var(--tt-green);background:var(--tt-green-bg);padding:1px 7px;border-radius:99px;margin-left:4px;font-weight:600}
+.wo-tb{width:32px;height:32px;border-radius:9px;background:var(--bg);font-size:14px;flex-shrink:0}
+.wo-tb.dl{background:#fdecea;color:var(--red)}
+.wo-addform{background:var(--bg);border-radius:14px;padding:14px}
+
+/* ===== 弹窗 ===== */
+.modal-mask{position:fixed;inset:0;background:rgba(20,20,35,.45);z-index:60;display:flex;align-items:flex-end;justify-content:center;opacity:0;pointer-events:none;transition:opacity .22s}
+.modal-mask.show{opacity:1;pointer-events:auto}
+.modal{background:var(--card);border-radius:22px 22px 0 0;width:100%;max-width:640px;padding:22px 20px;padding-bottom:calc(22px + env(safe-area-inset-bottom));transform:translateY(30px);transition:transform .25s}
+.modal-mask.show .modal{transform:translateY(0)}
+.modal h3{font-size:17px;font-weight:800;margin-bottom:16px}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:13px;color:var(--text2);font-weight:600;margin-bottom:7px}
+.emoji-row{display:flex;gap:8px;flex-wrap:wrap}
+.emoji-opt{width:42px;height:42px;border-radius:12px;background:var(--bg);font-size:21px;display:flex;align-items:center;justify-content:center;border:2px solid transparent}
+.emoji-opt.sel{border-color:var(--primary);background:var(--primary-bg)}
+.type-row{display:flex;gap:10px}
+.type-opt{flex:1;border:2px solid var(--border);border-radius:14px;padding:13px;text-align:center}
+.type-opt.sel{border-color:var(--primary);background:var(--primary-bg)}
+.type-opt .t{font-size:14px;font-weight:700}
+.type-opt .s{font-size:11px;color:var(--text2);margin-top:3px}
+.star-row{display:flex;gap:6px;font-size:28px;color:#dfe4ea}
+.star-row span.on{color:#f6b93b}
+.modal-btns{display:flex;gap:10px;margin-top:20px}
+.modal-btns button{flex:1;padding:14px;border-radius:14px;font-size:15px;font-weight:700}
+.btn-cancel{background:var(--bg);color:var(--text2)}
+.btn-ok{background:var(--primary);color:#fff}
+.btn-danger{background:var(--red);color:#fff}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.seg button{padding:9px 16px;border-radius:99px;background:var(--bg);font-size:13px;font-weight:600;color:var(--text2)}
+.seg button.sel{background:var(--primary);color:#fff}
+
+.toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%) translateY(20px);background:rgba(45,52,54,.92);color:#fff;padding:10px 20px;border-radius:99px;font-size:13.5px;z-index:99;opacity:0;transition:all .25s;pointer-events:none;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media(min-width:768px){
+  .sidebar{transform:translateX(0);box-shadow:none;border-right:1px solid var(--border)}
+  .overlay{display:none}
+  .main{margin-left:280px}
+  #menuBtn{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sb-head">
+    <img class="sb-avatar" src="logo.png" alt="po">
+    <div><div class="t">po</div><div class="s" id="sbDate"></div></div>
+  </div>
+  <div class="sb-list" id="sbList"></div>
+  <div class="sb-foot">
+    <button class="btn-add" onclick="openAddModule()">＋ 添加板块</button>
+    <button class="btn-manage" id="manageBtn" onclick="toggleManage()">管理</button>
+  </div>
+</aside>
+
+<div class="main">
+  <div class="topbar">
+    <button class="icon-btn" id="menuBtn" onclick="openSidebar()">☰</button>
+    <h1 id="pageTitle">首页</h1>
+  </div>
+  <div class="content" id="content"></div>
+</div>
+
+<div class="modal-mask" id="modalMask"><div class="modal" id="modalBox"></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ================= 数据 ================= */
+const STORE_KEY = 'workbench-v1';
+const DEFAULT_MODULES = [
+  {id:'english', name:'英语学习', icon:'📖', type:'checkin'},
+  {id:'fitness', name:'健身打卡', icon:'💪', type:'workout'},
+  {id:'drama',   name:'看剧记录', icon:'🎬', type:'list', statuses:['想看','在看','看完']},
+  {id:'book',    name:'看书记录', icon:'📚', type:'list', statuses:['想读','在读','读完']},
+  {id:'weight',  name:'体重管理', icon:'⚖️', type:'weight'},
+  {id:'news',    name:'每日热点', icon:'🔥', type:'news'},
+];
+const WORKOUT_TYPES = [
+  {k:'run',      icon:'🏃', name:'跑步',     dist:true},
+  {k:'walk',     icon:'🚶', name:'步行',     dist:true},
+  {k:'cycle',    icon:'🚴', name:'骑行',     dist:true},
+  {k:'swim',     icon:'🏊', name:'游泳',     dist:true},
+  {k:'strength', icon:'🏋️', name:'力量训练', dist:false},
+  {k:'hiit',     icon:'🔥', name:'HIIT',     dist:false},
+  {k:'yoga',     icon:'🧘', name:'瑜伽',     dist:false},
+  {k:'hike',     icon:'⛰️', name:'徒步登山', dist:true},
+  {k:'incline',  icon:'📈', name:'爬坡',     dist:true},
+  {k:'dance',    icon:'💃', name:'舞蹈',     dist:false},
+  {k:'other',    icon:'💪', name:'其他',     dist:false},
+];
+let db = load();
+function load(){
+  let d = null;
+  try{
+    const raw = localStorage.getItem(STORE_KEY);
+    if(raw){ d = JSON.parse(raw); }
+  }catch(e){}
+  if(!d) d = { modules: JSON.parse(JSON.stringify(DEFAULT_MODULES)), data: {} };
+  // 迁移：老数据补充体重管理板块（只补一次，用户删除后不再自动恢复）
+  if(!d.migWeight){
+    d.migWeight = true;
+    if(!d.modules.find(m=>m.type==='weight')){
+      d.modules.push({id:'weight', name:'体重管理', icon:'⚖️', type:'weight'});
+    }
+    localStorage.setItem(STORE_KEY, JSON.stringify(d));
+  }
+  // 迁移：健身打卡升级为运动记录型（老打卡数据自动转为运动记录）
+  if(!d.migWorkout){
+    d.migWorkout = true;
+    const fit = d.modules.find(m=>m.id==='fitness');
+    if(fit && fit.type==='checkin'){
+      fit.type = 'workout';
+      const old = d.data['fitness'];
+      const sessions = [];
+      if(old && old.checks){
+        Object.keys(old.checks).sort().forEach(k=>{
+          sessions.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,6), date:k, wtype:'other', mins:0, kcal:null, km:null, note:(old.checks[k].note||'')});
+        });
+      }
+      d.data['fitness'] = {sessions};
+    }
+    localStorage.setItem(STORE_KEY, JSON.stringify(d));
+  }
+  // 迁移：新增每日热点板块（只补一次，用户删除后不再自动恢复）
+  if(!d.migNews){
+    d.migNews = true;
+    if(!d.modules.find(m=>m.type==='news')){
+      d.modules.push({id:'news', name:'每日热点', icon:'🔥', type:'news'});
+    }
+    localStorage.setItem(STORE_KEY, JSON.stringify(d));
+  }
+  // 迁移：运动类型改为用户可自由编辑（首次从默认列表初始化，之后以 db.workoutTypes 为准）
+  if(!d.workoutTypes){ d.workoutTypes = WORKOUT_TYPES.map(x=>({...x})); }
+  return d;
+}
+function save(){ localStorage.setItem(STORE_KEY, JSON.stringify(db)); }
+function modData(id){
+  if(!db.data[id]){
+    const m = getMod(id);
+    db.data[id] = m.type==='checkin' ? {checks:{}} : m.type==='weight' ? {logs:{}} : m.type==='workout' ? {sessions:[]} : m.type==='news' ? {} : {items:[]};
+  }
+  return db.data[id];
+}
+function getMod(id){ return db.modules.find(m=>m.id===id); }
+function uid(){ return Date.now().toString(36)+Math.random().toString(36).slice(2,6); }
+function todayStr(d){ d=d||new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+
+/* ================= 路由 ================= */
+let currentView = 'home';
+let calCursor = new Date();
+let listFilter = -1; // -1 全部
+function nav(view){
+  currentView = view;
+  listFilter = -1;
+  calCursor = new Date();
+  resetLessonState();
+  render();
+  closeSidebar();
+  window.scrollTo(0,0);
+}
+
+/* ================= 雅思精读 ================= */
+let LESSONS = [];
+let lessonIdx = -1, lessonTab = 'read', quizSel = {}, quizDone = false, transAll = false, vocabHide = false;
+function resetLessonState(){ lessonTab='read'; quizSel={}; quizDone=false; transAll=false; vocabHide=false; }
+fetch('lessons.json?t='+Date.now()).then(r=>r.json()).then(j=>{
+  LESSONS = Array.isArray(j)?j:[];
+  lessonIdx = LESSONS.length-1;
+  render();
+}).catch(e=>{});
+
+function selectLesson(i){ lessonIdx=i; resetLessonState(); render(); }
+function setLessonTab(t){ lessonTab=t; render(); }
+function hlVocab(text, vocab){
+  let out = esc(text);
+  vocab.forEach(v=>{
+    const re = new RegExp('\\b('+v.word.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'[a-z]*)\\b','i');
+    out = out.replace(re, '<mark class="hl">$1</mark>');
+  });
+  return out;
+}
+function renderLesson(){
+  if(!LESSONS.length){
+    return `<div class="card" style="text-align:center;color:var(--text2);font-size:13px;padding:22px">📖 每日雅思精读 · 内容加载中，稍后刷新试试</div>`;
+  }
+  if(lessonIdx<0||lessonIdx>=LESSONS.length) lessonIdx = LESSONS.length-1;
+  const L = LESSONS[lessonIdx];
+  const today = todayStr();
+
+  // 日期选择（最近7期）
+  const start = Math.max(0, LESSONS.length-7);
+  let dates = '';
+  for(let i=LESSONS.length-1;i>=start;i--){
+    const d = LESSONS[i].date;
+    dates += `<button class="ldate ${i===lessonIdx?'active':''}" onclick="selectLesson(${i})">${d===today?'今日':d.slice(5)}</button>`;
+  }
+
+  const tabs = [['read','📖 精读'],['vocab','📝 词汇'],['quiz','✅ 测试'],['sum','📌 总结']]
+    .map(([k,n])=>`<button class="tab ${lessonTab===k?'active':''}" onclick="setLessonTab('${k}')">${n}</button>`).join('');
+
+  let body = '';
+  if(lessonTab==='read'){
+    const paras = L.paragraphs.map(p=>`
+      <div class="para ${transAll?'open':''}" onclick="this.classList.toggle('open')">
+        ${hlVocab(p.en, L.vocab)}
+        <div class="cn">${esc(p.cn)}</div>
+      </div>`).join('');
+    body = `<div class="trans-tip">💡 点击段落显示/隐藏中文翻译，高亮词为核心词汇</div>${paras}
+      <button class="lesson-btn ghost" onclick="transAll=!transAll;render()">${transAll?'收起全部翻译':'显示全部翻译'}</button>`;
+  }
+  else if(lessonTab==='vocab'){
+    const cards = L.vocab.map(v=>`
+      <div class="vcard ${vocabHide?'hidemean':''}" onclick="this.classList.toggle('hidemean')">
+        <span class="w">${esc(v.word)}</span><span class="ph">${esc(v.phonetic||'')}</span><span class="pos">${esc(v.pos||'')}</span>
+        <div class="mean">${esc(v.cn)}${v.en_def?` <span style="font-weight:400;color:var(--text2)">· ${esc(v.en_def)}</span>`:''}</div>
+        ${v.example?`<div class="ex">${esc(v.example)}</div>`:''}
+        ${v.example_cn?`<div class="excn">${esc(v.example_cn)}</div>`:''}
+      </div>`).join('');
+    body = `<button class="lesson-btn ghost" style="margin:0 0 12px" onclick="vocabHide=!vocabHide;render()">${vocabHide?'👀 显示全部释义':'🧠 背诵模式（隐藏释义）'}</button>${cards}`;
+  }
+  else if(lessonTab==='quiz'){
+    const scores = modData('english').scores||{};
+    let banner = '';
+    if(quizDone){
+      const right = L.quiz.filter((q,i)=>quizSel[i]===q.answer).length;
+      banner = `<div class="score-banner">得分 ${right} / ${L.quiz.length} ${right===L.quiz.length?'🎉 全对！':right>=L.quiz.length*0.6?'👍 不错！':'💪 再接再厉'}</div>`;
+    }else if(scores[L.date]!==undefined){
+      banner = `<div class="score-banner" style="font-size:13px">上次得分：${scores[L.date]} / ${L.quiz.length}，可重新作答</div>`;
+    }
+    const qs = L.quiz.map((q,qi)=>{
+      const opts = q.options.map((o,oi)=>{
+        let cls = quizSel[qi]===oi?'sel':'';
+        if(quizDone){
+          if(oi===q.answer) cls='right';
+          else if(quizSel[qi]===oi) cls='wrong';
+        }
+        return `<div class="q-opt ${cls}" onclick="${quizDone?'':`quizSel[${qi}]=${oi};render()`}">
+          <b>${'ABCD'[oi]}.</b><span>${esc(o)}</span></div>`;
+      }).join('');
+      const exp = quizDone?`<div class="q-exp">${quizSel[qi]===q.answer?'✅':'❌'} 正确答案 ${'ABCD'[q.answer]}。${esc(q.explain||'')}</div>`:'';
+      return `<div class="q-item"><div class="q-q">${qi+1}. ${esc(q.q)}</div>${opts}${exp}</div>`;
+    }).join('');
+    const allAnswered = L.quiz.every((q,i)=>quizSel[i]!==undefined);
+    body = banner + qs + (quizDone
+      ? `<button class="lesson-btn ghost" onclick="quizSel={};quizDone=false;render()">重新作答</button>`
+      : `<button class="lesson-btn" ${allAnswered?'':'disabled'} onclick="submitQuiz()">${allAnswered?'提交答案':'请完成所有题目'}</button>`);
+  }
+  else{
+    const pts = (L.summary||[]).map((s,i)=>`<div class="sum-li"><span class="n">${i+1}.</span><span>${esc(s)}</span></div>`).join('');
+    const checked = !!modData('english').checks[today];
+    body = pts + `<button class="lesson-btn" onclick="lessonCheckin()" ${checked?'disabled':''}>${checked?'✓ 今日已打卡':'完成学习并打卡 ✓'}</button>`;
+  }
+
+  return `
+  <div class="lesson-dates">${dates}</div>
+  <div class="card">
+    <div class="lesson-title">${esc(L.title)}</div>
+    <div class="lesson-title-cn">${esc(L.titleCn||'')}</div>
+    <div class="lesson-meta">
+      <span class="lmeta">📅 ${L.date}</span>
+      ${L.topic?`<span class="lmeta">🏷 ${esc(L.topic)}</span>`:''}
+      ${L.level?`<span class="lmeta">🎯 ${esc(L.level)}</span>`:''}
+    </div>
+  </div>
+  <div class="tabs">${tabs}</div>
+  <div class="card">${body}</div>
+  <div class="section-title">学习打卡</div>`;
+}
+function submitQuiz(){
+  quizDone = true;
+  const L = LESSONS[lessonIdx];
+  const right = L.quiz.filter((q,i)=>quizSel[i]===q.answer).length;
+  const d = modData('english');
+  d.scores = d.scores||{};
+  d.scores[L.date] = right;
+  save(); render();
+}
+function lessonCheckin(){
+  const L = LESSONS[lessonIdx];
+  const d = modData('english');
+  const today = todayStr();
+  if(d.checks[today]){ toast('今天已经打过卡啦'); return; }
+  const sc = (d.scores||{})[L.date];
+  d.checks[today] = {note:'完成雅思精读《'+L.title+'》'+(sc!==undefined?` · 测试 ${sc}/${L.quiz.length}`:'')};
+  save(); render();
+  toast('学习完成，打卡成功！🎉');
+}
+
+/* ================= 侧边栏 ================= */
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('overlay');
+function openSidebar(){ sidebar.classList.add('show'); overlay.classList.add('show'); }
+function closeSidebar(){ sidebar.classList.remove('show'); overlay.classList.remove('show'); }
+function toggleManage(){
+  sidebar.classList.toggle('editing');
+  document.getElementById('manageBtn').classList.toggle('on');
+  document.getElementById('manageBtn').textContent = sidebar.classList.contains('editing') ? '完成' : '管理';
+}
+function renderSidebar(){
+  const el = document.getElementById('sbList');
+  let html = `<button class="sb-item ${currentView==='home'?'active':''}" onclick="nav('home')"><span class="emoji">🏠</span><span class="name">首页</span></button>`;
+  db.modules.forEach(m=>{
+    html += `<button class="sb-item ${currentView===m.id?'active':''}" onclick="nav('${m.id}')">
+      <span class="emoji">${m.icon}</span><span class="name">${esc(m.name)}</span>
+      <span class="ren" onclick="event.stopPropagation();openRename('${m.id}')">✎</span>
+      <span class="del" onclick="event.stopPropagation();askDelModule('${m.id}')">✕</span>
+    </button>`;
+  });
+  el.innerHTML = html;
+}
+
+/* ================= 渲染 ================= */
+function render(){
+  renderSidebar();
+  const title = document.getElementById('pageTitle');
+  const c = document.getElementById('content');
+  if(currentView==='home'){ title.textContent='首页'; c.innerHTML = renderHome(); return; }
+  const m = getMod(currentView);
+  if(!m){ currentView='home'; return render(); }
+  title.textContent = m.icon+' '+m.name;
+  c.innerHTML = m.type==='checkin' ? ((m.id==='english'?renderLesson():'') + renderCheckin(m)) :
+                m.type==='weight' ? renderWeight(m) :
+                m.type==='workout' ? renderWorkout(m) :
+                m.type==='news' ? renderNews(m) :
+                ((m.id==='book'?renderBookRecs():'') + (m.id==='drama'?renderMovieRecs():'') + renderList(m));
+}
+
+/* ---- 首页 ---- */
+function renderHome(){
+  const h = new Date().getHours();
+  const greet = h<6?'夜深了':h<12?'早上好':h<14?'中午好':h<18?'下午好':'晚上好';
+  const today = todayStr();
+  const checkinMods = db.modules.filter(m=>m.type==='checkin'||m.type==='workout');
+  const doneToday = checkinMods.filter(m=> m.type==='workout'
+    ? modData(m.id).sessions.some(s=>s.date===today)
+    : modData(m.id).checks[today]).length;
+  let totalItems = 0;
+  db.modules.filter(m=>m.type==='list').forEach(m=> totalItems += modData(m.id).items.length );
+
+  let cards = '';
+  db.modules.forEach(m=>{
+    let desc='', badge='';
+    if(m.type==='checkin'){
+      const d = modData(m.id);
+      const streak = calcStreak(d.checks);
+      desc = `连续 ${streak} 天 · 累计 ${Object.keys(d.checks).length} 次`;
+      badge = d.checks[today] ? `<span class="badge done">✓ 今日已打卡</span>` : `<span class="badge">今日待打卡</span>`;
+    }else if(m.type==='workout'){
+      const ss = modData(m.id).sessions;
+      const ym = today.slice(0,7);
+      const mss = ss.filter(s=>s.date.startsWith(ym));
+      const mins = mss.reduce((a,s)=>a+(+s.mins||0),0);
+      desc = ss.length ? `本月 ${mss.length} 次 · ${fmtMins(mins)}` : '记录每次运动，看月度总结';
+      badge = ss.some(s=>s.date===today) ? `<span class="badge done">✓ 今日已运动</span>` : `<span class="badge">今日待运动</span>`;
+    }else if(m.type==='weight'){
+      const logs = modData(m.id).logs;
+      const keys = Object.keys(logs).sort();
+      if(keys.length){
+        const mc = monthChangeOf(logs, today.slice(0,7));
+        desc = `最新 ${logs[keys[keys.length-1]]} kg · 共 ${keys.length} 条`;
+        badge = logs[today] ? `<span class="badge done">✓ 今日已记录</span>` :
+                mc!==null ? `<span class="badge">本月 ${mc>0?'+':''}${mc.toFixed(1)} kg</span>` : `<span class="badge">今日待记录</span>`;
+      }else{
+        desc = '记录每日体重，追踪变化';
+        badge = `<span class="badge">开始记录</span>`;
+      }
+    }else if(m.type==='news'){
+      desc = '每天 6:00 更新全球与抖音热点';
+      badge = `<span class="badge">点开看今日</span>`;
+    }else{
+      const items = modData(m.id).items;
+      const doing = items.filter(i=>i.status===1).length;
+      desc = `共 ${items.length} 条 · ${(m.statuses||['计划','进行中','完成'])[1]} ${doing} 部`;
+      badge = `<span class="badge">${items.length ? '继续记录' : '开始记录'}</span>`;
+    }
+    cards += `<button class="mod-card" onclick="nav('${m.id}')">
+      <div class="emoji">${m.icon}</div><div class="name">${esc(m.name)}</div>
+      <div class="desc">${desc}</div>${badge}</button>`;
+  });
+
+  return `
+  <div class="hero">
+    <div class="greet">${greet} 👋</div>
+    <div class="date">${fmtDateCN(new Date())}</div>
+    <div class="stats">
+      <div class="stat"><div class="n">${doneToday}/${checkinMods.length}</div><div class="l">今日打卡</div></div>
+      <div class="stat"><div class="n">${totalItems}</div><div class="l">记录总数</div></div>
+      <div class="stat"><div class="n">${db.modules.length}</div><div class="l">板块数</div></div>
+    </div>
+  </div>
+  <div class="section-title">我的板块</div>
+  <div class="grid">${cards}</div>`;
+}
+
+/* ---- 打卡页 ---- */
+function calcStreak(checks){
+  let streak = 0; const d = new Date();
+  if(!checks[todayStr(d)]) d.setDate(d.getDate()-1); // 今天没打不断连，从昨天算
+  while(checks[todayStr(d)]){ streak++; d.setDate(d.getDate()-1); }
+  return streak;
+}
+function renderCheckin(m){
+  const d = modData(m.id);
+  const today = todayStr();
+  const done = !!d.checks[today];
+  const streak = calcStreak(d.checks);
+  const total = Object.keys(d.checks).length;
+  // 本月次数
+  const ym = today.slice(0,7);
+  const monthCount = Object.keys(d.checks).filter(k=>k.startsWith(ym)).length;
+
+  // 日历
+  const y = calCursor.getFullYear(), mo = calCursor.getMonth();
+  const firstDay = new Date(y,mo,1).getDay();
+  const daysInMonth = new Date(y,mo+1,0).getDate();
+  let cal = ['日','一','二','三','四','五','六'].map(w=>`<div class="wd">${w}</div>`).join('');
+  for(let i=0;i<firstDay;i++) cal += '<div></div>';
+  for(let day=1;day<=daysInMonth;day++){
+    const ds = y+'-'+String(mo+1).padStart(2,'0')+'-'+String(day).padStart(2,'0');
+    const cls = (d.checks[ds]?'checked ':'') + (ds===today?'today':'');
+    cal += `<div class="cal-day ${cls}">${day}</div>`;
+  }
+
+  // 打卡记录（带备注的近期）
+  const recent = Object.keys(d.checks).sort().reverse().slice(0,10);
+  let notes = recent.map(k=>{
+    const n = d.checks[k].note;
+    return `<div class="note-item"><span class="d">${k.slice(5)}</span><span>✅ ${n?esc(n):'完成打卡'}</span></div>`;
+  }).join('');
+
+  return `
+  <div class="card checkin-hero">
+    <button class="checkin-btn ${done?'done':''}" onclick="doCheckin('${m.id}')">${done?'已打卡 ✓':'打卡'}</button>
+    <div class="streak-row">
+      <div class="streak-box"><div class="n">${streak}</div><div class="l">连续天数</div></div>
+      <div class="streak-box"><div class="n">${monthCount}</div><div class="l">本月打卡</div></div>
+      <div class="streak-box"><div class="n">${total}</div><div class="l">累计打卡</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="cal-head">
+      <button onclick="moveCal(-1)">‹</button>
+      <span class="m">${y}年${mo+1}月</span>
+      <button onclick="moveCal(1)">›</button>
+    </div>
+    <div class="cal-grid">${cal}</div>
+  </div>
+  ${recent.length?`<div class="card"><div class="section-title" style="margin:0 0 6px">最近记录</div>${notes}</div>`:''}`;
+}
+function moveCal(n){ calCursor.setMonth(calCursor.getMonth()+n); render(); }
+function doCheckin(id){
+  const d = modData(id);
+  const today = todayStr();
+  if(d.checks[today]){
+    openModal(`<h3>今天已打卡</h3>
+      <div class="field"><label>要取消今天的打卡吗？</label></div>
+      <div class="modal-btns">
+        <button class="btn-cancel" onclick="closeModal()">保留</button>
+        <button class="btn-danger" onclick="delete modData('${id}').checks['${today}'];save();closeModal();render()">取消打卡</button>
+      </div>`);
+    return;
+  }
+  openModal(`<h3>今日打卡 · ${getMod(id).name}</h3>
+    <div class="field"><label>备注（选填，如：背了30个单词 / 跑步5km）</label>
+      <input id="ckNote" placeholder="记录一下今天做了什么..."></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-ok" onclick="confirmCheckin('${id}')">完成打卡 ✓</button>
+    </div>`);
+}
+function confirmCheckin(id){
+  const note = document.getElementById('ckNote').value.trim();
+  modData(id).checks[todayStr()] = {note};
+  save(); closeModal(); render();
+  toast('打卡成功！连续 '+calcStreak(modData(id).checks)+' 天 🎉');
+}
+
+/* ---- 列表页 ---- */
+function renderList(m){
+  const items = modData(m.id).items;
+  const statuses = m.statuses || ['计划中','进行中','已完成'];
+  let tabs = `<button class="tab ${listFilter===-1?'active':''}" onclick="listFilter=-1;render()">全部 ${items.length}</button>`;
+  statuses.forEach((s,i)=>{
+    const n = items.filter(it=>it.status===i).length;
+    tabs += `<button class="tab ${listFilter===i?'active':''}" onclick="listFilter=${i};render()">${s} ${n}</button>`;
+  });
+
+  const shown = items.filter(it=>listFilter===-1||it.status===listFilter);
+  let body;
+  if(!shown.length){
+    body = `<div class="empty"><div class="e">${m.icon}</div>还没有记录，点右下角 ＋ 添加</div>`;
+  }else{
+    body = shown.map(it=>`
+    <div class="item-card">
+      <div class="info">
+        <div class="title">${esc(it.title)}</div>
+        <div class="meta">
+          <span class="status-pill sp-${it.status}">${statuses[it.status]}</span>
+          ${it.rating?`<span class="stars">${'★'.repeat(it.rating)}${'☆'.repeat(5-it.rating)}</span>`:''}
+          <span style="font-size:11px;color:var(--text2)">${it.date||''}</span>
+        </div>
+        ${it.note?`<div class="note">${esc(it.note)}</div>`:''}
+      </div>
+      <div class="ops">
+        <button onclick="openItemModal('${m.id}','${it.id}')">✏️</button>
+        <button onclick="askDelItem('${m.id}','${it.id}')">🗑</button>
+      </div>
+    </div>`).join('');
+  }
+  return `<div class="tabs">${tabs}</div>${body}
+    <button class="fab" onclick="openItemModal('${m.id}')">＋</button>`;
+}
+
+let tmpRating = 0, tmpStatus = 0;
+function openItemModal(modId, itemId){
+  const m = getMod(modId);
+  const statuses = m.statuses || ['计划中','进行中','已完成'];
+  const it = itemId ? modData(modId).items.find(i=>i.id===itemId) : null;
+  tmpRating = it?it.rating:0; tmpStatus = it?it.status:0;
+  openModal(`<h3>${it?'编辑':'添加'}记录 · ${m.name}</h3>
+    <div class="field"><label>名称</label><input id="itTitle" placeholder="如：${m.id==='book'?'《活着》':'《漫长的季节》'}" value="${it?esc(it.title):''}"></div>
+    <div class="field"><label>状态</label><div class="seg" id="segStatus">
+      ${statuses.map((s,i)=>`<button class="${tmpStatus===i?'sel':''}" onclick="setStatus(${i})">${s}</button>`).join('')}
+    </div></div>
+    <div class="field"><label>评分</label><div class="star-row" id="starRow">
+      ${[1,2,3,4,5].map(n=>`<span class="${tmpRating>=n?'on':''}" onclick="setRating(${n})">★</span>`).join('')}
+    </div></div>
+    <div class="field"><label>备注（选填）</label><input id="itNote" placeholder="进度 / 感想..." value="${it&&it.note?esc(it.note):''}"></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-ok" onclick="saveItem('${modId}','${itemId||''}')">保存</button>
+    </div>`);
+}
+function setStatus(i){
+  tmpStatus = i;
+  document.querySelectorAll('#segStatus button').forEach((b,n)=>b.classList.toggle('sel',n===i));
+}
+function setRating(n){
+  tmpRating = (tmpRating===n)?0:n;
+  document.querySelectorAll('#starRow span').forEach((s,i)=>s.classList.toggle('on',i<tmpRating));
+}
+function saveItem(modId,itemId){
+  const title = document.getElementById('itTitle').value.trim();
+  if(!title){ toast('请填写名称'); return; }
+  const note = document.getElementById('itNote').value.trim();
+  const d = modData(modId);
+  if(itemId){
+    const it = d.items.find(i=>i.id===itemId);
+    Object.assign(it,{title,note,status:tmpStatus,rating:tmpRating});
+  }else{
+    d.items.unshift({id:uid(),title,note,status:tmpStatus,rating:tmpRating,date:todayStr()});
+  }
+  save(); closeModal(); render();
+}
+function askDelItem(modId,itemId){
+  const it = modData(modId).items.find(i=>i.id===itemId);
+  openModal(`<h3>删除记录</h3>
+    <div class="field"><label>确定删除「${esc(it.title)}」吗？</label></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-danger" onclick="delItem('${modId}','${itemId}')">删除</button>
+    </div>`);
+}
+function delItem(modId,itemId){
+  const d = modData(modId);
+  d.items = d.items.filter(i=>i.id!==itemId);
+  save(); closeModal(); render();
+}
+
+/* ---- 每周书单推荐 ---- */
+let BOOKRECS = [];
+let bookRecIdx = -1;
+fetch('books.json?t='+Date.now()).then(r=>r.json()).then(j=>{
+  BOOKRECS = Array.isArray(j)?j:[];
+  bookRecIdx = BOOKRECS.length-1;
+  render();
+}).catch(e=>{});
+fetch('movies.json?t='+Date.now()).then(r=>r.json()).then(j=>{
+  MOVIERECS = Array.isArray(j)?j:[];
+  movieRecIdx = MOVIERECS.length-1;
+  render();
+}).catch(e=>{});
+fetch('news.json?t='+Date.now()).then(r=>r.json()).then(j=>{
+  NEWS = Array.isArray(j)?j:[];
+  newsIdx = NEWS.length-1;
+  render();
+}).catch(e=>{});
+fetch('douyin.json?t='+Date.now()).then(r=>r.json()).then(j=>{
+  DY = Array.isArray(j)?j:[];
+  dyIdx = DY.length-1;
+  render();
+}).catch(e=>{});
+function moveBookRec(n){
+  const i = bookRecIdx + n;
+  if(i<0 || i>=BOOKRECS.length) return;
+  bookRecIdx = i; render();
+}
+function renderBookRecs(){
+  if(!BOOKRECS.length || bookRecIdx<0){
+    return `<div class="card" style="text-align:center;color:var(--text2);font-size:13px;padding:18px">📚 每周一 6:00 更新推荐书单，敬请期待</div>`;
+  }
+  const rec = BOOKRECS[bookRecIdx];
+  const items = modData('book').items;
+  const norm = t => String(t).replace(/[《》\s]/g,'');
+  const has = t => items.some(i=>norm(i.title)===norm(t));
+  const isLatest = bookRecIdx===BOOKRECS.length-1;
+  const rows = rec.books.map((b,i)=>{
+    const owned = has(b.title);
+    const tags = (b.tags||[]).map(t=>`<span class="rb-tag ${t.includes('悬疑')||t.includes('推理')?'mys':''}">${esc(t)}</span>`).join('');
+    return `<div class="rec-book">
+      <div class="rb-head"><span class="rb-title">《${esc(b.title)}》</span><span class="rb-author">${esc(b.author||'')}</span></div>
+      <div class="rb-tags">${tags}${b.rating?`<span class="rb-tag">⭐ ${esc(b.rating)}</span>`:''}</div>
+      <div class="rb-intro">${esc(b.intro||'')}</div>
+      ${b.reason?`<div class="rb-reason">💡 ${esc(b.reason)}</div>`:''}
+      <button class="rb-add ${owned?'owned':''}" ${owned?'disabled':''} onclick="addRecBook(${bookRecIdx},${i})">${owned?'已在书架 ✓':'＋ 加入想读'}</button>
+    </div>`;
+  }).join('');
+  return `<div class="card rec-card">
+    <div class="cal-head" style="margin-bottom:2px">
+      <button onclick="moveBookRec(-1)" ${bookRecIdx<=0?'disabled style="opacity:.3"':''}>‹</button>
+      <span class="m">📚 ${isLatest?'本周':''}推荐书单 · ${rec.date.slice(5).replace('-','月')}日</span>
+      <button onclick="moveBookRec(1)" ${isLatest?'disabled style="opacity:.3"':''}>›</button>
+    </div>
+    ${rec.theme?`<div class="rb-theme">${esc(rec.theme)}</div>`:''}
+    ${rows}
+  </div>`;
+}
+function addRecBook(ri,bi){
+  const b = BOOKRECS[ri].books[bi];
+  if(!b) return;
+  modData('book').items.unshift({id:uid(), title:b.title, note:(b.author?b.author+' · ':'')+'每周书单推荐', status:0, rating:0, date:todayStr()});
+  save(); render();
+  toast('《'+b.title+'》已加入想读 📚');
+}
+
+/* ---- 每周影视推荐 ---- */
+let MOVIERECS = [];
+let movieRecIdx = -1;
+function moveMovieRec(n){
+  const i = movieRecIdx + n;
+  if(i<0 || i>=MOVIERECS.length) return;
+  movieRecIdx = i; render();
+}
+function renderMovieRecs(){
+  if(!MOVIERECS.length || movieRecIdx<0){
+    return `<div class="card" style="text-align:center;color:var(--text2);font-size:13px;padding:18px">🎬 每周一 6:00 更新影视推荐，敬请期待</div>`;
+  }
+  const rec = MOVIERECS[movieRecIdx];
+  const items = modData('drama').items;
+  const norm = t => String(t).replace(/[《》\s]/g,'');
+  const has = t => items.some(i=>norm(i.title)===norm(t));
+  const isLatest = movieRecIdx===MOVIERECS.length-1;
+  const rows = rec.films.map((b,i)=>{
+    const owned = has(b.title);
+    const tags = (b.tags||[]).map(t=>`<span class="rb-tag ${t.includes('悬疑')||t.includes('推理')?'mys':''}">${esc(t)}</span>`).join('');
+    const meta = [b.year, b.kind].filter(Boolean).join(' · ');
+    return `<div class="rec-book">
+      <div class="rb-head"><span class="rb-title">《${esc(b.title)}》</span>${meta?`<span class="rb-author">${esc(meta)}</span>`:''}</div>
+      <div class="rb-tags">${tags}${b.rating?`<span class="rb-tag">⭐ ${esc(b.rating)}</span>`:''}</div>
+      <div class="rb-intro">${esc(b.intro||'')}</div>
+      ${b.reason?`<div class="rb-reason">💡 ${esc(b.reason)}</div>`:''}
+      <button class="rb-add ${owned?'owned':''}" ${owned?'disabled':''} onclick="addRecMovie(${movieRecIdx},${i})">${owned?'已在片单 ✓':'＋ 加入想看'}</button>
+    </div>`;
+  }).join('');
+  return `<div class="card rec-card">
+    <div class="cal-head" style="margin-bottom:2px">
+      <button onclick="moveMovieRec(-1)" ${movieRecIdx<=0?'disabled style="opacity:.3"':''}>‹</button>
+      <span class="m">🎬 ${isLatest?'本周':''}影视推荐 · ${rec.date.slice(5).replace('-','月')}日</span>
+      <button onclick="moveMovieRec(1)" ${isLatest?'disabled style="opacity:.3"':''}>›</button>
+    </div>
+    ${rec.theme?`<div class="rb-theme">${esc(rec.theme)}</div>`:''}
+    ${rows}
+  </div>`;
+}
+function addRecMovie(ri,mi){
+  const b = MOVIERECS[ri].films[mi];
+  if(!b) return;
+  modData('drama').items.unshift({id:uid(), title:b.title, note:(b.year?b.year+' · ':'')+(b.kind||'')+' · 每周影视推荐', status:0, rating:0, date:todayStr()});
+  save(); render();
+  toast('《'+b.title+'》已加入想看 🎬');
+}
+
+/* ---- 每日热点 ---- */
+let NEWS = [];
+let newsIdx = -1;
+let DY = [];
+let dyIdx = -1;
+let newsTab = 'global';
+function moveNews(n){
+  const i = newsIdx + n;
+  if(i<0 || i>=NEWS.length) return;
+  newsIdx = i; render();
+}
+function moveDy(n){
+  const i = dyIdx + n;
+  if(i<0 || i>=DY.length) return;
+  dyIdx = i; render();
+}
+function setNewsTab(t){ newsTab = t; render(); }
+function renderNews(m){
+  const tabs = `<div class="nt-tabs">
+    <button class="nt-tab ${newsTab==='global'?'sel':''}" onclick="setNewsTab('global')">🌍 全球热点</button>
+    <button class="nt-tab ${newsTab==='douyin'?'sel':''}" onclick="setNewsTab('douyin')">📱 抖音热点</button>
+  </div>`;
+  if(newsTab==='douyin'){
+    if(!DY.length || dyIdx<0){
+      return tabs + `<div class="card" style="text-align:center;color:var(--text2);font-size:13px;padding:18px">📱 每天早上 6:00 更新抖音热门，敬请期待</div>`;
+    }
+    const rec = DY[dyIdx];
+    const isLatest = dyIdx===DY.length-1;
+    const items = (rec.items||[]).map(it=>{
+      const tags = (it.tags||[]).map(t=>`<span class="rb-tag">${esc(t)}</span>`).join('');
+      const hot = it.hot ? `<span class="rb-author">🔥 ${esc(it.hot)}</span>` : '';
+      const creator = it.creator ? `<span class="rb-author">@${esc(it.creator)}</span>` : '';
+      return `<div class="rec-book news-item">
+        <div class="rb-head"><span class="rb-title">${esc(it.title)}</span>${hot}</div>
+        ${(creator||tags)?`<div class="rb-tags">${creator}${tags}</div>`:''}
+        ${it.summary?`<div class="rb-intro">${esc(it.summary)}</div>`:''}
+      </div>`;
+    }).join('');
+    return tabs + `<div class="card rec-card">
+      <div class="cal-head" style="margin-bottom:2px">
+        <button onclick="moveDy(-1)" ${dyIdx<=0?'disabled style="opacity:.3"':''}>‹</button>
+        <span class="m">📱 ${isLatest?'今日':''}抖音热点 · ${rec.date.slice(5).replace('-','月')}日</span>
+        <button onclick="moveDy(1)" ${isLatest?'disabled style="opacity:.3"':''}>›</button>
+      </div>
+      ${rec.brief?`<div class="rb-theme">${esc(rec.brief)}</div>`:''}
+      ${items}
+    </div>`;
+  }
+  if(!NEWS.length || newsIdx<0){
+    return tabs + `<div class="card" style="text-align:center;color:var(--text2);font-size:13px;padding:18px">🔥 每天早上 6:00 更新全球热点，敬请期待</div>`;
+  }
+  const rec = NEWS[newsIdx];
+  const isLatest = newsIdx===NEWS.length-1;
+  const items = (rec.items||[]).map(it=>{
+    const tags = (it.tags||[]).map(t=>`<span class="rb-tag">${esc(t)}</span>`).join('');
+    const region = it.region ? `<span class="rb-author">${esc(it.region)}</span>` : '';
+    return `<div class="rec-book news-item">
+      <div class="rb-head"><span class="rb-title">${esc(it.title)}</span>${region}</div>
+      ${tags?`<div class="rb-tags">${tags}</div>`:''}
+      ${it.summary?`<div class="rb-intro">${esc(it.summary)}</div>`:''}
+    </div>`;
+  }).join('');
+  return tabs + `<div class="card rec-card">
+    <div class="cal-head" style="margin-bottom:2px">
+      <button onclick="moveNews(-1)" ${newsIdx<=0?'disabled style="opacity:.3"':''}>‹</button>
+      <span class="m">🔥 ${isLatest?'今日':''}全球热点 · ${rec.date.slice(5).replace('-','月')}日</span>
+      <button onclick="moveNews(1)" ${isLatest?'disabled style="opacity:.3"':''}>›</button>
+    </div>
+    ${rec.brief?`<div class="rb-theme">${esc(rec.brief)}</div>`:''}
+    ${items}
+  </div>`;
+}
+
+/* ---- 体重页 ---- */
+function monthChangeOf(logs, ym){
+  // 该月变化 = 月内最后一条 - 月内第一条
+  const keys = Object.keys(logs).filter(k=>k.startsWith(ym)).sort();
+  if(keys.length<2) return null;
+  return logs[keys[keys.length-1]] - logs[keys[0]];
+}
+function renderWeight(m){
+  const logs = modData(m.id).logs;
+  const keys = Object.keys(logs).sort();
+  const today = todayStr();
+  const latest = keys.length ? logs[keys[keys.length-1]] : null;
+
+  // 顶部：最新体重 + 较上次变化
+  let head;
+  if(latest!==null){
+    let diffHtml = '';
+    if(keys.length>=2){
+      const diff = latest - logs[keys[keys.length-2]];
+      const cls = diff>0?'w-up':diff<0?'w-down':'w-flat';
+      const arrow = diff>0?'↑':diff<0?'↓':'—';
+      diffHtml = `<div class="c ${cls}">${arrow} 较上次 ${diff>0?'+':''}${diff.toFixed(1)} kg</div>`;
+    }
+    head = `<div class="w-now"><div class="v">${latest}<small>kg</small></div>${diffHtml}</div>`;
+  }else{
+    head = `<div class="w-now" style="color:var(--text2);font-size:14px;padding:14px 0">还没有记录，从今天开始吧 💪</div>`;
+  }
+
+  // 统计
+  let stats = '';
+  if(keys.length){
+    const total = latest - logs[keys[0]];
+    const mc = monthChangeOf(logs, today.slice(0,7));
+    stats = `<div class="streak-row">
+      <div class="streak-box"><div class="n" style="color:${total<=0?'var(--green)':'#e67e22'}">${total>0?'+':''}${total.toFixed(1)}</div><div class="l">累计变化 kg</div></div>
+      <div class="streak-box"><div class="n" style="color:${(mc||0)<=0?'var(--green)':'#e67e22'}">${mc===null?'—':(mc>0?'+':'')+mc.toFixed(1)}</div><div class="l">本月变化 kg</div></div>
+      <div class="streak-box"><div class="n">${keys.length}</div><div class="l">记录条数</div></div>
+    </div>`;
+  }
+
+  // 月度趋势图（可翻月）
+  const y = calCursor.getFullYear(), mo = calCursor.getMonth();
+
+  // 月度变化汇总表
+  const months = [...new Set(keys.map(k=>k.slice(0,7)))].sort().reverse();
+  let monthRows = months.map(ym=>{
+    const mk = keys.filter(k=>k.startsWith(ym));
+    const first = logs[mk[0]], last = logs[mk[mk.length-1]];
+    const diff = last - first;
+    const cls = diff>0?'w-up':diff<0?'w-down':'w-flat';
+    const arrow = diff>0?'↑':diff<0?'↓':'—';
+    return `<div class="month-row">
+      <span class="m">${ym.replace('-','年')}月</span>
+      <span class="rng">${first} → ${last} kg · ${mk.length}条</span>
+      <span class="diff ${cls}">${arrow} ${diff>0?'+':''}${diff.toFixed(1)}</span>
+    </div>`;
+  }).join('');
+
+  // 最近记录
+  const recent = keys.slice().reverse().slice(0,14);
+  let logRows = recent.map((k,i)=>{
+    const prevKey = keys[keys.indexOf(k)-1];
+    let d2 = '';
+    if(prevKey!==undefined){
+      const diff = logs[k]-logs[prevKey];
+      const cls = diff>0?'w-up':diff<0?'w-down':'w-flat';
+      d2 = `<span class="${cls}" style="font-size:12px;font-weight:600">${diff>0?'+':''}${diff.toFixed(1)}</span>`;
+    }
+    return `<div class="w-log"><span class="d">${k}</span><span class="v">${logs[k]} kg</span>${d2}
+      <button class="dl" onclick="askDelWeight('${m.id}','${k}')">🗑</button></div>`;
+  }).join('');
+
+  return `
+  <div class="card">
+    ${head}
+    <div class="w-form">
+      <input type="number" id="wVal" inputmode="decimal" step="0.1" min="20" max="300" placeholder="体重 kg" value="${logs[today]||''}">
+      <input type="date" id="wDate" value="${today}" max="${today}">
+      <button onclick="saveWeight('${m.id}')">${logs[today]?'更新':'记录'}</button>
+    </div>
+    ${stats}
+  </div>
+  <div class="card">
+    <div class="cal-head">
+      <button onclick="moveCal(-1)">‹</button>
+      <span class="m">${y}年${mo+1}月 · 体重曲线</span>
+      <button onclick="moveCal(1)">›</button>
+    </div>
+    ${weightChart(logs, y, mo)}
+  </div>
+  ${months.length?`<div class="card"><div class="section-title" style="margin:0 0 4px">📊 每月变化</div>${monthRows}</div>`:''}
+  ${recent.length?`<div class="card"><div class="section-title" style="margin:0 0 4px">最近记录</div>${logRows}</div>`:''}`;
+}
+function weightChart(logs, y, mo){
+  const ym = y+'-'+String(mo+1).padStart(2,'0');
+  const days = new Date(y,mo+1,0).getDate();
+  const pts = Object.keys(logs).filter(k=>k.startsWith(ym)).sort()
+    .map(k=>({day:+k.slice(8), v:logs[k]}));
+  if(!pts.length) return `<div class="empty" style="padding:34px 10px">本月暂无记录</div>`;
+  const W=340, H=190, L=38, R=12, T=18, B=26;
+  let min = Math.min(...pts.map(p=>p.v)), max = Math.max(...pts.map(p=>p.v));
+  if(max-min < 1){ const mid=(max+min)/2; min=mid-0.6; max=mid+0.6; }
+  else { const pad=(max-min)*0.15; min-=pad; max+=pad; }
+  const X = d => L + (d-1)/(days-1) * (W-L-R);
+  const Y = v => T + (max-v)/(max-min) * (H-T-B);
+  // 网格 + Y轴刻度
+  let grid='';
+  for(let i=0;i<=3;i++){
+    const v = max - (max-min)*i/3, yy = Y(v);
+    grid += `<line x1="${L}" y1="${yy}" x2="${W-R}" y2="${yy}" stroke="#eceef2" stroke-width="1"/>
+      <text x="${L-6}" y="${yy+4}" text-anchor="end" font-size="9.5" fill="#828a93">${v.toFixed(1)}</text>`;
+  }
+  // X轴刻度
+  let xt='';
+  [1, Math.round(days/4), Math.round(days/2), Math.round(days*3/4), days].forEach(d=>{
+    xt += `<text x="${X(d)}" y="${H-8}" text-anchor="middle" font-size="9.5" fill="#828a93">${d}日</text>`;
+  });
+  const line = pts.map(p=>`${X(p.day).toFixed(1)},${Y(p.v).toFixed(1)}`).join(' ');
+  const area = `${X(pts[0].day).toFixed(1)},${H-B} ${line} ${X(pts[pts.length-1].day).toFixed(1)},${H-B}`;
+  const dots = pts.map(p=>`<circle cx="${X(p.day).toFixed(1)}" cy="${Y(p.v).toFixed(1)}" r="3.2" fill="#fff" stroke="#9b8cc4" stroke-width="2"/>`).join('');
+  const last = pts[pts.length-1];
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;display:block">
+    <defs><linearGradient id="wg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9b8cc4" stop-opacity=".22"/><stop offset="100%" stop-color="#9b8cc4" stop-opacity="0"/>
+    </linearGradient></defs>
+    ${grid}${xt}
+    <polygon points="${area}" fill="url(#wg)"/>
+    <polyline points="${line}" fill="none" stroke="#9b8cc4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    ${dots}
+    <text x="${Math.min(X(last.day), W-30)}" y="${Y(last.v)-9}" text-anchor="middle" font-size="10.5" font-weight="700" fill="#9b8cc4">${last.v}</text>
+  </svg>`;
+}
+function saveWeight(id){
+  const v = parseFloat(document.getElementById('wVal').value);
+  const date = document.getElementById('wDate').value;
+  if(!v || v<20 || v>300){ toast('请输入有效体重（20-300 kg）'); return; }
+  if(!date){ toast('请选择日期'); return; }
+  const logs = modData(id).logs;
+  const isUpdate = !!logs[date];
+  logs[date] = Math.round(v*10)/10;
+  save(); render();
+  toast(isUpdate?'已更新 ✓':'记录成功 ✓');
+}
+function askDelWeight(id, key){
+  openModal(`<h3>删除记录</h3>
+    <div class="field"><label>确定删除 ${key} 的体重记录（${modData(id).logs[key]} kg）吗？</label></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-danger" onclick="delete modData('${id}').logs['${key}'];save();closeModal();render()">删除</button>
+    </div>`);
+}
+
+/* ---- 运动记录（健身打卡）---- */
+function getWoTy(){ return (db.workoutTypes && db.workoutTypes.length) ? db.workoutTypes : WORKOUT_TYPES; }
+function woType(k){ const list=getWoTy(); return list.find(t=>t.k===k) || {icon:'🏷️', name:k, dist:false}; }
+function fmtMins(m){
+  m = Math.round(m||0);
+  if(m<60) return m+' 分钟';
+  return Math.floor(m/60)+' 小时'+(m%60 ? (m%60)+' 分' : '');
+}
+function woStreak(sessions){
+  const days = new Set(sessions.map(s=>s.date));
+  let streak = 0; const d = new Date();
+  if(!days.has(todayStr(d))) d.setDate(d.getDate()-1);
+  while(days.has(todayStr(d))){ streak++; d.setDate(d.getDate()-1); }
+  return streak;
+}
+function renderWorkout(m){
+  const ss = modData(m.id).sessions;
+  const today = todayStr();
+  const y = calCursor.getFullYear(), mo = calCursor.getMonth();
+  const ym = y+'-'+String(mo+1).padStart(2,'0');
+  const curYm = today.slice(0,7);
+
+  // 顶部统计
+  const todaySs = ss.filter(s=>s.date===today);
+  const todayMins = todaySs.reduce((a,s)=>a+(+s.mins||0),0);
+  const curMonthSs = ss.filter(s=>s.date.startsWith(curYm));
+  const curMonthMins = curMonthSs.reduce((a,s)=>a+(+s.mins||0),0);
+
+  // 光标月数据
+  const mss = ss.filter(s=>s.date.startsWith(ym));
+  const mMins = mss.reduce((a,s)=>a+(+s.mins||0),0);
+  const mKcal = mss.reduce((a,s)=>a+(+s.kcal||0),0);
+  const mDays = new Set(mss.map(s=>s.date)).size;
+  // 上月对比
+  const prev = new Date(y, mo-1, 1);
+  const pym = prev.getFullYear()+'-'+String(prev.getMonth()+1).padStart(2,'0');
+  const pMins = ss.filter(s=>s.date.startsWith(pym)).reduce((a,s)=>a+(+s.mins||0),0);
+  let cmp = '';
+  if(pMins>0 || mMins>0){
+    const diff = mMins - pMins;
+    cmp = `<div class="wo-cmp">较上月 ${diff>=0?'<span class="w-down">+'+fmtMins(diff)+' ↑</span>':'<span class="w-up">-'+fmtMins(-diff)+' ↓</span>'}（上月 ${fmtMins(pMins)}）</div>`;
+  }
+
+  // 日历（有运动的日子标记）
+  const dayset = new Set(mss.map(s=>s.date));
+  const firstDay = new Date(y,mo,1).getDay();
+  const daysInMonth = new Date(y,mo+1,0).getDate();
+  let cal = ['日','一','二','三','四','五','六'].map(w=>`<div class="wd">${w}</div>`).join('');
+  for(let i=0;i<firstDay;i++) cal += '<div></div>';
+  for(let day=1;day<=daysInMonth;day++){
+    const ds = ym+'-'+String(day).padStart(2,'0');
+    const cls = (dayset.has(ds)?'checked ':'') + (ds===today?'today':'');
+    cal += `<div class="cal-day ${cls}">${day}</div>`;
+  }
+
+  // 每日时长柱状图
+  const chart = woBarChart(mss, y, mo);
+
+  // 类型分布
+  const byType = {};
+  mss.forEach(s=>{ byType[s.wtype] = (byType[s.wtype]||0) + (+s.mins||0); });
+  const distKeys = Object.keys(byType).filter(k=>byType[k]>0).sort((a,b)=>byType[b]-byType[a]);
+  const maxT = distKeys.length ? byType[distKeys[0]] : 0;
+  let dist = distKeys.map(k=>{
+    const t = woType(k), v = byType[k];
+    const cnt = mss.filter(s=>s.wtype===k).length;
+    return `<div class="wo-dist">
+      <span class="ic">${t.icon}</span><span class="nm">${t.name}</span>
+      <div class="bar"><div class="fill" style="width:${Math.max(6, v/maxT*100)}%"></div></div>
+      <span class="vv">${fmtMins(v)} · ${cnt}次</span>
+    </div>`;
+  }).join('');
+
+  // 最近记录
+  const recent = ss.slice().sort((a,b)=> a.date===b.date ? 0 : (a.date<b.date?1:-1)).slice(0,15);
+  let rows = recent.map(s=>{
+    const t = woType(s.wtype);
+    const meta = [ (+s.mins>0?fmtMins(+s.mins):''), (+s.kcal>0? s.kcal+' 千卡':''), (+s.km>0? s.km+' km':'') ].filter(Boolean).join(' · ');
+    return `<div class="wo-row">
+      <span class="ic">${t.icon}</span>
+      <div class="mid">
+        <div class="t">${t.name}${s.note?` <span class="nt">${esc(s.note)}</span>`:''}</div>
+        <div class="s">${s.date.slice(5)}${meta?' · '+meta:''}</div>
+      </div>
+      <button class="dl" onclick="askDelWorkout('${m.id}','${s.id}')">🗑</button>
+    </div>`;
+  }).join('');
+
+  return `
+  <div class="card checkin-hero">
+    <button class="checkin-btn ${todaySs.length?'done':''}" onclick="openAddWorkout('${m.id}')">${todaySs.length?'＋ 再记一次':'＋ 记录运动'}</button>
+    ${todaySs.length?`<div class="wo-today">今日已运动 ${todaySs.length} 次 · ${fmtMins(todayMins)} ✓</div>`:`<div class="wo-today" style="color:var(--text2)">今天还没运动，练完照着手表数据记一笔</div>`}
+    <div class="streak-row">
+      <div class="streak-box"><div class="n">${woStreak(ss)}</div><div class="l">连续天数</div></div>
+      <div class="streak-box"><div class="n">${curMonthSs.length}</div><div class="l">本月次数</div></div>
+      <div class="streak-box"><div class="n">${curMonthMins>=100?Math.round(curMonthMins/60*10)/10+'h':curMonthMins}</div><div class="l">本月时长${curMonthMins>=100?'':' 分'}</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="cal-head">
+      <button onclick="moveCal(-1)">‹</button>
+      <span class="m">📊 ${y}年${mo+1}月总结</span>
+      <button onclick="moveCal(1)">›</button>
+    </div>
+    <div class="streak-row" style="margin-top:2px">
+      <div class="streak-box"><div class="n">${mss.length}</div><div class="l">运动次数</div></div>
+      <div class="streak-box"><div class="n">${mDays}</div><div class="l">运动天数</div></div>
+      <div class="streak-box"><div class="n">${mMins>=100?Math.round(mMins/60*10)/10+'h':mMins}</div><div class="l">总时长${mMins>=100?'':' 分'}</div></div>
+      <div class="streak-box"><div class="n">${mKcal>=10000?Math.round(mKcal/1000)+'k':mKcal}</div><div class="l">千卡</div></div>
+    </div>
+    ${cmp}
+    ${chart}
+    ${dist?`<div class="section-title" style="margin:12px 0 6px;font-size:13px">类型分布</div>${dist}`:''}
+  </div>
+  <div class="card">
+    <div class="section-title" style="margin:0 0 6px">运动日历</div>
+    <div class="cal-grid">${cal}</div>
+  </div>
+  ${recent.length?`<div class="card"><div class="section-title" style="margin:0 0 4px">最近记录</div>${rows}</div>`:''}`;
+}
+function woBarChart(mss, y, mo){
+  const days = new Date(y,mo+1,0).getDate();
+  const byDay = {};
+  mss.forEach(s=>{ const d=+s.date.slice(8); byDay[d]=(byDay[d]||0)+(+s.mins||0); });
+  if(!Object.keys(byDay).length) return `<div class="empty" style="padding:26px 10px">本月暂无运动记录</div>`;
+  const W=340, H=140, L=30, R=8, T=14, B=22;
+  const max = Math.max(30, ...Object.values(byDay));
+  const bw = (W-L-R)/days;
+  let grid='';
+  for(let i=0;i<=2;i++){
+    const v = max*(1-i/2), yy = T + (H-T-B)*i/2;
+    grid += `<line x1="${L}" y1="${yy}" x2="${W-R}" y2="${yy}" stroke="#eceef2" stroke-width="1"/>
+      <text x="${L-5}" y="${yy+4}" text-anchor="end" font-size="9" fill="#828a93">${Math.round(v)}</text>`;
+  }
+  let xt='';
+  [1, Math.round(days/2), days].forEach(d=>{
+    xt += `<text x="${L+(d-0.5)*bw}" y="${H-7}" text-anchor="middle" font-size="9" fill="#828a93">${d}日</text>`;
+  });
+  const todayD = todayStr().slice(0,7)===(y+'-'+String(mo+1).padStart(2,'0')) ? new Date().getDate() : -1;
+  let bars='';
+  for(let d=1; d<=days; d++){
+    const v = byDay[d]||0;
+    if(!v) continue;
+    const bh = v/max*(H-T-B);
+    bars += `<rect x="${(L+(d-1)*bw+bw*0.18).toFixed(1)}" y="${(H-B-bh).toFixed(1)}" width="${(bw*0.64).toFixed(1)}" height="${bh.toFixed(1)}" rx="2" fill="${d===todayD?'#6fae8c':'#9b8cc4'}"/>`;
+  }
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;display:block;margin-top:6px">${grid}${xt}${bars}</svg>
+  <div style="font-size:11px;color:var(--text2);text-align:right">单位：分钟/天</div>`;
+}
+let tmpWoType = 'run';
+function openAddWorkout(id){
+  const list = getWoTy();
+  tmpWoType = list[0] ? list[0].k : 'run';
+  const today = todayStr();
+  openModal(`<h3>记录运动 💪</h3>
+    <div class="field"><label>运动类型</label>
+      <div class="wo-type-grid" id="woTypeGrid">
+        ${list.map(t=>`<button class="wo-chip ${t.k===tmpWoType?'sel':''}" data-k="${t.k}" onclick="pickWoType('${t.k}')">${t.icon} ${t.name}</button>`).join('')}
+        <button class="wo-chip wo-add" onclick="openWoTypes()">＋ 新增</button>
+      </div>
+      <div style="margin-top:6px"><button class="link-btn" onclick="openWoTypes()">⚙️ 管理/自定义运动类型</button></div>
+    </div>
+    <div class="wo-form2">
+      <div class="field"><label>日期</label><input type="date" id="woDate" value="${today}" max="${today}"></div>
+      <div class="field"><label>时长（分钟）*</label><input type="number" id="woMins" inputmode="numeric" min="1" max="1000" placeholder="如 32"></div>
+      <div class="field"><label>动态卡路里（千卡）</label><input type="number" id="woKcal" inputmode="numeric" min="0" max="9999" placeholder="选填，手表上的数值"></div>
+      <div class="field" id="woKmField"><label>距离（km）</label><input type="number" id="woKm" inputmode="decimal" step="0.01" min="0" max="500" placeholder="选填"></div>
+    </div>
+    <div class="field"><label>备注</label><input id="woNote" placeholder="选填，如：胸+三头 / 配速6'30''"></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-ok" onclick="saveWorkout('${id}')">保存 ✓</button>
+    </div>`);
+  pickWoType(tmpWoType);
+}
+function pickWoType(k){
+  tmpWoType = k;
+  document.querySelectorAll('#woTypeGrid .wo-chip').forEach(b=>b.classList.toggle('sel', b.dataset.k===k));
+  const f = document.getElementById('woKmField');
+  if(f) f.style.display = woType(k).dist ? '' : 'none';
+}
+function saveWorkout(id){
+  const date = document.getElementById('woDate').value;
+  const mins = parseInt(document.getElementById('woMins').value);
+  const kcal = parseInt(document.getElementById('woKcal').value);
+  const km = parseFloat(document.getElementById('woKm').value);
+  const note = document.getElementById('woNote').value.trim();
+  if(!date){ toast('请选择日期'); return; }
+  if(!mins || mins<1){ toast('请填写运动时长'); return; }
+  modData(id).sessions.push({id:uid(), date, wtype:tmpWoType, mins, kcal:(kcal>0?kcal:null), km:(km>0?Math.round(km*100)/100:null), note});
+  save(); closeModal(); render();
+  toast(woType(tmpWoType).icon+' 已记录！连续运动 '+woStreak(modData(id).sessions)+' 天 🎉');
+}
+function askDelWorkout(id, sid){
+  const s = modData(id).sessions.find(x=>x.id===sid);
+  if(!s) return;
+  const t = woType(s.wtype);
+  openModal(`<h3>删除记录</h3>
+    <div class="field"><label>确定删除 ${s.date} 的「${t.icon} ${t.name}${s.mins?` ${s.mins}分钟`:''}」记录吗？</label></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-danger" onclick="delWorkout('${id}','${sid}')">删除</button>
+    </div>`);
+}
+function delWorkout(id, sid){
+  const d = modData(id);
+  d.sessions = d.sessions.filter(x=>x.id!==sid);
+  save(); closeModal(); render();
+}
+
+/* ---- 运动类型管理（用户可自由增删改） ---- */
+function openWoTypes(){
+  const list = getWoTy();
+  const rows = list.map(t=>`
+    <div class="wo-typerow">
+      <span class="ic">${t.icon}</span>
+      <div class="nm">${esc(t.name)}${t.dist?' <span class="wo-disttag">含距离</span>':''}</div>
+      <button class="wo-tb" onclick="editWoType('${t.k}')">✎</button>
+      <button class="wo-tb dl" onclick="delWoType('${t.k}')">🗑</button>
+    </div>`).join('');
+  openModal(`<h3>运动类型管理</h3>
+    <div class="wo-typelist">${rows}</div>
+    <div class="wo-addform">
+      <div class="field"><label>新增类型</label>
+        <div style="display:flex;gap:8px">
+          <input id="wtIcon" maxlength="2" style="width:62px;text-align:center" placeholder="🏃">
+          <input id="wtName" style="flex:1" placeholder="类型名称">
+        </div>
+      </div>
+      <div class="field" style="display:flex;align-items:center;gap:8px">
+        <input type="checkbox" id="wtDist" style="width:auto;flex:none">
+        <label style="margin:0">记录距离（有氧运动，如跑步/骑行）</label>
+      </div>
+    </div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">完成</button>
+      <button class="btn-ok" onclick="addWoType()">＋ 添加</button>
+    </div>`);
+}
+function addWoType(){
+  const icon = document.getElementById('wtIcon').value.trim() || '🏷️';
+  const name = document.getElementById('wtName').value.trim();
+  if(!name){ toast('请输入类型名称'); return; }
+  const list = getWoTy().slice();
+  list.push({k:'u_'+Date.now().toString(36), icon, name, dist:document.getElementById('wtDist').checked});
+  db.workoutTypes = list; save();
+  openWoTypes();
+  toast('已添加：'+name);
+}
+function editWoType(k){
+  const t = getWoTy().find(x=>x.k===k); if(!t) return;
+  openModal(`<h3>编辑类型</h3>
+    <div class="field"><label>图标</label><input id="etIcon" maxlength="2" style="width:80px;text-align:center" value="${t.icon}"></div>
+    <div class="field"><label>名称</label><input id="etName" value="${esc(t.name)}"></div>
+    <div class="field" style="display:flex;align-items:center;gap:8px">
+      <input type="checkbox" id="etDist" ${t.dist?'checked':''} style="width:auto;flex:none">
+      <label style="margin:0">记录距离（有氧运动）</label>
+    </div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="openWoTypes()">取消</button>
+      <button class="btn-ok" onclick="saveWoType('${k}')">保存</button>
+    </div>`);
+}
+function saveWoType(k){
+  const t = getWoTy().find(x=>x.k===k); if(!t) return;
+  const name = document.getElementById('etName').value.trim();
+  if(!name){ toast('名称不能为空'); return; }
+  t.icon = document.getElementById('etIcon').value.trim() || '🏷️';
+  t.name = name;
+  t.dist = document.getElementById('etDist').checked;
+  save(); openWoTypes();
+}
+function delWoType(k){
+  const list = getWoTy();
+  if(list.length<=1){ toast('至少保留一种运动类型'); return; }
+  const t = list.find(x=>x.k===k); if(!t) return;
+  let affected = 0;
+  db.modules.filter(m=>m.type==='workout').forEach(m=>{
+    const d = db.data[m.id]; if(d&&d.sessions) affected += d.sessions.filter(s=>s.wtype===k).length;
+  });
+  const fallback = list.find(x=>x.k!==k) || list[0];
+  const msg = affected>0
+    ? `该类型下还有 ${affected} 条运动记录，删除后这些记录将自动归类到「${fallback.name}」。确定删除？`
+    : `确定删除「${t.name}」类型？`;
+  openModal(`<h3>删除运动类型</h3>
+    <div class="field"><label>${msg}</label></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="openWoTypes()">取消</button>
+      <button class="btn-danger" onclick="confirmDelWoType('${k}')">删除</button>
+    </div>`);
+}
+function confirmDelWoType(k){
+  const list = getWoTy();
+  const fallback = list.find(x=>x.k!==k) || list[0];
+  db.modules.filter(m=>m.type==='workout').forEach(m=>{
+    const d = db.data[m.id]; if(d&&d.sessions) d.sessions.forEach(s=>{ if(s.wtype===k) s.wtype = fallback.k; });
+  });
+  db.workoutTypes = list.filter(x=>x.k!==k);
+  save(); closeModal(); render();
+  toast('已删除类型');
+}
+
+/* ---- 板块增删 ---- */
+const EMOJIS = ['✨','🎯','🏃','🎸','🎨','💰','🧘','☕','🌱','💻','🍳','🎮'];
+let tmpEmoji = '✨', tmpType = 'checkin';
+function openAddModule(){
+  tmpEmoji='✨'; tmpType='checkin';
+  openModal(`<h3>添加板块</h3>
+    <div class="field"><label>板块名称</label><input id="mName" placeholder="如：练琴打卡、旅行清单"></div>
+    <div class="field"><label>图标</label><div class="emoji-row" id="emojiRow">
+      ${EMOJIS.map(e=>`<button class="emoji-opt ${e===tmpEmoji?'sel':''}" onclick="pickEmoji('${e}',this)">${e}</button>`).join('')}
+    </div></div>
+    <div class="field"><label>类型</label><div class="type-row">
+      <button class="type-opt sel" id="typeCheckin" onclick="pickType('checkin')"><div class="t">📅 打卡型</div><div class="s">每日打卡·日历·连续统计</div></button>
+      <button class="type-opt" id="typeList" onclick="pickType('list')"><div class="t">📝 记录型</div><div class="s">条目清单·状态·评分</div></button>
+      <button class="type-opt" id="typeWorkout" onclick="pickType('workout')"><div class="t">🏃 运动型</div><div class="s">运动类型·时长·月度总结</div></button>
+    </div></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-ok" onclick="addModule()">创建</button>
+    </div>`);
+}
+function pickEmoji(e,btn){
+  tmpEmoji=e;
+  document.querySelectorAll('.emoji-opt').forEach(b=>b.classList.remove('sel'));
+  btn.classList.add('sel');
+}
+function pickType(t){
+  tmpType=t;
+  document.getElementById('typeCheckin').classList.toggle('sel',t==='checkin');
+  document.getElementById('typeList').classList.toggle('sel',t==='list');
+  document.getElementById('typeWorkout').classList.toggle('sel',t==='workout');
+}
+function addModule(){
+  const name = document.getElementById('mName').value.trim();
+  if(!name){ toast('请填写板块名称'); return; }
+  const m = {id:uid(), name, icon:tmpEmoji, type:tmpType};
+  if(tmpType==='list') m.statuses = ['计划中','进行中','已完成'];
+  db.modules.push(m);
+  save(); closeModal();
+  nav(m.id);
+  toast('板块已创建 🎉');
+}
+function askDelModule(id){
+  const m = getMod(id);
+  openModal(`<h3>删除板块</h3>
+    <div class="field"><label>确定删除「${m.icon} ${esc(m.name)}」吗？该板块下的所有数据也会被删除，无法恢复。</label></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-danger" onclick="delModule('${id}')">删除</button>
+    </div>`);
+}
+function delModule(id){
+  db.modules = db.modules.filter(m=>m.id!==id);
+  delete db.data[id];
+  save(); closeModal();
+  if(currentView===id) currentView='home';
+  render();
+}
+
+/* ================= 弹窗 & 工具 ================= */
+const mask = document.getElementById('modalMask');
+function openModal(html){
+  document.getElementById('modalBox').innerHTML = html;
+  mask.classList.add('show');
+}
+function closeModal(){ mask.classList.remove('show'); }
+mask.addEventListener('click', e=>{ if(e.target===mask) closeModal(); });
+let toastTimer;
+function toast(msg){
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>t.classList.remove('show'), 2200);
+}
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+function fmtDateCN(d){
+  const w = ['日','一','二','三','四','五','六'][d.getDay()];
+  return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 · 星期${w}`;
+}
+document.getElementById('sbDate').textContent = fmtDateCN(new Date());
+render();
+</script>
+</body>
+</html>
