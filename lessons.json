@@ -313,5 +313,159 @@
       "支持者看重减负与个性化，批评者担忧思维与互动弱化",
       "关键是在技术与人文要素间取得平衡，技术应辅助而非取代教师"
     ]
+  },
+  {
+    "date": "2026-07-29",
+    "title": "The Pursuit of Well-being: Can Happiness Be Learned?",
+    "titleCn": "追求幸福感：快乐可以习得吗？",
+    "topic": "心理",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "For centuries, philosophers and scientists have debated whether human happiness is fixed by our genes or shaped by our behaviour. Today, a growing body of psychological research suggests that well-being is not merely a static trait but a skill that can be cultivated through deliberate practice.",
+        "cn": "几个世纪以来，哲学家与科学家一直在争论：人的幸福究竟由基因决定，还是由行为塑造。如今，越来越多的心理学研究表明，幸福感并非一种静止的特质，而是一种可以通过刻意练习来培养的技能。"
+      },
+      {
+        "en": "Proponents of positive psychology argue that simple daily habits can gradually rewire the brain. Practices such as keeping a gratitude journal, exercising mindfulness, and performing small acts of kindness have been linked in studies to higher reported life satisfaction and lower levels of stress.",
+        "cn": "积极心理学的支持者认为，简单的日常习惯可以逐渐重塑大脑。研究表明，写感恩日记、练习正念以及施予微小的善意之举，都与更高的生活满意度和更低的压力水平相关。"
+      },
+      {
+        "en": "However, critics caution against oversimplifying the matter. Genetic temperament and life circumstances set a baseline of mood that conscious effort cannot fully erase. Not everyone can simply 'think' their way out of clinical depression, so learned strategies should complement rather than replace professional treatment.",
+        "cn": "然而，批评者警告不要将问题过度简化。先天的气质与生活境遇设定了情绪的基线，这是主观努力无法完全抹去的。并非所有人都能靠“想”走出临床抑郁，因此习得的策略应当作为专业治疗的补充，而非替代。"
+      },
+      {
+        "en": "Moreover, cultural context shapes what happiness means. In many collectivist societies, well-being is closely tied to social harmony and family duty rather than individual achievement. A single universal formula for happiness may therefore not exist.",
+        "cn": "此外，文化背景决定了幸福的含义。在许多集体主义社会里，幸福感与社会和谐及家庭责任紧密相连，而非源于个人成就。因此，或许并不存在一套普适的幸福公式。"
+      },
+      {
+        "en": "In conclusion, while we cannot control every factor that affects our mood, the evidence indicates that certain practices can raise our baseline of well-being. Happiness may not be a final destination, but it is, for many of us, a skill worth practising.",
+        "cn": "总而言之，尽管我们无法掌控影响情绪的所有因素，但证据表明，某些练习能够提升我们的幸福基线。幸福或许不是终点，但对许多人而言，它是一项值得练习的技能。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "well-being",
+        "phonetic": "/ˌwel ˈbiːɪŋ/",
+        "pos": "n.",
+        "cn": "幸福感；福祉",
+        "en_def": "the state of being comfortable, healthy, or happy",
+        "example": "Community support can greatly improve a person's well-being.",
+        "example_cn": "社区支持能极大地改善一个人的幸福感。"
+      },
+      {
+        "word": "cultivate",
+        "phonetic": "/ˈkʌltɪveɪt/",
+        "pos": "v.",
+        "cn": "培养；培育",
+        "en_def": "to try to develop or improve something over a period of time",
+        "example": "It takes time to cultivate good study habits.",
+        "example_cn": "培养良好的学习习惯需要时间。"
+      },
+      {
+        "word": "deliberate",
+        "phonetic": "/dɪˈlɪbərət/",
+        "pos": "adj.",
+        "cn": "故意的；审慎的",
+        "en_def": "done on purpose rather than by accident; careful and unhurried",
+        "example": "She made a deliberate effort to speak more slowly.",
+        "example_cn": "她刻意放慢了说话的速度。"
+      },
+      {
+        "word": "gratitude",
+        "phonetic": "/ˈɡrætɪtjuːd/",
+        "pos": "n.",
+        "cn": "感激；感恩",
+        "en_def": "the feeling of being thankful for something",
+        "example": "He expressed his gratitude for the help he received.",
+        "example_cn": "他对所得到的帮助表达了感激之情。"
+      },
+      {
+        "word": "mindfulness",
+        "phonetic": "/ˈmaɪndfʊlnəs/",
+        "pos": "n.",
+        "cn": "正念；专注当下",
+        "en_def": "the practice of being aware of the present moment without judgement",
+        "example": "Mindfulness can reduce anxiety in daily life.",
+        "example_cn": "正念练习能缓解日常生活中的焦虑。"
+      },
+      {
+        "word": "temperament",
+        "phonetic": "/ˈtemprəmənt/",
+        "pos": "n.",
+        "cn": "性情；气质",
+        "en_def": "a person's natural mood or character",
+        "example": "His calm temperament helps him in stressful situations.",
+        "example_cn": "他平和的性情让他在压力下也能从容应对。"
+      },
+      {
+        "word": "complement",
+        "phonetic": "/ˈkɒmplɪment/",
+        "pos": "v.",
+        "cn": "补充；补足",
+        "en_def": "to add to something in a way that improves it",
+        "example": "These exercises complement the main treatment.",
+        "example_cn": "这些练习是对主要治疗的补充。"
+      },
+      {
+        "word": "collectivist",
+        "phonetic": "/kəˈlektɪvɪst/",
+        "pos": "adj.",
+        "cn": "集体主义的",
+        "en_def": "relating to a culture that values the group over the individual",
+        "example": "Collectivist societies often emphasise family duty.",
+        "example_cn": "集体主义社会通常强调家庭责任。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the main claim of the passage?",
+        "options": [
+          "Happiness is entirely determined by our genes.",
+          "Well-being can be cultivated through deliberate practice.",
+          "Wealth is the only source of true happiness.",
+          "Clinical depression cannot be treated at all."
+        ],
+        "answer": 1,
+        "explain": "文章开篇即提出核心观点：幸福感并非静止特质，而是可通过刻意练习培养的技能，后文均围绕此展开。"
+      },
+      {
+        "q": "According to the text, which practice is linked to higher life satisfaction?",
+        "options": [
+          "Watching television for long hours.",
+          "Keeping a gratitude journal.",
+          "Avoiding all social contact.",
+          "Sleeping more than twelve hours a day."
+        ],
+        "answer": 1,
+        "explain": "第二段指出，写感恩日记（keeping a gratitude journal）等习惯与更高的生活满意度相关。"
+      },
+      {
+        "q": "What do critics of positive psychology warn about?",
+        "options": [
+          "It is too expensive for most people.",
+          "It may oversimplify complex mental-health issues.",
+          "It only works for young children.",
+          "It requires daily medication."
+        ],
+        "answer": 1,
+        "explain": "第三段提到，批评者警告不要过度简化问题，因为先天气质与生活境遇设定了情绪基线。"
+      },
+      {
+        "q": "Why does cultural context matter for happiness, according to the passage?",
+        "options": [
+          "Because happiness means exactly the same thing everywhere.",
+          "Because in some cultures well-being depends on social harmony.",
+          "Because individual achievement is always the top priority.",
+          "Because collectivist societies reject psychology entirely."
+        ],
+        "answer": 1,
+        "explain": "第四段说明，集体主义社会中的幸福感与社会和谐、家庭责任相连，因此不存在普适的幸福公式。"
+      }
+    ],
+    "summary": [
+      "幸福感并非完全由基因决定，而是可以通过刻意练习（如感恩、正念）培养的技能。",
+      "但先天气质与生活境遇设定了情绪基线，习得的策略应作为专业治疗的补充，而非替代。",
+      "文化背景影响幸福的定义，集体主义社会更看重社会和谐，因此并不存在一套普适的幸福公式。"
+    ]
   }
 ]
