@@ -1,82 +1,87 @@
 [
   {
-    "date": "2026-07-28",
-    "brief": "今日抖音热榜：詹姆斯去向、一箭九星、九门提档领跑，运动科技影视齐热。",
+    "date": "2026-07-29",
+    "brief": "7月29日抖音热点：台风红霞、男篮连胜、经济新亮点与《九门》定档领跑多领域热榜。",
     "items": [
       {
-        "title": "曝詹姆斯重新考量下家去向",
-        "hot": "1185万热度",
+        "title": "“红霞”停止编号",
+        "hot": "热度1175万",
         "tags": [
-          "体育"
+          "社会",
+          "天气"
         ],
-        "summary": "勒布朗·詹姆斯被曝重新评估未来去向，转会传闻引爆篮球圈，球迷热议下一站。",
-        "link": "https://www.douyin.com/search/%E6%9B%9D%E8%A9%B9%E5%A7%86%E6%96%AF%E9%87%8D%E6%96%B0%E8%80%83%E9%87%8F%E4%B8%8B%E5%AE%B6%E5%8E%BB%E5%90%91"
+        "summary": "台风红霞已停止编号，此前给多地带来风雨影响，网友关注后续天气走势与防灾提示。",
+        "link": "https://www.douyin.com/search/%E2%80%9C%E7%BA%A2%E9%9C%9E%E2%80%9D%E5%81%9C%E6%AD%A2%E7%BC%96%E5%8F%B7"
       },
       {
-        "title": "我的夏日主线任务online",
-        "hot": "1177万热度",
+        "title": "中国男篮90:82再胜喀麦隆",
+        "hot": "热度1123万",
         "tags": [
+          "体育",
+          "篮球"
+        ],
+        "summary": "中国男篮热身赛90:82再胜喀麦隆，球队连胜状态出色，为后续国际赛事备战积累信心。",
+        "link": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE90%3A82%E5%86%8D%E8%83%9C%E5%96%80%E9%BA%A6%E9%9A%86"
+      },
+      {
+        "title": "数说中国经济新亮点",
+        "hot": "热度1113万",
+        "tags": [
+          "财经",
+          "经济"
+        ],
+        "summary": "上半年经济数据发布，多项指标展现新亮点，工业机器人与AI相关产品出口亮眼，引发热议。",
+        "link": "https://www.douyin.com/search/%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%96%B0%E4%BA%AE%E7%82%B9"
+      },
+      {
+        "title": "课本里的天下第一泉我见到了",
+        "hot": "热度1109万",
+        "tags": [
+          "文旅",
           "生活"
         ],
-        "summary": "年轻人分享暑期『主线任务』式生活清单，从运动到旅行，仪式感拉满。",
-        "link": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E5%A4%8F%E6%97%A5%E4%B8%BB%E7%BA%BF%E4%BB%BB%E5%8A%A1online"
+        "summary": "网友实地打卡课本中的天下第一泉，文旅种草与国风内容在抖音走红，带动相关目的地热度。",
+        "link": "https://www.douyin.com/search/%E8%AF%BE%E6%9C%AC%E9%87%8C%E7%9A%84%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E6%B3%89%E6%88%91%E8%A7%81%E5%88%B0%E4%BA%86"
       },
       {
-        "title": "引力一号一箭九星发射",
-        "hot": "1151万热度",
+        "title": "合肥国资持股长鑫市值超1万亿",
+        "hot": "热度1050万",
         "tags": [
+          "财经",
           "科技"
         ],
-        "summary": "引力一号火箭成功实现一箭九星发射，刷新我国固体运载火箭运力纪录，航天迷沸腾。",
-        "link": "https://www.douyin.com/search/%E5%BC%95%E5%8A%9B%E4%B8%80%E5%8F%B7%E4%B8%80%E7%AE%AD%E4%B9%9D%E6%98%9F%E5%8F%91%E5%B0%84"
+        "summary": "长鑫科技上市带动合肥国资持股市值突破万亿，半导体板块关注度攀升，引发热议。",
+        "link": "https://www.douyin.com/search/%E5%90%88%E8%82%A5%E5%9B%BD%E8%B5%84%E6%8C%81%E8%82%A1%E9%95%BF%E9%91%AB%E5%B8%82%E5%80%BC%E8%B6%851%E4%B8%87%E4%BA%BF"
       },
       {
-        "title": "外交部再回应菲方蓄意挑衅",
-        "hot": "1114万热度",
+        "title": "一代人有一代人的美食人格",
+        "hot": "热度931万",
         "tags": [
-          "时政"
+          "生活",
+          "美食"
         ],
-        "summary": "外交部就菲方在南海的挑衅行为再次表态，重申主权立场，引发广泛关注。",
-        "link": "https://www.douyin.com/search/%E5%A4%96%E4%BA%A4%E9%83%A8%E5%86%8D%E5%9B%9E%E5%BA%94%E8%8F%B2%E6%96%B9%E8%93%84%E6%84%8F%E6%8C%91%E8%A1%85"
+        "summary": "一代人有一代人的美食人格引发广泛共鸣，网友纷纷分享自己的饮食偏好与下饭习惯。",
+        "link": "https://www.douyin.com/search/%E4%B8%80%E4%BB%A3%E4%BA%BA%E6%9C%89%E4%B8%80%E4%BB%A3%E4%BA%BA%E7%9A%84%E7%BE%8E%E9%A3%9F%E4%BA%BA%E6%A0%BC"
       },
       {
-        "title": "抖火杯反三之夜有多燃",
-        "hot": "1052万热度",
-        "tags": [
-          "游戏",
-          "电竞"
-        ],
-        "summary": "火影忍者手游民间赛事『抖火杯』反三之夜高光频出，主播切片刷屏。",
-        "link": "https://www.douyin.com/search/%E6%8A%96%E7%81%AB%E6%9D%AF%E5%8F%8D%E4%B8%89%E4%B9%8B%E5%A4%9C%E6%9C%89%E5%A4%9A%E7%87%83"
-      },
-      {
-        "title": "今年菲尔兹奖候选人都在研究啥",
-        "hot": "1047万热度",
-        "tags": [
-          "科学"
-        ],
-        "summary": "菲尔兹奖候选人的研究方向引发科普热，数学之美被更多人看见。",
-        "link": "https://www.douyin.com/search/%E4%BB%8A%E5%B9%B4%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%80%99%E9%80%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E7%A0%94%E7%A9%B6%E5%95%A5"
-      },
-      {
-        "title": "当我在暑假和crush表白成功后",
-        "hot": "928万热度",
-        "tags": [
-          "情感",
-          "校园"
-        ],
-        "summary": "一条『暑假和crush表白成功』的视频戳中网友，评论区秒变青春回忆现场。",
-        "link": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E5%9C%A8%E6%9A%91%E5%81%87%E5%92%8Ccrush%E8%A1%A8%E7%99%BD%E6%88%90%E5%8A%9F%E5%90%8E"
-      },
-      {
-        "title": "九门提档至7月30日",
-        "hot": "913万热度",
+        "title": "九门定档0730",
+        "hot": "抖音热搜",
         "tags": [
           "影视",
-          "悬疑"
+          "悬疑推理"
         ],
-        "summary": "盗墓题材剧《九门》提档7月30日，陈伟霆、曾舜晞主演，悬疑爱好者坐等开播。",
-        "link": "https://www.douyin.com/search/%E4%B9%9D%E9%97%A8%E6%8F%90%E6%A1%A3%E8%87%B37%E6%9C%8830%E6%97%A5"
+        "summary": "民国悬疑剧《九门》官宣定档7月30日优酷独播，陈伟霆等回归主演，十年续作引老粉期待。",
+        "link": "https://www.douyin.com/search/%E4%B9%9D%E9%97%A8%E5%AE%9A%E6%A1%A30730"
+      },
+      {
+        "title": "时代少年团演唱会官宣抖音独家直播",
+        "hot": "热度768万",
+        "tags": [
+          "娱乐",
+          "演出"
+        ],
+        "summary": "时代少年团演唱会官宣抖音独家直播，粉丝热议舞台与歌单，相关话题关注度快速飙升。",
+        "link": "https://www.douyin.com/search/%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%E6%BC%94%E5%94%B1%E4%BC%9A%E5%AE%98%E5%AE%A3%E6%8A%96%E9%9F%B3%E7%8B%AC%E5%AE%B6%E7%9B%B4%E6%92%AD"
       }
     ]
   }
