@@ -184,6 +184,9 @@ mark.hl{background:var(--primary-bg);color:var(--primary);font-weight:700;paddin
 .rb-tag{font-size:11px;padding:2.5px 8px;border-radius:99px;background:var(--bg);color:var(--text2)}
 .rb-tag.mys{background:rgba(155,126,222,.12);color:var(--primary);font-weight:600}
 .rb-intro{font-size:13px;line-height:1.7;color:var(--text);margin:4px 0}
+.news-link{display:inline-block;margin-top:9px;padding:7px 14px;border-radius:11px;background:linear-gradient(135deg,#9b8cc4,#7fc9b8);color:#fff;font-size:12.5px;font-weight:600;text-decoration:none;box-shadow:var(--shadow)}
+.news-link:active{opacity:.82}
+.news-link.dy{background:linear-gradient(135deg,#ff6a88,#ff99ac)}
 .rb-reason{font-size:12px;color:var(--text2);background:var(--bg);border-radius:10px;padding:8px 10px;margin:6px 0;line-height:1.6}
 .rb-add{margin-top:6px;font-size:12.5px;font-weight:600;color:var(--primary);border:1.5px solid var(--primary);border-radius:99px;padding:6px 14px;background:var(--card)}
 .nt-tabs{display:flex;gap:8px;margin-bottom:12px}
@@ -299,7 +302,7 @@ const DEFAULT_MODULES = [
   {id:'drama',   name:'看剧记录', icon:'🎬', type:'list', statuses:['想看','在看','看完']},
   {id:'book',    name:'看书记录', icon:'📚', type:'list', statuses:['想读','在读','读完']},
   {id:'weight',  name:'体重管理', icon:'⚖️', type:'weight'},
-  {id:'news',    name:'每日热点', icon:'🔥', type:'news'},
+  {id:'news',    name:'微博热门', icon:'🔥', type:'news'},
 ];
 const WORKOUT_TYPES = [
   {k:'run',      icon:'🏃', name:'跑步',     dist:true},
@@ -351,7 +354,7 @@ function load(){
   if(!d.migNews){
     d.migNews = true;
     if(!d.modules.find(m=>m.type==='news')){
-      d.modules.push({id:'news', name:'每日热点', icon:'🔥', type:'news'});
+      d.modules.push({id:'news', name:'微博热门', icon:'🔥', type:'news'});
     }
     localStorage.setItem(STORE_KEY, JSON.stringify(d));
   }
@@ -591,7 +594,7 @@ function renderHome(){
         badge = `<span class="badge">开始记录</span>`;
       }
     }else if(m.type==='news'){
-      desc = '每天 6:00 更新全球与抖音热点';
+      desc = '每天 6:00 更新微博与抖音热点';
       badge = `<span class="badge">点开看今日</span>`;
     }else{
       const items = modData(m.id).items;
@@ -925,7 +928,7 @@ function moveDy(n){
 function setNewsTab(t){ newsTab = t; render(); }
 function renderNews(m){
   const tabs = `<div class="nt-tabs">
-    <button class="nt-tab ${newsTab==='global'?'sel':''}" onclick="setNewsTab('global')">🌍 全球热点</button>
+    <button class="nt-tab ${newsTab==='global'?'sel':''}" onclick="setNewsTab('global')">🔥 微博热门</button>
     <button class="nt-tab ${newsTab==='douyin'?'sel':''}" onclick="setNewsTab('douyin')">📱 抖音热点</button>
   </div>`;
   if(newsTab==='douyin'){
@@ -938,10 +941,12 @@ function renderNews(m){
       const tags = (it.tags||[]).map(t=>`<span class="rb-tag">${esc(t)}</span>`).join('');
       const hot = it.hot ? `<span class="rb-author">🔥 ${esc(it.hot)}</span>` : '';
       const creator = it.creator ? `<span class="rb-author">@${esc(it.creator)}</span>` : '';
+      const link = it.link ? `<a class="news-link dy" href="${esc(it.link)}" target="_blank" rel="noopener">观看视频 ↗</a>` : '';
       return `<div class="rec-book news-item">
         <div class="rb-head"><span class="rb-title">${esc(it.title)}</span>${hot}</div>
         ${(creator||tags)?`<div class="rb-tags">${creator}${tags}</div>`:''}
         ${it.summary?`<div class="rb-intro">${esc(it.summary)}</div>`:''}
+        ${link}
       </div>`;
     }).join('');
     return tabs + `<div class="card rec-card">
@@ -961,11 +966,13 @@ function renderNews(m){
   const isLatest = newsIdx===NEWS.length-1;
   const items = (rec.items||[]).map(it=>{
     const tags = (it.tags||[]).map(t=>`<span class="rb-tag">${esc(t)}</span>`).join('');
-    const region = it.region ? `<span class="rb-author">${esc(it.region)}</span>` : '';
+    const meta = it.hot ? `<span class="rb-author">🔥 ${esc(it.hot)}</span>` : (it.region?`<span class="rb-author">${esc(it.region)}</span>`:'');
+    const link = it.link ? `<a class="news-link" href="${esc(it.link)}" target="_blank" rel="noopener">查看详情 ↗</a>` : '';
     return `<div class="rec-book news-item">
-      <div class="rb-head"><span class="rb-title">${esc(it.title)}</span>${region}</div>
+      <div class="rb-head"><span class="rb-title">${esc(it.title)}</span>${meta}</div>
       ${tags?`<div class="rb-tags">${tags}</div>`:''}
       ${it.summary?`<div class="rb-intro">${esc(it.summary)}</div>`:''}
+      ${link}
     </div>`;
   }).join('');
   return tabs + `<div class="card rec-card">
