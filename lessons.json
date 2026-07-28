@@ -28,16 +28,96 @@
       }
     ],
     "vocab": [
-      {"word": "unprecedented", "phonetic": "/ʌnˈpresɪdentɪd/", "pos": "adj.", "cn": "前所未有的，空前的", "en_def": "never having happened before", "example": "Cities are expanding at an unprecedented pace.", "example_cn": "城市正以前所未有的速度扩张。"},
-      {"word": "infrastructure", "phonetic": "/ˈɪnfrəstrʌktʃə(r)/", "pos": "n.", "cn": "基础设施", "en_def": "basic systems and services of a country or city", "example": "Green spaces are now seen as essential infrastructure.", "example_cn": "绿地如今被视为必不可少的基础设施。"},
-      {"word": "cohesion", "phonetic": "/kəʊˈhiːʒn/", "pos": "n.", "cn": "凝聚力，团结", "en_def": "the state of sticking together as a united whole", "example": "Parks contribute to the social cohesion of a community.", "example_cn": "公园有助于增强社区的社会凝聚力。"},
-      {"word": "compelling", "phonetic": "/kəmˈpelɪŋ/", "pos": "adj.", "cn": "令人信服的，有说服力的", "en_def": "very convincing", "example": "The physiological evidence is compelling.", "example_cn": "生理层面的证据十分令人信服。"},
-      {"word": "alleviate", "phonetic": "/əˈliːvieɪt/", "pos": "v.", "cn": "缓解，减轻", "en_def": "to make something less severe", "example": "Contact with nature can alleviate mental fatigue.", "example_cn": "接触自然可以缓解精神疲劳。"},
-      {"word": "foster", "phonetic": "/ˈfɒstə(r)/", "pos": "v.", "cn": "促进，培养", "en_def": "to encourage the development of something", "example": "Communal gardens foster interaction among neighbours.", "example_cn": "社区花园促进邻里之间的交流。"},
-      {"word": "mitigate", "phonetic": "/ˈmɪtɪɡeɪt/", "pos": "v.", "cn": "缓和，减轻（危害）", "en_def": "to make something harmful less serious", "example": "Vegetation helps to mitigate the urban heat island effect.", "example_cn": "植被有助于缓解城市热岛效应。"},
-      {"word": "contend", "phonetic": "/kənˈtend/", "pos": "v.", "cn": "主张，认为（用于引出观点）", "en_def": "to argue or claim that something is true", "example": "Critics contend that parks are a questionable priority.", "example_cn": "批评者主张，公园的优先级值得质疑。"},
-      {"word": "scarce", "phonetic": "/skeəs/", "pos": "adj.", "cn": "稀缺的，不足的", "en_def": "insufficient for the demand", "example": "Land is scarce in most major cities.", "example_cn": "在大多数大城市，土地都很稀缺。"},
-      {"word": "trade-off", "phonetic": "/ˈtreɪd ɒf/", "pos": "n.", "cn": "权衡，取舍", "en_def": "a balance between two opposing things", "example": "There is a trade-off between housing and green space.", "example_cn": "住房与绿地之间存在权衡取舍。"}
+      {
+        "word": "unprecedented",
+        "phonetic": "/ʌnˈpresɪdentɪd/",
+        "pos": "adj.",
+        "cn": "前所未有的，空前的",
+        "en_def": "never having happened before",
+        "example": "Cities are expanding at an unprecedented pace.",
+        "example_cn": "城市正以前所未有的速度扩张。"
+      },
+      {
+        "word": "infrastructure",
+        "phonetic": "/ˈɪnfrəstrʌktʃə(r)/",
+        "pos": "n.",
+        "cn": "基础设施",
+        "en_def": "basic systems and services of a country or city",
+        "example": "Green spaces are now seen as essential infrastructure.",
+        "example_cn": "绿地如今被视为必不可少的基础设施。"
+      },
+      {
+        "word": "cohesion",
+        "phonetic": "/kəʊˈhiːʒn/",
+        "pos": "n.",
+        "cn": "凝聚力，团结",
+        "en_def": "the state of sticking together as a united whole",
+        "example": "Parks contribute to the social cohesion of a community.",
+        "example_cn": "公园有助于增强社区的社会凝聚力。"
+      },
+      {
+        "word": "compelling",
+        "phonetic": "/kəmˈpelɪŋ/",
+        "pos": "adj.",
+        "cn": "令人信服的，有说服力的",
+        "en_def": "very convincing",
+        "example": "The physiological evidence is compelling.",
+        "example_cn": "生理层面的证据十分令人信服。"
+      },
+      {
+        "word": "alleviate",
+        "phonetic": "/əˈliːvieɪt/",
+        "pos": "v.",
+        "cn": "缓解，减轻",
+        "en_def": "to make something less severe",
+        "example": "Contact with nature can alleviate mental fatigue.",
+        "example_cn": "接触自然可以缓解精神疲劳。"
+      },
+      {
+        "word": "foster",
+        "phonetic": "/ˈfɒstə(r)/",
+        "pos": "v.",
+        "cn": "促进，培养",
+        "en_def": "to encourage the development of something",
+        "example": "Communal gardens foster interaction among neighbours.",
+        "example_cn": "社区花园促进邻里之间的交流。"
+      },
+      {
+        "word": "mitigate",
+        "phonetic": "/ˈmɪtɪɡeɪt/",
+        "pos": "v.",
+        "cn": "缓和，减轻（危害）",
+        "en_def": "to make something harmful less serious",
+        "example": "Vegetation helps to mitigate the urban heat island effect.",
+        "example_cn": "植被有助于缓解城市热岛效应。"
+      },
+      {
+        "word": "contend",
+        "phonetic": "/kənˈtend/",
+        "pos": "v.",
+        "cn": "主张，认为（用于引出观点）",
+        "en_def": "to argue or claim that something is true",
+        "example": "Critics contend that parks are a questionable priority.",
+        "example_cn": "批评者主张，公园的优先级值得质疑。"
+      },
+      {
+        "word": "scarce",
+        "phonetic": "/skeəs/",
+        "pos": "adj.",
+        "cn": "稀缺的，不足的",
+        "en_def": "insufficient for the demand",
+        "example": "Land is scarce in most major cities.",
+        "example_cn": "在大多数大城市，土地都很稀缺。"
+      },
+      {
+        "word": "trade-off",
+        "phonetic": "/ˈtreɪd ɒf/",
+        "pos": "n.",
+        "cn": "权衡，取舍",
+        "en_def": "a balance between two opposing things",
+        "example": "There is a trade-off between housing and green space.",
+        "example_cn": "住房与绿地之间存在权衡取舍。"
+      }
     ],
     "quiz": [
       {
@@ -64,7 +144,12 @@
       },
       {
         "q": "The word 'mitigate' in paragraph 3 is closest in meaning to…",
-        "options": ["measure", "reduce", "create", "ignore"],
+        "options": [
+          "measure",
+          "reduce",
+          "create",
+          "ignore"
+        ],
         "answer": 1,
         "explain": "mitigate 意为'缓解、减轻'，与 reduce 最接近。这是雅思阅读高频词汇题型：结合上下文'缓解热岛效应'即可判断。"
       },
@@ -97,6 +182,136 @@
       "让步与反驳：批评者认为土地稀缺时公园挤占住房（trade-off）；作者用垂直花园、绿色屋顶、口袋公园回应——密度与绿化可以兼得。",
       "高频写作素材：本文的论证链可直接用于雅思写作 Task 2 城市化/环境类话题，如 'Some people think parks are a waste of valuable urban land'。",
       "今日必背词：unprecedented（前所未有的）、alleviate（缓解）、mitigate（减轻）、foster（促进）、trade-off（权衡）——这五个词在雅思阅读与写作中出现频率极高。"
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "title": "The Integration of AI into Modern Education",
+    "titleCn": "人工智能融入现代教育",
+    "topic": "科技与教育",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "The rapid advancement of artificial intelligence has begun to reshape classrooms worldwide. From personalised learning platforms to automated grading systems, AI tools are increasingly embedded in the educational process, offering both unprecedented convenience and new challenges.",
+        "cn": "人工智能的快速发展已经开始重塑全球课堂。从个性化学习平台到自动评分系统，AI 工具正日益嵌入教育过程，既带来前所未有的便利，也带来新的挑战。"
+      },
+      {
+        "en": "Proponents argue that AI can alleviate teachers' workload and tailor instruction to individual needs. However, critics warn that over-reliance on algorithms may weaken critical thinking and reduce genuine human interaction, which lies at the heart of education.",
+        "cn": "支持者认为，AI 能减轻教师负担并按需定制教学。然而，批评者警告，过度依赖算法可能削弱批判性思维，并减少作为教育核心的真实人际互动。"
+      },
+      {
+        "en": "Striking a balance will be essential: technology should assist, not replace, the human element in teaching.",
+        "cn": "取得平衡至关重要：技术应当辅助而非取代教学中的人文要素。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "advancement",
+        "phonetic": "/ədˈvɑːnsmənt/",
+        "pos": "n.",
+        "cn": "进步，发展",
+        "en_def": "the process of improving or moving forward",
+        "example": "The advancement of AI has reshaped many industries.",
+        "example_cn": "人工智能的进步重塑了许多行业。"
+      },
+      {
+        "word": "embedded",
+        "phonetic": "/ɪmˈbedɪd/",
+        "pos": "adj.",
+        "cn": "嵌入的",
+        "en_def": "fixed firmly into something",
+        "example": "AI is now embedded in daily tools.",
+        "example_cn": "人工智能现已嵌入日常工具。"
+      },
+      {
+        "word": "alleviate",
+        "phonetic": "/əˈliːvieɪt/",
+        "pos": "v.",
+        "cn": "减轻",
+        "en_def": "to make something less severe",
+        "example": "AI helps alleviate teachers' workload.",
+        "example_cn": "人工智能有助于减轻教师的工作负担。"
+      },
+      {
+        "word": "over-reliance",
+        "phonetic": "/ˌəʊvə rɪˈlaɪəns/",
+        "pos": "n.",
+        "cn": "过度依赖",
+        "en_def": "depending too much on something",
+        "example": "Over-reliance on algorithms is risky.",
+        "example_cn": "过度依赖算法是危险的。"
+      },
+      {
+        "word": "critical thinking",
+        "phonetic": "/ˈkrɪtɪkl ˈθɪŋkɪŋ/",
+        "pos": "n.",
+        "cn": "批判性思维",
+        "en_def": "the objective analysis of facts",
+        "example": "Education should cultivate critical thinking.",
+        "example_cn": "教育应培养批判性思维。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the main idea of the passage?",
+        "options": [
+          "AI will completely replace teachers",
+          "AI is reshaping education with both benefits and challenges",
+          "Classrooms reject technology",
+          "Teachers' workload is increasing"
+        ],
+        "answer": 1,
+        "explain": "文章讨论了 AI 在教育中的便利与挑战，强调平衡。"
+      },
+      {
+        "q": "The word embedded in paragraph 1 is closest in meaning to:",
+        "options": [
+          "removed",
+          "fixed into",
+          "ignored",
+          "delayed"
+        ],
+        "answer": 1,
+        "explain": "embedded 意为嵌入、固定其中。"
+      },
+      {
+        "q": "According to critics, over-reliance on AI may:",
+        "options": [
+          "improve human interaction",
+          "weaken critical thinking",
+          "reduce teachers' salary",
+          "increase class size"
+        ],
+        "answer": 1,
+        "explain": "批评者认为过度依赖会削弱批判性思维。"
+      },
+      {
+        "q": "What does the author suggest as essential?",
+        "options": [
+          "Banning AI in schools",
+          "Replacing teachers with AI",
+          "Striking a balance between tech and human element",
+          "Using only automated grading"
+        ],
+        "answer": 2,
+        "explain": "作者主张技术应辅助而非取代人文要素，需取得平衡。"
+      },
+      {
+        "q": "Which is a benefit of AI mentioned in the text?",
+        "options": [
+          "Tailored instruction to individual needs",
+          "Higher tuition fees",
+          "Less human interaction",
+          "More homework"
+        ],
+        "answer": 0,
+        "explain": "文中提到 AI 可按需定制教学。"
+      }
+    ],
+    "summary": [
+      "人工智能正重塑全球教育，带来便利也带来挑战",
+      "支持者看重减负与个性化，批评者担忧思维与互动弱化",
+      "关键是在技术与人文要素间取得平衡，技术应辅助而非取代教师"
     ]
   }
 ]
