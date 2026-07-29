@@ -91,11 +91,16 @@ input:focus,select:focus,textarea:focus{border-color:var(--primary-light)}
 .cal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
 .cal-head .m{font-size:15px;font-weight:700}
 .cal-head button{width:32px;height:32px;border-radius:11px;background:var(--bg);font-size:14px}
-.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;text-align:center}
-.cal-grid .wd{font-size:11px;color:var(--text2);padding:4px 0}
-.cal-day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:13px;border-radius:11px;position:relative}
-.cal-day.checked{background:var(--tt-purple);color:#fff;font-weight:700}
-.cal-day.today{outline:2px solid var(--tt-yellow);outline-offset:-2px;font-weight:700}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+.cal-grid .wd{font-size:11px;color:var(--text2);padding:6px 0 4px;text-align:center}
+.cal-cell{min-height:62px;border-radius:10px;padding:4px 3px 3px;display:flex;flex-direction:column;align-items:center;background:var(--bg);position:relative;overflow:hidden}
+.cal-cell.today{outline:2px solid var(--tt-yellow);outline-offset:-1px}
+.cal-cell .cal-date{font-size:14px;font-weight:700;color:var(--text);line-height:1.2}
+.cal-cell .cal-tags{display:flex;flex-direction:column;gap:2px;width:100%;margin-top:1px}
+.cal-tag{display:flex;align-items:center;gap:2px;font-size:9.5px;line-height:1.25;padding:2px 4px;border-radius:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#444;font-weight:500;max-width:100%}
+.cal-tag .tg-ic{flex-shrink:0;font-size:10px}
+.cal-tag .tg-tx{flex:1;overflow:hidden;text-overflow:ellipsis}
+.cal-cell.empty{background:transparent}
 .note-item{display:flex;gap:10px;padding:12px 0;border-bottom:1px solid var(--border);font-size:14px}
 .note-item:last-child{border-bottom:none}
 .note-item .d{color:var(--text2);font-size:12px;flex-shrink:0;width:74px;padding-top:2px}
@@ -1153,6 +1158,12 @@ function askDelWeight(id, key){
 /* ---- 运动记录（健身打卡）---- */
 function getWoTy(){ return (db.workoutTypes && db.workoutTypes.length) ? db.workoutTypes : WORKOUT_TYPES; }
 function woType(k){ const list=getWoTy(); return list.find(t=>t.k===k) || {icon:'🏷️', name:k, dist:false}; }
+const WO_COLORS = {
+  run:'#e8d5f5', walk:'#d5f0e8', cycle:'#d5e8f5', swim:'#d0f0f8',
+  strength:'#f5e0cc', hiit:'#f5d5d5', yoga:'#e0dff5', hike:'#e8edd0',
+  incline:'#f5ecd0', dance:'#f5d0e8', other:'#e8e8e8'
+};
+function woColor(k){ return WO_COLORS[k] || WO_COLORS.other; }
 function fmtMins(m){
   m = Math.round(m||0);
   if(m<60) return m+' 分钟';
@@ -1193,16 +1204,27 @@ function renderWorkout(m){
     cmp = `<div class="wo-cmp">较上月 ${diff>=0?'<span class="w-down">+'+fmtMins(diff)+' ↑</span>':'<span class="w-up">-'+fmtMins(-diff)+' ↓</span>'}（上月 ${fmtMins(pMins)}）</div>`;
   }
 
-  // 日历（有运动的日子标记）
-  const dayset = new Set(mss.map(s=>s.date));
+  // 运动日历（网格卡片视图）
+  const byDayMap = {};
+  mss.forEach(s=>{ if(!byDayMap[s.date]) byDayMap[s.date]=[]; byDayMap[s.date].push(s); });
   const firstDay = new Date(y,mo,1).getDay();
   const daysInMonth = new Date(y,mo+1,0).getDate();
   let cal = ['日','一','二','三','四','五','六'].map(w=>`<div class="wd">${w}</div>`).join('');
-  for(let i=0;i<firstDay;i++) cal += '<div></div>';
+  for(let i=0;i<firstDay;i++) cal += '<div class="cal-cell empty"></div>';
   for(let day=1;day<=daysInMonth;day++){
     const ds = ym+'-'+String(day).padStart(2,'0');
-    const cls = (dayset.has(ds)?'checked ':'') + (ds===today?'today':'');
-    cal += `<div class="cal-day ${cls}">${day}</div>`;
+    const sessions = byDayMap[ds] || [];
+    const isToday = ds===today;
+    if(!sessions.length){
+      cal += `<div class="cal-cell${isToday?' today':''}"><span class="cal-date">${day}</span></div>`;
+    }else{
+      const tags = sessions.map(s=>{
+        const t = woType(s.wtype);
+        const timeStr = (+s.mins>0) ? fmtMins(+s.mins) : '';
+        return `<span class="cal-tag" style="background:${woColor(s.wtype)}"><span class="tg-ic">${t.icon}</span><span class="tg-tx">${t.name}${timeStr?' '+timeStr:''}</span></span>`;
+      }).join('');
+      cal += `<div class="cal-cell${isToday?' today':''}" onclick="showDayWorkouts('${m.id}','${ds}')"><span class="cal-date">${day}</span><div class="cal-tags">${tags}</div></div>`;
+    }
   }
 
   // 每日时长柱状图
@@ -1265,7 +1287,12 @@ function renderWorkout(m){
     ${dist?`<div class="section-title" style="margin:12px 0 6px;font-size:13px">类型分布</div>${dist}`:''}
   </div>
   <div class="card">
-    <div class="section-title" style="margin:0 0 6px">运动日历</div>
+    <div class="cal-head" style="margin-bottom:8px">
+      <button onclick="moveCal(-1)">‹</button>
+      <span style="font-size:11px;color:var(--text2)">${y}年</span>
+      <span class="m">${mo+1}月</span>
+      <button onclick="moveCal(1)">›</button>
+    </div>
     <div class="cal-grid">${cal}</div>
   </div>
   ${recent.length?`<div class="card"><div class="section-title" style="margin:0 0 4px">最近记录</div>${rows}</div>`:''}`;
@@ -1342,6 +1369,22 @@ function saveWorkout(id){
   modData(id).sessions.push({id:uid(), date, wtype:tmpWoType, mins, kcal:(kcal>0?kcal:null), km:(km>0?Math.round(km*100)/100:null), note});
   save(); closeModal(); render();
   toast(woType(tmpWoType).icon+' 已记录！连续运动 '+woStreak(modData(id).sessions)+' 天 🎉');
+}
+function showDayWorkout(id, date){
+  const daySs = modData(id).sessions.filter(s=>s.date===date);
+  if(!daySs.length){ toast('当天无记录'); return; }
+  const totalMins = daySs.reduce((a,s)=>a+(+s.mins||0),0);
+  const items = daySs.map(s=>{
+    const t = woType(s.wtype);
+    const meta = [ (+s.mins>0?fmtMins(+s.mins):''), (+s.kcal>0? s.kcal+' 千卡':''), (+s.km>0? s.km+' km':'') ].filter(Boolean).join(' · ');
+    return `<div style="display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--border)">
+      <span style="font-size:22px;flex-shrink:0">${t.icon}</span>
+      <div style="flex:1"><div style="font-size:14px;font-weight:600">${t.name}${s.note?' <span style="font-weight:400;color:var(--text2);font-size:12.5px">'+esc(s.note)+'</span>':''}</div>${meta?`<div style="font-size:12px;color:var(--text2);margin-top:1px">${meta}</div>`:''}</div>
+      <button class="dl" onclick="askDelWorkout('${id}','${s.id}')">🗑</button>
+    </div>`;
+  }).join('');
+  openModal(`<h3>📅 ${date} · ${daySs.length}次运动 · ${fmtMins(totalMins)}</h3><div>${items}</div>
+    <div class="modal-btns" style="margin-top:4px"><button class="btn-cancel" onclick="closeModal()">关闭</button></div>`);
 }
 function askDelWorkout(id, sid){
   const s = modData(id).sessions.find(x=>x.id===sid);
