@@ -1063,7 +1063,7 @@ function renderWeight(m){
   <div class="card">
     ${head}
     <div class="w-form">
-      <input type="number" id="wVal" inputmode="decimal" step="0.1" min="40" max="600" placeholder="体重（斤）" value="${logs[today]?jin(logs[today]):''}">
+      <input type="text" id="wVal" inputmode="decimal" pattern="[0-9]*\.?[0-9]?" placeholder="体重（斤）" value="${logs[today]?jin(logs[today]):''}">
       <input type="date" id="wDate" value="${today}" max="${today}">
       <button onclick="saveWeight('${m.id}')">${logs[today]?'更新':'记录'}</button>
     </div>
@@ -1120,7 +1120,9 @@ function weightChart(logs, y, mo){
   </svg>`;
 }
 function saveWeight(id){
-  const v = parseFloat(document.getElementById('wVal').value);
+  let raw = document.getElementById('wVal').value;
+  raw = raw.replace(/，|,/g, '.');
+  const v = parseFloat(raw);
   const date = document.getElementById('wDate').value;
   if(!v || v<40 || v>600){ toast('请输入有效体重（40-600 斤）'); return; }
   if(!date){ toast('请选择日期'); return; }
