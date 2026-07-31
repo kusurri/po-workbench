@@ -467,5 +467,158 @@
       "但先天气质与生活境遇设定了情绪基线，习得的策略应作为专业治疗的补充，而非替代。",
       "文化背景影响幸福的定义，集体主义社会更看重社会和谐，因此并不存在一套普适的幸福公式。"
     ]
+  },
+  {
+    "date": "2026-08-01",
+    "title": "The Preservation of Cultural Heritage in an Age of Globalization",
+    "titleCn": "全球化时代的文化遗产保护",
+    "topic": "文化",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "In an era defined by unprecedented global interconnectedness, the fate of cultural heritage has become a pressing concern for scholars and policymakers alike. As borders grow more permeable and local traditions encounter foreign influences, communities worldwide are grappling with a fundamental question: how can distinct cultural identities be safeguarded while still embracing the benefits of exchange?",
+        "cn": "在一个以前所未有的全球互联为特征的时代，文化遗产的命运已成为学者与政策制定者共同关注的紧迫议题。随着边界变得更具渗透性、地方传统遭遇外来影响，世界各地的社群都在努力思考一个根本问题：如何在拥抱交流之利的同时守护独特的文化身份？"
+      },
+      {
+        "en": "Proponents of cultural preservation argue that heritage is far more than a collection of monuments and artifacts; it constitutes the living memory of a people and a source of social cohesion. When a language vanishes or a ritual is abandoned, the community loses a vital thread in the fabric of its collective identity, often with irreversible consequences for future generations.",
+        "cn": "文化遗产保护的支持者认为，遗产远不止是一系列纪念碑与文物；它构成了一个民族的鲜活记忆，也是社会凝聚力的源泉。当一种语言消亡或一项仪式被放弃，社群便失去了其集体身份结构中至关重要的一缕脉络，往往给后代带来不可逆转的后果。"
+      },
+      {
+        "en": "Yet critics caution against an overly defensive stance. They contend that cultures have always been dynamic, borrowing and blending elements across boundaries. Treating heritage as a static relic to be frozen in time, they warn, may stifle creativity and alienate younger generations who naturally seek relevance in a rapidly changing world.",
+        "cn": "然而，批评者警惕一种过度防御的姿态。他们认为，文化向来是动态的，一直在跨越边界借鉴与融合各种元素。他们警告说，若将遗产视为亟待冻结于时光中的静态遗物，可能会扼杀创造力，并疏远那些在快速变化的世界中天然寻求相关性的年轻一代。"
+      },
+      {
+        "en": "A more balanced approach recognizes that preservation and evolution are not mutually exclusive. Rather than erecting barriers, communities can document their traditions, integrate them into education, and present them through digital platforms that reach global audiences. In this way, heritage becomes a living dialogue rather than a museum piece, retaining meaning while inviting participation.",
+        "cn": "一种更为平衡的路径认识到，保护与发展并非相互排斥。社群不必筑起高墙，而可以记录其传统、将其融入教育，并通过触达全球受众的数字平台加以呈现。如此，遗产便成为一种鲜活的对话而非博物馆展品，在保留意义的同时接纳参与。"
+      },
+      {
+        "en": "Ultimately, the preservation of cultural heritage is less about resisting change than about exercising agency over it. By consciously deciding what to carry forward, societies affirm their values and offer future generations a rooted sense of belonging. In a globalized world, the true measure of cultural strength lies not in isolation, but in the confidence to remain oneself while engaging with others.",
+        "cn": "归根结底，文化遗产的保护并非关乎抵制变化，而是关乎对变化行使主动权。通过有意识地决定传承什么，社会得以确认自身价值，并为后代提供一种有根基的归属感。在一个全球化的世界里，文化真正韧性的衡量标准不在于孤立，而在于在与人交往时依然保持自我的那份自信。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "interconnectedness",
+        "phonetic": "/ˌɪntəkəˈnektɪdnəs/",
+        "pos": "n.",
+        "cn": "相互关联；互联性",
+        "en_def": "the state of being connected with each other",
+        "example": "The interconnectedness of global markets means a crisis in one region can spread quickly.",
+        "example_cn": "全球市场的互联性意味着一个地区的危机可以迅速扩散。"
+      },
+      {
+        "word": "permeable",
+        "phonetic": "/ˈpɜːmiəbl/",
+        "pos": "adj.",
+        "cn": "可渗透的；易进入的",
+        "en_def": "allowing substances or influences to pass through",
+        "example": "Cultural borders have become increasingly permeable in the digital age.",
+        "example_cn": "在数字时代，文化边界已变得日益可渗透。"
+      },
+      {
+        "word": "cohesion",
+        "phonetic": "/kəʊˈhiːʒn/",
+        "pos": "n.",
+        "cn": "凝聚力；团结",
+        "en_def": "the act or state of sticking together; unity",
+        "example": "Shared rituals strengthen social cohesion within a community.",
+        "example_cn": "共同的仪式增强了社群内部的社会凝聚力。"
+      },
+      {
+        "word": "vanish",
+        "phonetic": "/ˈvænɪʃ/",
+        "pos": "v.",
+        "cn": "消失；消亡",
+        "en_def": "to disappear suddenly or cease to exist",
+        "example": "It is estimated that a language vanishes somewhere in the world every two weeks.",
+        "example_cn": "据估计，世界上每两周就有一种语言在某个地方消亡。"
+      },
+      {
+        "word": "dynamic",
+        "phonetic": "/daɪˈnæmɪk/",
+        "pos": "adj.",
+        "cn": "动态的；不断变化的",
+        "en_def": "characterized by constant change or activity",
+        "example": "Culture is a dynamic system that evolves with each generation.",
+        "example_cn": "文化是一个随着每一代而演化的动态系统。"
+      },
+      {
+        "word": "stifle",
+        "phonetic": "/ˈstaɪfl/",
+        "pos": "v.",
+        "cn": "扼杀；抑制",
+        "en_def": "to prevent or constrain the development of something",
+        "example": "Excessive regulation may stifle artistic creativity.",
+        "example_cn": "过度的监管可能会扼杀艺术创造力。"
+      },
+      {
+        "word": "mutually exclusive",
+        "phonetic": "/ˌmjuːtʃuəli ɪkˈskluːsɪv/",
+        "pos": "phrase",
+        "cn": "相互排斥的",
+        "en_def": "unable to exist or be true at the same time",
+        "example": "Preservation and innovation are not mutually exclusive goals.",
+        "example_cn": "保护与创新并非相互排斥的目标。"
+      },
+      {
+        "word": "agency",
+        "phonetic": "/ˈeɪdʒənsi/",
+        "pos": "n.",
+        "cn": "主动性；自主权",
+        "en_def": "the capacity to act or exert power independently",
+        "example": "Cultural preservation is about exercising agency over how traditions change.",
+        "example_cn": "文化遗产保护关乎对传统的演变方式行使主动权。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what does cultural heritage primarily represent to a community?",
+        "options": [
+          "A collection of tourist attractions that generate income",
+          "The living memory of a people and a source of social cohesion",
+          "A static relic that must be frozen in time",
+          "A barrier preventing exchange with other cultures"
+        ],
+        "answer": 1,
+        "explain": "第二段指出，支持者认为遗产远不止是文物，它构成了一个民族的鲜活记忆与社会凝聚力的源泉。"
+      },
+      {
+        "q": "What concern do critics raise about an overly defensive approach to heritage?",
+        "options": [
+          "It encourages too much borrowing from other cultures",
+          "It may stifle creativity and alienate younger generations",
+          "It leads to the rapid disappearance of local languages",
+          "It makes heritage too commercial and profitable"
+        ],
+        "answer": 1,
+        "explain": "第三段批评者警告，将遗产视为静止的遗物可能扼杀创造力并疏远年轻一代。"
+      },
+      {
+        "q": "Which of the following is presented as a balanced approach to preservation?",
+        "options": [
+          "Erecting barriers to block foreign influences",
+          "Freezing traditions in museums without participation",
+          "Documenting traditions and sharing them via digital platforms",
+          "Abandoning rituals that seem outdated"
+        ],
+        "answer": 2,
+        "explain": "第四段提出，通过记录传统、融入教育并用数字平台呈现，使遗产成为鲜活的对话。"
+      },
+      {
+        "q": "What is the author's final view on preserving cultural heritage?",
+        "options": [
+          "It requires isolating culture from outside influence",
+          "It is about resisting all forms of change",
+          "It means exercising agency over change while staying true to oneself",
+          "It depends entirely on government regulation"
+        ],
+        "answer": 2,
+        "explain": "第五段总结，保护的真谛在于对变化行使主动权，并在与人交往时保持自我。"
+      }
+    ],
+    "summary": [
+      "文化遗产保护的核心不是抵制变化，而是以主动姿态决定传承什么，从而维系社群身份与凝聚力。",
+      "平衡之道在于让遗产成为鲜活的对话：通过记录、教育与数字平台使其既保留意义又接纳参与，在全球化中保持文化自信。"
+    ]
   }
 ]
