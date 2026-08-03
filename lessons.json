@@ -773,5 +773,158 @@
       "数字健康技术既能赋权患者、实现早期风险识别，也可能因过度自我监测引发网络疑病症等焦虑。",
       "只有配合清晰监管、透明的数据实践与专业引导，才能发挥其益处、缓解隐私与公平方面的隐患。"
     ]
+  },
+  {
+    "date": "2026-08-04",
+    "title": "The Gig Economy: Flexibility or Precarity?",
+    "titleCn": "零工经济：弹性还是不稳定？",
+    "topic": "经济",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "Over the past decade, the gig economy has reshaped the way millions of people earn a living. Platforms that connect workers with short-term tasks, from ride-hailing to freelance design, have multiplied at an astonishing pace. What began as a fringe arrangement is now a defining feature of modern labour markets in both developed and developing nations.",
+        "cn": "过去十年间，零工经济重塑了数以百万计的人谋生的方式。将劳动者与短期任务（从网约车到自由职业设计）连接起来的平台以惊人的速度激增。这种最初属于边缘的就业形态，如今已成为发达国家与发展中国家现代劳动力市场的一个标志性特征。"
+      },
+      {
+        "en": "Proponents argue that the model offers unmatched flexibility and autonomy. Workers can choose when, where, and how much they work, fitting jobs around childcare, study, or other commitments. For students and caregivers, this freedom is often the very reason they enter the gig sector rather than seek traditional employment.",
+        "cn": "支持者认为，这种模式提供了无与伦比的灵活性与自主权。劳动者可以自行选择工作的时间、地点与时长，从而将工作与育儿、学习或其他事务相协调。对学生和需要照顾家人的人而言，这种自由往往是他们进入零工行业、而非寻求传统雇佣的根本原因。"
+      },
+      {
+        "en": "Yet critics warn that this flexibility can mask a darker reality. Gig workers are typically classified as independent contractors, which strips them of sick pay, pensions, and unemployment protection. The result is a precarious existence in which a single illness or quiet week can threaten a person's ability to pay rent.",
+        "cn": "然而，批评者警告，这种灵活性可能掩盖了一个更为阴暗的现实。零工劳动者通常被归类为独立承包人，这使他们丧失了病假工资、养老金与失业保障。其结果是一种不稳定的生存状态：一次生病或清淡的一周，就可能危及一个人支付房租的能力。"
+      },
+      {
+        "en": "The broader economic implications are equally contested. Some economists see the gig economy as a source of innovation that lowers barriers to entry and keeps consumer prices down. Others fear it erodes hard-won labour standards and enables the exploitation of vulnerable workers. Regulators worldwide are now grappling with how to tax, protect, and define this new class of employee.",
+        "cn": "其更广泛的经济影响同样充满争议。一些经济学家将零工经济视为创新的源泉，认为它降低了进入门槛、压低了消费价格。另一些人则担心它在侵蚀得来不易的劳工标准，并使弱势劳动者遭到剥削。世界各地的监管机构如今正艰难应对如何对这一新型雇员群体进行征税、保护与界定。"
+      },
+      {
+        "en": "In conclusion, the gig economy is neither purely liberating nor wholly destructive. Its future depends on whether societies can preserve the autonomy workers value while mitigating the insecurity they endure. Thoughtful regulation, rather than outright bans, may be the surest path to a fairer digital marketplace.",
+        "cn": "总而言之，零工经济既非纯粹的赋权，也非全然的破坏。它的未来取决于社会能否在保留劳动者所珍视的自主权的同时，缓解他们所承受的不安全感。审慎的监管而非全盘禁止，或许才是通向更公平的数字市场最可靠的道路。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "gig economy",
+        "phonetic": "/ɡɪɡ ɪˈkɒnəmi/",
+        "pos": "n.",
+        "cn": "零工经济",
+        "en_def": "an economic system based on short-term contracts and freelance work rather than permanent jobs",
+        "example": "The gig economy has grown rapidly since the launch of ride-hailing apps.",
+        "example_cn": "自网约车应用问世以来，零工经济迅速壮大。"
+      },
+      {
+        "word": "precarious",
+        "phonetic": "/prɪˈkeəriəs/",
+        "pos": "adj.",
+        "cn": "不稳定的；不安全的",
+        "en_def": "not safely or securely held; dependent on chance",
+        "example": "Many gig workers face a precarious financial situation each month.",
+        "example_cn": "许多零工劳动者每月都面临不稳定的财务状况。"
+      },
+      {
+        "word": "flexibility",
+        "phonetic": "/ˌfleksəˈbɪləti/",
+        "pos": "n.",
+        "cn": "灵活性",
+        "en_def": "the quality of being easily changed or adapted to different circumstances",
+        "example": "Flexibility is the main attraction of freelance work.",
+        "example_cn": "灵活性是自由职业最吸引人的地方。"
+      },
+      {
+        "word": "autonomy",
+        "phonetic": "/ɔːˈtɒnəmi/",
+        "pos": "n.",
+        "cn": "自主权；自治",
+        "en_def": "the right or condition of self-government and independent control",
+        "example": "Workers value the autonomy to set their own schedules.",
+        "example_cn": "劳动者看重自主安排工作时间的权利。"
+      },
+      {
+        "word": "exploitation",
+        "phonetic": "/ˌeksplɔɪˈteɪʃn/",
+        "pos": "n.",
+        "cn": "剥削；利用",
+        "en_def": "the action of making use of and benefiting from a person or resource unfairly",
+        "example": "Critics highlight the exploitation of workers with no legal protection.",
+        "example_cn": "批评者指出，缺乏法律保护的劳动者正遭到剥削。"
+      },
+      {
+        "word": "surge",
+        "phonetic": "/sɜːdʒ/",
+        "pos": "n./v.",
+        "cn": "激增；猛涨",
+        "en_def": "a sudden powerful forward or upward movement",
+        "example": "The surge in platform users caught regulators off guard.",
+        "example_cn": "平台用户的激增让监管机构措手不及。"
+      },
+      {
+        "word": "regulatory",
+        "phonetic": "/ˈreɡjələtəri/",
+        "pos": "adj.",
+        "cn": "监管的；规章的",
+        "en_def": "relating to the supervision and control of activities by rules",
+        "example": "New regulatory frameworks aim to protect gig workers.",
+        "example_cn": "新的监管框架旨在保护零工劳动者。"
+      },
+      {
+        "word": "mitigate",
+        "phonetic": "/ˈmɪtɪɡeɪt/",
+        "pos": "v.",
+        "cn": "缓解；减轻",
+        "en_def": "to make something less severe, harmful, or painful",
+        "example": "Insurance schemes could mitigate the risks of unstable income.",
+        "example_cn": "保险机制可以缓解收入不稳定带来的风险。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what is the main appeal of the gig economy for workers?",
+        "options": [
+          "High and stable salaries",
+          "Flexibility and autonomy over their schedule",
+          "Generous pensions and sick pay",
+          "Guaranteed full-time employment"
+        ],
+        "answer": 1,
+        "explain": "第二段指出，零工模式提供灵活性与自主权，劳动者可自行安排时间，这对学生与照顾家庭者尤为重要。"
+      },
+      {
+        "q": "Why are gig workers said to face a precarious existence?",
+        "options": [
+          "They must work fixed night shifts",
+          "They are classified as independent contractors without social protection",
+          "They earn more than traditional employees",
+          "They are banned from using platforms"
+        ],
+        "answer": 1,
+        "explain": "第三段说明，零工劳动者被归为独立承包人，因而失去病假工资、养老金与失业保障，导致生活不稳定。"
+      },
+      {
+        "q": "The word 'mitigate' in the final paragraph is closest in meaning to:",
+        "options": [
+          "increase",
+          "ignore",
+          "reduce the severity of",
+          "replace completely"
+        ],
+        "answer": 2,
+        "explain": "末段中 mitigate 意为「缓解、减轻」，指减轻劳动者承受的不安全感，与 'reduce the severity of' 相符。"
+      },
+      {
+        "q": "What stance does the author take on regulating the gig economy?",
+        "options": [
+          "It should be banned entirely",
+          "It requires no government intervention",
+          "Thoughtful regulation is preferable to outright bans",
+          "Only consumers should decide the rules"
+        ],
+        "answer": 2,
+        "explain": "末段明确指出，审慎的监管而非全盘禁止，才是通向更公平数字市场最可靠的路径。"
+      }
+    ],
+    "summary": [
+      "零工经济在提供灵活性与自主权的同时，也带来缺乏社会保障、收入不稳定等风险。",
+      "其未来取决于社会能否在保留劳动者自主权的同时，以审慎监管缓解不安全感，而非简单禁止。"
+    ]
   }
 ]
