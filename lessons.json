@@ -1232,5 +1232,158 @@
       "再野化主张减少人为干预，让生态系统通过自我调节与关键物种的回归来恢复，黄石公园狼群案例证明了其带来的连锁生态效益。",
       "尽管在人口稠密地区与被严重破坏的生态系统上面临挑战，再野化仍提供了一种以景观尺度修复自然、与人类实现可持续共存的希望路径。"
     ]
+  },
+  {
+    "date": "2026-08-16",
+    "title": "Redefining Work in the Age of Automation",
+    "titleCn": "在自动化时代重新定义工作",
+    "topic": "工作",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "For most of human history, work was synonymous with survival: tilling fields, building shelters, and trading goods. Today, however, the nature of work is being reshaped by forces that previous generations could scarcely imagine. Automation, powered by artificial intelligence and robotics, is no longer confined to factory assembly lines but is steadily entering offices, clinics, and even creative studios. This transformation raises a pressing question: what will it mean to have a job when machines can perform so many of the tasks once reserved for humans?",
+        "cn": "在人类历史的大部分时间里，工作等同于生存：耕种、建造居所、交易货物。然而今天，工作的本质正被前人难以想象的力量重塑。由人工智能与机器人驱动的自动化不再局限于工厂流水线，而是稳步进入办公室、诊所以至创意工作室。这一转变带来一个紧迫的问题：当机器能够承担诸多曾专属于人类的任务时，拥有一份工作究竟意味着什么？"
+      },
+      {
+        "en": "Critics warn that the rise of intelligent machines could lead to mass displacement. Routine, predictable jobs—data entry, basic translation, and repetitive manufacturing—are especially vulnerable, as algorithms can now execute them faster and more cheaply than any employee. For workers in these roles, the prospect of becoming redundant is not a distant fear but an immediate reality. In regions where social safety nets are weak, such disruption can deepen inequality and leave entire communities struggling to adapt.",
+        "cn": "批评者警告，智能机器的兴起可能导致大规模的岗位替代。例行性、可预测的工作——数据录入、基础翻译和重复性制造——尤其脆弱，因为算法如今能以比任何雇员更快、更低的成本完成它们。对这些岗位的从业者而言，被淘汰的前景并非遥远的担忧，而是眼前的现实。在社会安全网薄弱的地区，这种冲击会加剧不平等，让整个社群难以适应。"
+      },
+      {
+        "en": "Yet a more nuanced view suggests that technology need not be a zero-sum threat. Rather than simply replacing people, automation can augment human capability, freeing workers from tedious labour and allowing them to focus on judgement, empathy, and innovation. A doctor supported by diagnostic software can treat more patients with greater accuracy; a teacher using adaptive platforms can tailor lessons to each child. In this light, machines become a complement to human skill rather than its competitor.",
+        "cn": "然而，一种更细致的观点认为，技术未必是零和威胁。自动化并非简单地取代人，而是可以增强人的能力，把工作者从枯燥的劳动中解放出来，使其专注于判断、共情与创新。由诊断软件辅助的医生能更准确诊治更多患者；借助自适应平台的教师能为每个孩子量身定制课程。如此看来，机器成为人类技能的补充，而非对手。"
+      },
+      {
+        "en": "The decisive factor, then, is not the technology itself but how societies respond. Governments and employers must invest in lifelong learning, helping workers acquire the adaptability that machines lack. Reskilling programmes, portable benefits, and a willingness to rethink the standard career path will be essential. Countries that treat education as a continuous process—rather than a one-time credential—are far better positioned to turn disruption into opportunity.",
+        "cn": "因此，决定性的因素不是技术本身，而是社会如何回应。政府与企业必须投资终身学习，帮助工作者获得机器所缺乏的适应能力。再培训项目、可携带的福利，以及重新思考传统职业路径的意愿，都将至关重要。那些把教育视为持续过程而非一次性凭证的国家，更有可能将冲击转化为机遇。"
+      },
+      {
+        "en": "In conclusion, the future of work is unlikely to be a story of humans versus machines, but one of humans with machines. Precarious as the transition may feel, history suggests that each wave of automation ultimately creates new forms of labour we could not previously conceive. The challenge ahead is to ensure that these opportunities are shared widely, so that progress enriches lives rather than leaving workers behind.",
+        "cn": "总之，工作的未来不太可能是人与机器对立的故事，而更可能是人与机器协作的故事。尽管这一转型可能令人不安，但历史表明，每一轮自动化最终都会创造出我们此前无法设想的新型劳动。眼前的挑战在于确保这些机会被广泛共享，使进步惠及众生，而非将劳动者抛在身后。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "automation",
+        "phonetic": "/ˌɔːtəˈmeɪʃn/",
+        "pos": "n.",
+        "cn": "自动化",
+        "en_def": "the use of machines and computers to do work that was previously done by people",
+        "example": "Automation has transformed the way factories produce goods.",
+        "example_cn": "自动化改变了工厂生产商品的方式。"
+      },
+      {
+        "word": "displacement",
+        "phonetic": "/dɪsˈpleɪsmənt/",
+        "pos": "n.",
+        "cn": "取代；替代",
+        "en_def": "the act of replacing someone or something, especially in a job",
+        "example": "The displacement of clerical workers by software has accelerated.",
+        "example_cn": "文书工作被软件取代的速度已经加快。"
+      },
+      {
+        "word": "augment",
+        "phonetic": "/ɔːɡˈment/",
+        "pos": "v.",
+        "cn": "增强；扩大",
+        "en_def": "to make something larger, stronger, or more effective by adding to it",
+        "example": "Smart tools can augment a doctor's diagnostic ability.",
+        "example_cn": "智能工具能够增强医生的诊断能力。"
+      },
+      {
+        "word": "redundant",
+        "phonetic": "/rɪˈdʌndənt/",
+        "pos": "adj.",
+        "cn": "多余的；被淘汰的",
+        "en_def": "no longer needed because someone or something else can do the job",
+        "example": "Many routine roles have become redundant in the digital age.",
+        "example_cn": "在数字时代，许多例行性岗位已变得多余。"
+      },
+      {
+        "word": "adaptability",
+        "phonetic": "/əˌdæptəˈbɪləti/",
+        "pos": "n.",
+        "cn": "适应能力",
+        "en_def": "the ability to change in order to deal with new situations",
+        "example": "Adaptability is now a core requirement in the modern workplace.",
+        "example_cn": "适应能力如今是现代职场的核要求。"
+      },
+      {
+        "word": "reskilling",
+        "phonetic": "/riːˈskɪlɪŋ/",
+        "pos": "n.",
+        "cn": "再培训；技能重塑",
+        "en_def": "the process of learning new skills so you can do a different job",
+        "example": "Reskilling programmes help workers move into growing sectors.",
+        "example_cn": "再培训项目帮助劳动者转入增长中的行业。"
+      },
+      {
+        "word": "precarious",
+        "phonetic": "/prɪˈkeəriəs/",
+        "pos": "adj.",
+        "cn": "不稳定的；不安全的",
+        "en_def": "uncertain and likely to change or fail; not safe or steady",
+        "example": "The transition to new jobs can feel precarious at first.",
+        "example_cn": "向新工作的转型起初可能让人感到不安。"
+      },
+      {
+        "word": "complement",
+        "phonetic": "/ˈkɒmplɪment/",
+        "pos": "v.",
+        "cn": "补充；补足",
+        "en_def": "to add to something in a way that improves or completes it",
+        "example": "Machines should complement, not replace, human workers.",
+        "example_cn": "机器应当补充而非取代人类劳动者。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the central question raised in the first paragraph?",
+        "options": [
+          "Whether machines will ever exceed human intelligence",
+          "What having a job means when machines do human tasks",
+          "How factories can adopt robotics more quickly",
+          "Why previous generations feared technology"
+        ],
+        "answer": 1,
+        "explain": "首段以历史对比引出自动化的广泛渗透，最终落脚于“当机器能承担人类任务时，拥有一份工作意味着什么”这一核心问题，对应选项 1。"
+      },
+      {
+        "q": "Which type of job is described as most at risk from automation?",
+        "options": [
+          "Highly creative and artistic roles",
+          "Routine and predictable tasks",
+          "Senior management positions",
+          "Jobs requiring physical strength"
+        ],
+        "answer": 1,
+        "explain": "第二段明确指出例行性、可预测的工作（如数据录入、基础翻译）最易被算法更快更省地替代，对应选项 1。"
+      },
+      {
+        "q": "In the passage, the word “augment” is used to mean:",
+        "options": [
+          "replace completely",
+          "reduce the cost of",
+          "enhance or add to",
+          "compete against"
+        ],
+        "answer": 2,
+        "explain": "第三段说明自动化能“augment human capability”，即增强人的能力、把人从枯燥劳动中解放出来，意为“增强、补充”，对应选项 2。"
+      },
+      {
+        "q": "What is the author's overall attitude toward the future of work?",
+        "options": [
+          "Pessimistic, expecting mass unemployment",
+          "Optimistic but conditional on social adaptation",
+          "Indifferent, seeing it as inevitable",
+          "Critical of all technological progress"
+        ],
+        "answer": 1,
+        "explain": "全文既承认冲击（displacement、precarious），又强调技术可增强人类，并以“社会如何应对”为关键，结论指向人机协作的乐观前景——前提是社会主动适应，对应选项 1。"
+      }
+    ],
+    "summary": [
+      "自动化正从工厂扩展到办公室与创意领域，例行性岗位最易被替代，但技术更能增强而非简单取代人类能力。",
+      "工作的未来取决于社会回应：投资终身学习、再培训与可携带福利，方能让自动化带来的新机会被广泛共享。"
+    ]
   }
 ]
