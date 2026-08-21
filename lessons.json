@@ -1385,5 +1385,158 @@
       "自动化正从工厂扩展到办公室与创意领域，例行性岗位最易被替代，但技术更能增强而非简单取代人类能力。",
       "工作的未来取决于社会回应：投资终身学习、再培训与可携带福利，方能让自动化带来的新机会被广泛共享。"
     ]
+  },
+  {
+    "date": "2026-08-22",
+    "title": "Urban Green Spaces: The Lungs of the Modern City",
+    "titleCn": "城市绿地：现代都市的绿肺",
+    "topic": "环境",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "As cities expand at an unprecedented pace, the concrete landscape increasingly dominates the horizon, leaving little room for nature. Across the globe, rapid urbanisation has transformed fertile land into skyscrapers and expressways, often at the expense of parks, gardens and tree-lined streets. Yet a growing body of research suggests that the disappearance of green spaces is not merely an aesthetic loss but a measurable threat to the liveability of our cities.",
+        "cn": "随着城市以前所未有的速度扩张，混凝土景观日益占据天际线，几乎不给自然留下空间。放眼全球，快速的城市化把肥沃的土地变成了摩天大楼与高速公路，往往以牺牲公园、花园和林荫街道为代价。然而，越来越多的研究表明，绿地的消失不仅是审美上的损失，更对城市宜居性构成了可量化的威胁。"
+      },
+      {
+        "en": "From an environmental perspective, urban vegetation performs functions that no machine can fully replicate. Trees absorb carbon dioxide and filter fine particulate matter from the air, while their canopies mitigate the heat-island effect that makes city centres several degrees warmer than surrounding suburbs. Furthermore, even modest patches of greenery support local biodiversity, offering shelter to birds, insects and small mammals that would otherwise vanish from the metropolitan map.",
+        "cn": "从环境角度看，城市植被发挥着任何机器都无法完全替代的作用。树木吸收二氧化碳并过滤空气中的细颗粒物，而它们的树冠能缓解热岛效应，使市中心比周边郊区高出几度的问题得以减轻。此外，即便是一小片绿地也能维持当地的生物多样性，为鸟类、昆虫和小型哺乳动物提供庇护，否则它们将从都市版图上彻底消失。"
+      },
+      {
+        "en": "The benefits extend well beyond ecology into human wellbeing. Numerous studies have linked regular exposure to green environments with lower stress levels, improved concentration and faster recovery from illness. A short walk in a leafy park can alleviate anxiety far more effectively than many indoor distractions, and children who grow up near nature tend to develop stronger immune systems and healthier routines. In this sense, a public garden is a form of preventative healthcare.",
+        "cn": "其益处远不止于生态，还延伸到人类的福祉。大量研究将经常接触绿色环境同较低的应激水平、更高的专注力以及更快的病后恢复联系起来。在绿意盎然的公园里短暂散步，比许多室内消遣更能有效缓解焦虑；而在自然环境中长大的儿童，往往拥有更强的免疫系统和更健康的作息。从这个意义上说，一座公共花园就是一种预防性的医疗。"
+      },
+      {
+        "en": "Green spaces also serve as the social glue of dense neighbourhoods. Where playgrounds, plazas and riverside paths exist, strangers are more likely to meet, converse and build a sense of community cohesion that counteracts the isolation typical of megacities. Such places democratise leisure, offering free recreation to residents regardless of income, and they quietly strengthen the social fabric that holds urban life together.",
+        "cn": "绿地也是密集社区的社会粘合剂。有了游乐场、广场和滨河步道，陌生人更有可能相遇、交谈，并建立起一种社区凝聚力，从而抵消特大城市中常见的孤立感。这类场所让休闲变得平民化，为不同收入的居民提供免费的娱乐，并在无声中强化了维系城市生活的社会结构。"
+      },
+      {
+        "en": "Despite their value, green areas remain vulnerable to commercial pressure and the scarcity of developable land. The path forward lies not in choosing between growth and nature, but in weaving them together: through rooftop gardens, vertical forests and the deliberate reclamation of disused lots for public use. Policymakers who treat urban green infrastructure as essential, rather than optional, will build cities that are not only wealthier but genuinely healthier to inhabit.",
+        "cn": "尽管价值巨大，绿地仍易受商业压力和可开发土地稀缺的威胁。未来的出路不在于在增长与自然之间二选一，而在于将二者交织起来：建设屋顶花园、垂直森林，并有意把废弃地块改造为公共用途。将城市绿色基础设施视为必需品而非可选项来对待的决策者，才能建造出不仅更富裕、而且真正更宜居的城市。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "urbanisation",
+        "phonetic": "/ˌɜːrbənəˈzeɪʃn/",
+        "pos": "n.",
+        "cn": "城市化；都市化",
+        "en_def": "the process by which towns and cities grow larger as more people go to live there",
+        "example": "Rapid urbanisation has swallowed vast areas of farmland.",
+        "example_cn": "快速的城市化吞噬了大片农田。"
+      },
+      {
+        "word": "mitigate",
+        "phonetic": "/ˈmɪtɪɡeɪt/",
+        "pos": "v.",
+        "cn": "减轻；缓解",
+        "en_def": "to make something less severe, harmful or painful",
+        "example": "Planting trees can mitigate the urban heat-island effect.",
+        "example_cn": "植树可以缓解城市热岛效应。"
+      },
+      {
+        "word": "biodiversity",
+        "phonetic": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+        "pos": "n.",
+        "cn": "生物多样性",
+        "en_def": "the variety of plant and animal life in a particular habitat",
+        "example": "Small parks help preserve urban biodiversity.",
+        "example_cn": "小型公园有助于保护城市生物多样性。"
+      },
+      {
+        "word": "alleviate",
+        "phonetic": "/əˈliːvieɪt/",
+        "pos": "v.",
+        "cn": "缓解；减轻（痛苦、问题）",
+        "en_def": "to make a problem or suffering less severe",
+        "example": "A walk in nature alleviates anxiety effectively.",
+        "example_cn": "在大自然中散步能有效缓解焦虑。"
+      },
+      {
+        "word": "cohesion",
+        "phonetic": "/kəʊˈhiːʒn/",
+        "pos": "n.",
+        "cn": "凝聚力；团结",
+        "en_def": "the act or state of keeping together as a united whole",
+        "example": "Shared public spaces build community cohesion.",
+        "example_cn": "共享的公共空间能建立社区凝聚力。"
+      },
+      {
+        "word": "infrastructure",
+        "phonetic": "/ˈɪnfrəstrʌktʃə(r)/",
+        "pos": "n.",
+        "cn": "基础设施",
+        "en_def": "the basic physical systems and structures a society needs to function",
+        "example": "Green infrastructure should be planned from the start.",
+        "example_cn": "绿色基础设施应当从一开始就纳入规划。"
+      },
+      {
+        "word": "scarcity",
+        "phonetic": "/ˈskeəsəti/",
+        "pos": "n.",
+        "cn": "稀缺；不足",
+        "en_def": "a situation in which something is not easy to find or is insufficient",
+        "example": "Land scarcity puts pressure on urban green spaces.",
+        "example_cn": "土地稀缺给城市绿地带来了压力。"
+      },
+      {
+        "word": "reclaim",
+        "phonetic": "/rɪˈkleɪm/",
+        "pos": "v.",
+        "cn": "开垦；改造回收（土地）",
+        "en_def": "to make land suitable for use that was previously unused or damaged",
+        "example": "The city reclaimed a derelict lot as a park.",
+        "example_cn": "该市把一块废弃地块改造为了公园。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the central claim of the passage?",
+        "options": [
+          "Cities should stop growing in order to protect nature",
+          "Urban green spaces are essential to the liveability of cities",
+          "Skyscrapers are more valuable than parks for public health",
+          "Biodiversity can survive without human intervention"
+        ],
+        "answer": 1,
+        "explain": "全文围绕城市绿地在环境、健康与社会层面的多重价值展开，强调其对城市宜居性不可或缺，而非主张停止城市发展。"
+      },
+      {
+        "q": "According to the text, how do trees help cool a city?",
+        "options": [
+          "By attracting more rainfall to the centre",
+          "By replacing air-conditioning in buildings",
+          "Through their canopies, which reduce the heat-island effect",
+          "By lowering the population density of suburbs"
+        ],
+        "answer": 2,
+        "explain": "第二段指出树冠（canopies）能缓解热岛效应，使市中心温度低于周边，对应选项三。"
+      },
+      {
+        "q": "In the context of the passage, what does 'cohesion' most closely mean?",
+        "options": [
+          "A physical barrier between districts",
+          "A sense of unity and community bond",
+          "The profit generated by a public park",
+          "The removal of unused land"
+        ],
+        "answer": 1,
+        "explain": "第四段将绿地比作社会粘合剂，cohesion 在此指社区团结与凝聚力，对应选项二。"
+      },
+      {
+        "q": "Which policy measure does the author recommend?",
+        "options": [
+          "Banning all commercial development in cities",
+          "Treating green infrastructure as essential, not optional",
+          "Moving residents out of city centres",
+          "Replacing parks with indoor recreational facilities"
+        ],
+        "answer": 1,
+        "explain": "末段建议把绿色基础设施视为必需品而非可选项，并通过屋顶花园、垂直森林等方式将自然与增长结合，对应选项二。"
+      }
+    ],
+    "summary": [
+      "城市绿地兼具环境、健康与社会三重价值：净化空气、缓解热岛、维持生物多样性，同时降低居民压力并增强社区凝聚力。",
+      "面对土地稀缺与商业压力，城市应将绿色基础设施纳入核心规划，通过屋顶花园、垂直森林和地块改造，实现增长与自然的共生。"
+    ]
   }
 ]
