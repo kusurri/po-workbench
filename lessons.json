@@ -1538,5 +1538,158 @@
       "城市绿地兼具环境、健康与社会三重价值：净化空气、缓解热岛、维持生物多样性，同时降低居民压力并增强社区凝聚力。",
       "面对土地稀缺与商业压力，城市应将绿色基础设施纳入核心规划，通过屋顶花园、垂直森林和地块改造，实现增长与自然的共生。"
     ]
+  },
+  {
+    "date": "2026-08-26",
+    "title": "The Attention Economy: Are Algorithms Reshaping How We Think?",
+    "titleCn": "注意力经济：算法正在重塑我们的思维方式吗？",
+    "topic": "科技",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "Over the past two decades, a new and quietly powerful marketplace has emerged: the attention economy. In this system, human attention is treated as the scarcest resource, and technology companies compete fiercely to capture and hold it. From social media feeds to streaming platforms, the underlying goal is often the same — to keep users engaged for as long as possible.",
+        "cn": "在过去二十年里，一个悄然兴起却影响深远的新市场出现了：注意力经济。在这一模式下，人类的注意力被视为最稀缺的资源，科技公司激烈地争夺并试图留住它。从社交媒体信息流到流媒体平台，其底层目标往往如出一辙——尽可能长时间地让用户保持参与。"
+      },
+      {
+        "en": "At the heart of this competition lies the algorithm. Personalized recommendation systems learn from our behaviour and serve content tailored to our tastes, often reinforced by features such as infinite scroll and frequent notifications. Each interaction can trigger a small release of dopamine, encouraging the next click and gradually training us to seek constant novelty rather than sustained focus.",
+        "cn": "这场竞争的核心在于算法。个性化推荐系统从我们的行为中学习，并推送契合口味的内容，往往辅以无限滚动与频繁通知等设计。每一次互动都可能触发少量多巴胺的释放，促使我们点击下一条，并逐渐让我们习惯于不断追求新鲜感，而非保持持续的专注。"
+      },
+      {
+        "en": "Critics argue that the costs are significant. When we are interrupted every few seconds, our capacity for deep, undistracted thought may erode. Some researchers suggest that heavy reliance on short-form content reduces patience for complex texts and weakens cognitive endurance. Furthermore, algorithmically filtered feeds can trap users in an echo chamber, where contrasting views rarely appear.",
+        "cn": "批评者认为其代价不容小觑。当我们每隔几秒就被打断，进行深度、不被干扰思考的能力便会遭到侵蚀。一些研究者指出，过度依赖短视频等内容会削弱阅读复杂文本的耐心，并损耗认知耐力。此外，经算法过滤的信息流可能将用户困于信息茧房，使相左的观点难得一见。"
+      },
+      {
+        "en": "Yet the picture is not entirely pessimistic. Technology also democratizes knowledge, offering instant access to courses, libraries and diverse perspectives that were once out of reach. Used deliberately, digital tools can support focused study and global collaboration. The problem, many argue, lies less in the technology itself than in how passively we consume it.",
+        "cn": "然而图景并非全然悲观。技术同样在使知识民主化，让人们瞬时获取曾经难以触及的课程、图书馆与多元视角。若加以有意识地使用，数字工具还能支撑专注学习与全球协作。许多人认为，问题与其说在于技术本身，不如说在于我们对其被动消费的程度。"
+      },
+      {
+        "en": "In conclusion, the rise of the attention economy demands a thoughtful response rather than outright rejection. Strengthening digital literacy, setting intentional boundaries and protecting time for unhurried reading are practical steps. Ultimately, the question is not whether technology shapes our minds, but whether we can shape our use of it.",
+        "cn": "总之，注意力经济的兴起需要审慎的应对，而非全盘否定。强化数字素养、设定有意识的使用边界，以及为从容阅读留出时间，都是切实之举。归根结底，问题不在于技术是否塑造我们的思维，而在于我们能否塑造对技术的使用方式。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "algorithm",
+        "phonetic": "/ˈælɡərɪðəm/",
+        "pos": "n.",
+        "cn": "算法",
+        "en_def": "a set of rules a computer follows to solve a problem or make a decision",
+        "example": "Social media platforms use algorithms to decide what users see.",
+        "example_cn": "社交媒体平台使用算法来决定用户看到的内容。"
+      },
+      {
+        "word": "attention economy",
+        "phonetic": "/əˈtenʃən iˈkɒnəmi/",
+        "pos": "n.",
+        "cn": "注意力经济",
+        "en_def": "an economic model in which human attention is treated as a scarce and valuable resource",
+        "example": "In the attention economy, engagement is often more valuable than accuracy.",
+        "example_cn": "在注意力经济中，用户参与度往往比准确性更有价值。"
+      },
+      {
+        "word": "dopamine",
+        "phonetic": "/ˈdəʊpəmiːn/",
+        "pos": "n.",
+        "cn": "多巴胺",
+        "en_def": "a chemical in the brain that produces feelings of pleasure and reward",
+        "example": "Each notification can trigger a small release of dopamine.",
+        "example_cn": "每一条通知都可能触发少量多巴胺的释放。"
+      },
+      {
+        "word": "cognitive",
+        "phonetic": "/ˈkɒɡnətɪv/",
+        "pos": "adj.",
+        "cn": "认知的",
+        "en_def": "relating to thinking, learning and mental processes",
+        "example": "Heavy multitasking may reduce cognitive depth.",
+        "example_cn": "频繁的多任务处理可能削弱认知深度。"
+      },
+      {
+        "word": "erode",
+        "phonetic": "/ɪˈrəʊd/",
+        "pos": "v.",
+        "cn": "侵蚀；削弱",
+        "en_def": "to gradually destroy or weaken something over time",
+        "example": "Constant interruptions erode our ability to concentrate.",
+        "example_cn": "不断的干扰会逐渐削弱我们的专注能力。"
+      },
+      {
+        "word": "echo chamber",
+        "phonetic": "/ˈekəʊ ˌtʃeɪmbə(r)/",
+        "pos": "n.",
+        "cn": "信息茧房；回音室",
+        "en_def": "an environment where one only encounters opinions similar to their own",
+        "example": "Personalized feeds can trap users in an echo chamber.",
+        "example_cn": "个性化推送可能将用户困于信息茧房。"
+      },
+      {
+        "word": "deliberate",
+        "phonetic": "/dɪˈlɪbərət/",
+        "pos": "adj.",
+        "cn": "深思熟虑的；有意的",
+        "en_def": "done on purpose and carefully considered",
+        "example": "We need more deliberate, unhurried reading.",
+        "example_cn": "我们需要更多深思熟虑、从容不迫的阅读。"
+      },
+      {
+        "word": "literacy",
+        "phonetic": "/ˈlɪtərəsi/",
+        "pos": "n.",
+        "cn": "素养",
+        "en_def": "the ability to read, understand or use a particular kind of information",
+        "example": "Digital literacy helps users navigate online risks.",
+        "example_cn": "数字素养帮助使用者应对网络风险。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what is the 'attention economy' mainly about?",
+        "options": [
+          "A market where goods are sold cheaply online",
+          "A system in which human attention is treated as a scarce resource",
+          "A government policy designed to limit screen time",
+          "A method of teaching students to read faster"
+        ],
+        "answer": 1,
+        "explain": "The passage describes the attention economy as a model in which technology companies compete to capture users' limited attention, treating it as the most valuable resource."
+      },
+      {
+        "q": "What is one negative effect of algorithmic feeds mentioned in the text?",
+        "options": [
+          "They make smartphones more expensive",
+          "They increase the speed of internet connections",
+          "They may reduce deep focus and create echo chambers",
+          "They guarantee access to balanced news"
+        ],
+        "answer": 2,
+        "explain": "The text states that constant interruptions erode concentration and that filtered feeds can trap users in echo chambers, limiting exposure to contrasting views."
+      },
+      {
+        "q": "What counter-argument does the writer present?",
+        "options": [
+          "Technology has no impact on how we think",
+          "Algorithms are always harmful to society",
+          "Technology also empowers learning and broadens access to information",
+          "Reading long books is no longer necessary"
+        ],
+        "answer": 2,
+        "explain": "The fourth paragraph argues that technology democratizes knowledge and, when used deliberately, can support focused study and global collaboration."
+      },
+      {
+        "q": "What does the writer suggest as a practical response?",
+        "options": [
+          "Banning all social media platforms",
+          "Developing digital literacy and using technology more intentionally",
+          "Replacing algorithms with human editors only",
+          "Increasing the length of online videos"
+        ],
+        "answer": 1,
+        "explain": "The conclusion recommends strengthening digital literacy, setting intentional boundaries and protecting time for unhurried reading."
+      }
+    ],
+    "summary": [
+      "科技公司通过算法与个性化推送争夺用户有限的注意力，这种“注意力经济”可能削弱深度思考能力并造成信息茧房。",
+      "文章同时指出技术也赋能学习与信息获取，关键在于培养数字素养、有意识地使用技术，以维持专注与平衡。"
+    ]
   }
 ]
