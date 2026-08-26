@@ -1691,5 +1691,158 @@
       "科技公司通过算法与个性化推送争夺用户有限的注意力，这种“注意力经济”可能削弱深度思考能力并造成信息茧房。",
       "文章同时指出技术也赋能学习与信息获取，关键在于培养数字素养、有意识地使用技术，以维持专注与平衡。"
     ]
+  },
+  {
+    "date": "2026-08-27",
+    "title": "The Future of Assessment: Beyond the Standardized Test",
+    "titleCn": "评估的未来：超越标准化考试",
+    "topic": "教育",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "For more than a century, the standardized test has been the dominant gatekeeper of educational opportunity. From university admissions to job applications, a single numerical score has often been treated as a definitive measure of a person's potential. Yet critics increasingly argue that this approach captures only a narrow slice of human ability, rewarding memorization and test-taking technique over genuine understanding.",
+        "cn": "一个多世纪以来，标准化考试一直是教育机会的主要把关者。从大学录取到求职申请，一个单一的数字分数常常被视为衡量个人潜力的决定性指标。然而批评者日益指出，这种做法只捕捉到人类能力中极窄的一部分，奖励的是记忆与应试技巧，而非真正的理解。"
+      },
+      {
+        "en": "Proponents of traditional assessment defend its objectivity and scalability. A multiple-choice examination, they contend, can be graded consistently across millions of candidates, minimizing subjective bias and providing a common benchmark. In an era of mass education, such efficiency is not easily dismissed, and many institutions remain reluctant to abandon a system that is, at the very least, transparent.",
+        "cn": "传统评估的支持者为其客观性与可扩展性辩护。他们认为，选择题考试能够在数百万考生之间保持一致地评分，将主观偏差降到最低，并提供一个共同的基准。在大众教育的时代，这种效率不容小觑，许多机构仍不愿放弃一套至少堪称透明的体系。"
+      },
+      {
+        "en": "Nevertheless, a growing movement favours formative and competency-based assessment. Rather than ranking students against one another at a single moment, this model tracks progress over time and evaluates skills such as collaboration, critical thinking, and creativity. Digital portfolios and project-based tasks allow learners to demonstrate not merely what they know, but how they apply knowledge in unfamiliar contexts.",
+        "cn": "尽管如此，一场日益壮大的运动主张形成性与以能力为基础的评估。这种模式并非在某个单一时刻将学生彼此排名，而是追踪其长期进展，并评估协作、批判性思维与创造力等能力。数字作品集与基于项目的任务让学习者得以展示的不仅是所知，更是如何在陌生情境中运用知识。"
+      },
+      {
+        "en": "Technology is accelerating this shift. Adaptive learning platforms can now analyse a student's responses in real time, identifying misconceptions and tailoring practice to individual needs. Some educators envision a future in which continuous data replaces the high-stakes exam entirely, offering a richer and more humane picture of each learner's development. Others, however, caution that algorithms may inherit the biases of their designers.",
+        "cn": "技术正在加速这一转变。自适应学习平台如今能够实时分析学生的作答，识别误解并为个体需求定制练习。一些教育者设想着一个由连续数据彻底取代高风险考试的未来，为每位学习者的成长提供更丰富、更人性化的图景。然而，也有其他人警告说，算法可能会继承其设计者的偏见。"
+      },
+      {
+        "en": "In the end, the question is not whether to test, but how to test well. A balanced system might combine the fairness of standardized measurement with the depth of authentic assessment, ensuring that no student is reduced to a single number. As education evolves, the ultimate aim should remain constant: to recognize the full breadth of human potential rather than merely to rank it.",
+        "cn": "归根结底，问题不在于是否考试，而在于如何考得好。一个均衡的体系或许能将标准化测量的公平性与真实评估的深度结合起来，确保没有学生被简化成一个单一的数字。随着教育不断发展，最终目标应当始终如一：去认识人类潜力的全部广度，而非仅仅对其加以排序。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "gatekeeper",
+        "phonetic": "/ˈɡeɪtkiːpə/",
+        "pos": "n.",
+        "cn": "把关者；守门人",
+        "en_def": "a person or thing that controls access to something",
+        "example": "The standardized test acts as a gatekeeper to higher education.",
+        "example_cn": "标准化考试充当了通往高等教育的把关者。"
+      },
+      {
+        "word": "definitive",
+        "phonetic": "/dɪˈfɪnətɪv/",
+        "pos": "adj.",
+        "cn": "决定性的；权威的",
+        "en_def": "serving to provide a final solution or answer",
+        "example": "No single score is a definitive measure of talent.",
+        "example_cn": "没有任何单一分数是对才华的决定性衡量。"
+      },
+      {
+        "word": "scalability",
+        "phonetic": "/ˌskeɪləˈbɪləti/",
+        "pos": "n.",
+        "cn": "可扩展性；可规模化",
+        "en_def": "the capacity to be changed in size or scale",
+        "example": "The scalability of automated grading makes it attractive to large systems.",
+        "example_cn": "自动评分的可扩展性使其对大型体系颇具吸引力。"
+      },
+      {
+        "word": "benchmark",
+        "phonetic": "/ˈbentʃmɑːk/",
+        "pos": "n.",
+        "cn": "基准；参照标准",
+        "en_def": "a standard or point of reference against which things may be compared",
+        "example": "The exam provides a common benchmark across schools.",
+        "example_cn": "该考试为学校之间提供了一个共同基准。"
+      },
+      {
+        "word": "competency",
+        "phonetic": "/ˈkɒmpɪtənsi/",
+        "pos": "n.",
+        "cn": "能力；胜任力",
+        "en_def": "the ability to do something successfully or efficiently",
+        "example": "Employers increasingly value competency over credentials.",
+        "example_cn": "雇主日益看重能力甚于证书。"
+      },
+      {
+        "word": "misconception",
+        "phonetic": "/ˌmɪskənˈsepʃn/",
+        "pos": "n.",
+        "cn": "误解；错误观念",
+        "en_def": "a view or opinion that is incorrect because based on faulty thinking",
+        "example": "The platform detects each student's misconception early.",
+        "example_cn": "该平台能及早发现每位学生的误解。"
+      },
+      {
+        "word": "adaptive",
+        "phonetic": "/əˈdæptɪv/",
+        "pos": "adj.",
+        "cn": "自适应的；适应的",
+        "en_def": "able to change to suit different conditions",
+        "example": "Adaptive software adjusts difficulty to the learner.",
+        "example_cn": "自适应软件会根据学习者调节难度。"
+      },
+      {
+        "word": "authentic",
+        "phonetic": "/ɔːˈθentɪk/",
+        "pos": "adj.",
+        "cn": "真实的；可信的",
+        "en_def": "based on fact; genuine and reliable",
+        "example": "Authentic assessment mirrors real-world tasks.",
+        "example_cn": "真实评估还原了现实世界的任务。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what is the main criticism of standardized tests?",
+        "options": [
+          "They are too expensive to administer.",
+          "They capture only a narrow slice of human ability.",
+          "They cannot be graded consistently.",
+          "They favour creative students."
+        ],
+        "answer": 1,
+        "explain": "The first paragraph states that standardized tests reward memorization and test-taking technique over genuine understanding, capturing only a narrow slice of human ability."
+      },
+      {
+        "q": "What advantage of traditional assessment do proponents emphasize?",
+        "options": [
+          "It encourages collaboration among students.",
+          "It is objective, scalable, and minimizes subjective bias.",
+          "It measures creativity effectively.",
+          "It requires no human involvement."
+        ],
+        "answer": 1,
+        "explain": "Paragraph 2 highlights objectivity, scalability, and the minimization of subjective bias as key strengths of traditional assessment."
+      },
+      {
+        "q": "What does competency-based assessment evaluate?",
+        "options": [
+          "Only memorized facts.",
+          "Ranking against peers at one moment.",
+          "Skills such as collaboration, critical thinking, and creativity.",
+          "Speed of test completion."
+        ],
+        "answer": 2,
+        "explain": "Paragraph 3 explains that this model evaluates skills such as collaboration, critical thinking, and creativity, tracking progress over time."
+      },
+      {
+        "q": "What concern do some educators raise about algorithm-driven assessment?",
+        "options": [
+          "It is too slow to implement.",
+          "Algorithms may inherit the biases of their designers.",
+          "It eliminates all standardized tests immediately.",
+          "It cannot track individual progress."
+        ],
+        "answer": 1,
+        "explain": "Paragraph 4 notes that while technology offers benefits, algorithms may inherit the biases of their designers."
+      }
+    ],
+    "summary": [
+      "标准化考试虽客观、可扩展，却只能衡量人类能力中极窄的一部分，且偏向记忆与应试技巧。",
+      "形成性、以能力为基础的评估结合自适应技术，有望以更人性化的方式呈现学习者的全面发展，但需警惕算法偏见。"
+    ]
   }
 ]
