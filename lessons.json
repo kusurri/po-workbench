@@ -1844,5 +1844,158 @@
       "标准化考试虽客观、可扩展，却只能衡量人类能力中极窄的一部分，且偏向记忆与应试技巧。",
       "形成性、以能力为基础的评估结合自适应技术，有望以更人性化的方式呈现学习者的全面发展，但需警惕算法偏见。"
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "title": "The Science of Resilience: Can Adversity Make Us Stronger?",
+    "titleCn": "韧性的科学：逆境能让我们更强大吗？",
+    "topic": "心理",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "In recent years, resilience has moved from the margins of psychology to the centre of public debate. As societies face economic uncertainty, global pandemics and rapid technological change, many people ask why some individuals thrive under pressure while others collapse. Increasingly, researchers argue that resilience is not a fixed personality trait but a set of habits and mindsets that can be cultivated over time.",
+        "cn": "近年来，心理韧性从一个心理学的边缘概念，逐渐成为公共讨论的核心。当社会面临经济不确定性、全球疫情与快速技术变革时，许多人都在追问：为何有些人在压力下茁壮成长，而另一些人却垮掉了。越来越多的研究者认为，韧性并非固定的人格特质，而是一组可以随着时间培养的习惯与心智模式。"
+      },
+      {
+        "en": "For decades, resilience was widely treated as an innate quality — something a person is simply born with, like eye colour. This view implied that those who struggled were somehow deficient. However, advances in neuroscience have challenged this assumption. The discovery of neuroplasticity, the brain's lifelong capacity to reorganize itself, suggests that our responses to stress are far more malleable than once believed.",
+        "cn": "数十年来，韧性被普遍视为一种天生特质——仿佛一个人天生就有，就像眼睛的颜色那样。这种观点暗示，那些在困境中挣扎的人本身就有所欠缺。然而，神经科学的进展挑战了这一假设。神经可塑性的发现表明，我们的大脑终身具备自我重组的能力，这意味着我们对压力的反应远比过去所认为的更具可塑性。"
+      },
+      {
+        "en": "Building on this, a growing body of evidence points to the benefits of moderate challenge. Psychologists describe a process akin to stress inoculation: just as a vaccine introduces a weakened virus to train the immune system, small and manageable difficulties can strengthen our coping capacity. This phenomenon, sometimes called post-traumatic growth, helps explain why some survivors of hardship emerge with greater confidence and clearer priorities.",
+        "cn": "在此基础上，越来越多的证据指向适度挑战的益处。心理学家描述了一种类似「压力接种」的过程：正如疫苗引入弱化病毒以训练免疫系统，微小且可控的困难也能增强我们的应对能力。这种现象有时被称为「创伤后成长」，它有助于解释为何一些经历困境的幸存者反而获得了更强的自信与更清晰的价值排序。"
+      },
+      {
+        "en": "Nevertheless, it would be a mistake to glorify suffering. Not all adversity is constructive, and exposure to prolonged, overwhelming stress — often termed toxic stress — can damage both mind and body. Children who grow up in unsafe environments, for instance, may suffer lifelong consequences rather than grow stronger. The lesson is not that hardship should be sought, but that support systems, including trustworthy relationships and access to care, determine whether difficulty becomes growth or harm.",
+        "cn": "然而，将苦难美化是一种错误。并非所有的逆境都具有建设性，长期暴露于压倒性压力——常被称为「有毒压力」——会同时损害身心。例如，在不安全环境中长大的儿童，可能承受终身后果，而非变得更强。真正的启示并非要去主动寻求困境，而是：包括可信赖的人际关系与获得照护在内的支持系统，决定了困难究竟会转化为成长还是伤害。"
+      },
+      {
+        "en": "In conclusion, resilience is better understood as a dynamic capacity than as a static gift. Rather than admiring it from a distance, individuals and institutions can actively nurture it — through reflection, gradual exposure to challenge, and the cultivation of supportive communities. If adversity is sometimes the teacher, resilience is the lesson we can all learn to master.",
+        "cn": "总而言之，与其将韧性理解为一种静态的天赋，不如视其为一种动态的能力。个人与机构都不必远观赞叹，而可以主动加以培养——通过反思、逐步接触挑战，以及构建互助的社群。如果说逆境有时是老师，那么韧性便是我们人人都能学会掌握的一课。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "resilience",
+        "phonetic": "/rɪˈzɪliəns/",
+        "pos": "n.",
+        "cn": "韧性；复原力",
+        "en_def": "the capacity to recover quickly from difficulties",
+        "example": "Her resilience helped her bounce back after the setback.",
+        "example_cn": "她的韧性让她在挫折后迅速恢复。"
+      },
+      {
+        "word": "innate",
+        "phonetic": "/ɪˈneɪt/",
+        "pos": "adj.",
+        "cn": "天生的；固有的",
+        "en_def": "inborn; existing from birth",
+        "example": "Some believe a sense of fairness is innate in humans.",
+        "example_cn": "有人认为公平感是人类与生俱来的。"
+      },
+      {
+        "word": "cultivate",
+        "phonetic": "/ˈkʌltɪveɪt/",
+        "pos": "v.",
+        "cn": "培养；培育",
+        "en_def": "to develop or acquire a quality by effort",
+        "example": "Schools should help students cultivate critical thinking.",
+        "example_cn": "学校应帮助学生培养批判性思维。"
+      },
+      {
+        "word": "adversity",
+        "phonetic": "/ədˈvɜːsəti/",
+        "pos": "n.",
+        "cn": "逆境；困境",
+        "en_def": "a difficult or unpleasant situation",
+        "example": "He showed great courage in the face of adversity.",
+        "example_cn": "他在逆境中展现了极大的勇气。"
+      },
+      {
+        "word": "neuroplasticity",
+        "phonetic": "/ˌnjʊərəʊplæsˈtɪsəti/",
+        "pos": "n.",
+        "cn": "神经可塑性",
+        "en_def": "the brain's ability to reorganize itself by forming new connections",
+        "example": "Neuroplasticity means the adult brain can still change.",
+        "example_cn": "神经可塑性意味着成人大脑仍可改变。"
+      },
+      {
+        "word": "inoculation",
+        "phonetic": "/ɪˌnɒkjuˈleɪʃn/",
+        "pos": "n.",
+        "cn": "接种；免疫",
+        "en_def": "the introduction of a weakened agent to build resistance",
+        "example": "Stress inoculation trains people to tolerate pressure.",
+        "example_cn": "压力接种训练人们耐受压力。"
+      },
+      {
+        "word": "toxic",
+        "phonetic": "/ˈtɒksɪk/",
+        "pos": "adj.",
+        "cn": "有毒的；有害的",
+        "en_def": "harmful or destructive",
+        "example": "Prolonged toxic stress harms both mind and body.",
+        "example_cn": "长期的有毒压力会损害身心。"
+      },
+      {
+        "word": "nurture",
+        "phonetic": "/ˈnɜːtʃə(r)/",
+        "pos": "v.",
+        "cn": "滋养；养育；培养",
+        "en_def": "to care for and encourage the growth of something",
+        "example": "Families nurture children's curiosity from an early age.",
+        "example_cn": "家庭从幼年起就培养孩子的好奇心。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, resilience is best described as _____.",
+        "options": [
+          "a fixed personality trait that cannot change",
+          "an innate gift possessed only by a few people",
+          "a skill that can be developed through practice",
+          "something that only children are able to learn"
+        ],
+        "answer": 2,
+        "explain": "The author states that resilience is not a fixed trait but a set of habits and mindsets that can be cultivated over time."
+      },
+      {
+        "q": "The word \"neuroplasticity\" (paragraph 2) refers to _____.",
+        "options": [
+          "the brain's lifelong ability to reorganize itself",
+          "the scientific study of nerve cells",
+          "a type of mental illness caused by stress",
+          "personality characteristics passed down by genes"
+        ],
+        "answer": 0,
+        "explain": "The text defines neuroplasticity as the brain's lifelong capacity to reorganize itself, making our responses to stress more malleable."
+      },
+      {
+        "q": "What does the idea of \"stress inoculation\" suggest?",
+        "options": [
+          "People should avoid all forms of stress completely",
+          "Gradual exposure to moderate stress can build tolerance",
+          "Vaccines are the main cure for anxiety disorders",
+          "Stress is always damaging and must be eliminated"
+        ],
+        "answer": 1,
+        "explain": "Like a vaccine that trains the immune system, small manageable difficulties can strengthen our coping capacity."
+      },
+      {
+        "q": "Which statement reflects the author's caution about adversity?",
+        "options": [
+          "All forms of adversity are beneficial and should be welcomed",
+          "Suffering should be glorified as a path to success",
+          "Toxic stress can harm health and requires support systems",
+          "Resilience is best developed through total isolation"
+        ],
+        "answer": 2,
+        "explain": "The author warns that prolonged toxic stress damages mind and body, and that support systems decide whether difficulty becomes growth or harm."
+      }
+    ],
+    "summary": [
+      "心理韧性并非天生固定的人格特质，而是一组可以通过刻意练习培养的技能，神经可塑性为这种观点提供了科学依据。",
+      "适度的挑战能带来「创伤后成长」，但长期的有毒压力会损害健康，因此韧性的培养依赖社会支持，而非美化苦难。"
+    ]
   }
 ]
