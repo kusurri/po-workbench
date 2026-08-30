@@ -1997,5 +1997,158 @@
       "心理韧性并非天生固定的人格特质，而是一组可以通过刻意练习培养的技能，神经可塑性为这种观点提供了科学依据。",
       "适度的挑战能带来「创伤后成长」，但长期的有毒压力会损害健康，因此韧性的培养依赖社会支持，而非美化苦难。"
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "title": "The Vanishing Voices: Language Loss and Cultural Memory",
+    "titleCn": "消逝的声音：语言消亡与文化记忆",
+    "topic": "文化",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "It is estimated that more than seven thousand languages are spoken across the world today, yet linguists warn that roughly half of them may fall silent by the end of this century. Behind every disappearing tongue lies a unique way of seeing the world, and the accelerating pace of language loss has been described as a quiet crisis of cultural diversity.",
+        "cn": "据估计，当今全球仍在使用的语言超过七千种，然而语言学家警告，其中约一半可能在本世纪末前归于沉寂。每一种正在消失的语言背后，都隐藏着一种独一无二的世界观；而语言消亡不断加速的态势，已被形容为一场静默的文化多样性危机。"
+      },
+      {
+        "en": "The forces driving this decline are largely economic and political. As global trade, mass media and migration draw communities into larger networks, younger generations often abandon their heritage language in favour of a dominant one that promises education, employment and social mobility. In this context, speaking a minority language can come to be seen as a liability rather than a source of pride.",
+        "cn": "推动这种衰退的力量主要是经济与政治层面的。随着全球贸易、大众传媒与人口迁徙将各个社群卷入更庞大的网络，年轻一代往往放弃自己的本族语言，转投那种能带来教育、就业与社会流动机会的主导语言。在此背景下，使用少数族裔语言渐渐被视为一种负担，而非自豪的源泉。"
+      },
+      {
+        "en": "What is lost, however, is far more than a set of vocabulary and grammar rules. A language encodes a community's accumulated knowledge of its environment, from the names of medicinal plants to the rhythms of local weather. When the last fluent speaker dies, an irreplaceable archive of human experience disappears with them, and the thread connecting a people to its past is severed.",
+        "cn": "然而，我们失去的远不止一套词汇与语法规则。一种语言承载着某个社群对环境的累积性认知，从药用植物的名称到当地气候的节律，皆包含其中。当最后一位流利的使用者离世，那份不可替代的人类经验档案便随之湮灭，一个民族与自身历史的纽带也被切断。"
+      },
+      {
+        "en": "Some observers argue that language shift is not always a tragedy, pointing out that adopting a widely spoken language can reduce isolation and open doors to opportunity. This perspective deserves honesty, yet it need not lead to indifference. The challenge is to widen access to opportunity without treating smaller languages as obstacles to be erased, and to ask whether progress must come at the price of silence.",
+        "cn": "有观察者认为，语言转换并非总是悲剧，他们指出采用通用语言可以减少隔阂，并开启机遇之门。这一观点值得被诚恳对待，但它不应导向冷漠。真正的考验在于：如何在拓宽机遇之门的同时，不把较小的语言当作应予抹除的障碍；并追问进步是否必须以沉默为代价。"
+      },
+      {
+        "en": "Encouraging examples do exist. Community-led schools, digital archives and revitalization programmes have helped several endangered languages regain speakers, proving that decline is not destiny. To protect linguistic diversity is to protect the richness of human thought itself, and every voice rescued from extinction enlarges our shared understanding of what it means to be human.",
+        "cn": "鼓舞人心的例证确实存在。由社区主导的学校、数字档案库与语言复兴计划，已帮助数种濒危语言重新获得使用者，证明衰亡并非宿命。守护语言多样性，就是守护人类思想本身的丰饶；每救回一种免于灭绝的声音，都是对我们共同理解「生而为人」之意涵的一次拓展。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "indigenous",
+        "phonetic": "/ɪnˈdɪdʒɪnəs/",
+        "pos": "adj.",
+        "cn": "本土的；土著的",
+        "en_def": "originating or occurring naturally in a particular place",
+        "example": "The indigenous community has spoken this dialect for countless generations.",
+        "example_cn": "这个原住民社群使用这种方言已经传承了无数代。"
+      },
+      {
+        "word": "extinction",
+        "phonetic": "/ɪkˈstɪŋkʃən/",
+        "pos": "n.",
+        "cn": "灭绝；消亡",
+        "en_def": "the state of no longer existing",
+        "example": "Language extinction often follows the loss of the natural habitat around it.",
+        "example_cn": "语言的消亡常常紧随其周边自然栖息地的丧失而来。"
+      },
+      {
+        "word": "erode",
+        "phonetic": "/ɪˈrəʊd/",
+        "pos": "v.",
+        "cn": "侵蚀；逐渐削弱",
+        "en_def": "to gradually destroy or weaken something",
+        "example": "Global competition can slowly erode the status of local traditions.",
+        "example_cn": "全球竞争会慢慢侵蚀地方传统的地位。"
+      },
+      {
+        "word": "heritage",
+        "phonetic": "/ˈherɪtɪdʒ/",
+        "pos": "n.",
+        "cn": "遗产；传统",
+        "en_def": "valued traditions and qualities passed down from previous generations",
+        "example": "Storytelling is a vital part of our cultural heritage.",
+        "example_cn": "口头叙事是我们文化遗产中至关重要的一部分。"
+      },
+      {
+        "word": "revitalize",
+        "phonetic": "/ˈriːˈvaɪtəlaɪz/",
+        "pos": "v.",
+        "cn": "使复兴；使恢复生机",
+        "en_def": "to give new life and vitality to something",
+        "example": "Local radio helped revitalize the nearly forgotten language.",
+        "example_cn": "地方广播电台帮助复兴了那种几近被遗忘的语言。"
+      },
+      {
+        "word": "marginalize",
+        "phonetic": "/ˈmɑːdʒɪnəlaɪz/",
+        "pos": "v.",
+        "cn": "使边缘化",
+        "en_def": "to treat a group as unimportant or powerless",
+        "example": "Policies that marginalize minority speech can speed up language loss.",
+        "example_cn": "使少数族裔语言边缘化的政策会加速语言的消亡。"
+      },
+      {
+        "word": "fluent",
+        "phonetic": "/ˈfluːənt/",
+        "pos": "adj.",
+        "cn": "流利的；熟练的",
+        "en_def": "able to express oneself easily and accurately",
+        "example": "She is the last fluent speaker of her grandmother's tongue.",
+        "example_cn": "她是能流利使用祖母那门语言最后一个人。"
+      },
+      {
+        "word": "irreplaceable",
+        "phonetic": "/ˌɪrɪˈpleɪsəbl/",
+        "pos": "adj.",
+        "cn": "不可替代的；独一无二的",
+        "en_def": "impossible to replace if lost",
+        "example": "Each language holds an irreplaceable view of the world.",
+        "example_cn": "每一种语言都承载着一种不可替代的世界观。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what is the main cause of language decline?",
+        "options": [
+          "Natural disasters that destroy communities",
+          "Economic and political forces such as trade and migration",
+          "A lack of written grammar rules",
+          "The invention of the printing press"
+        ],
+        "answer": 1,
+        "explain": "第二段指出，语言衰退主要由经济与政治力量驱动，包括全球贸易、大众传媒与人口迁徙，促使年轻一代转向主导语言。"
+      },
+      {
+        "q": "What does the writer say is lost when a language disappears?",
+        "options": [
+          "Only its vocabulary and grammar rules",
+          "The political power of the state",
+          "A community's knowledge of its environment and its link to the past",
+          "The ability to use modern technology"
+        ],
+        "answer": 2,
+        "explain": "第三段强调，语言消亡失去的不只是词汇与语法，还包括社群对环境的认知以及与历史相连的纽带。"
+      },
+      {
+        "q": "What is the writer's attitude towards the view that language shift brings opportunity?",
+        "options": [
+          "He completely rejects it as false",
+          "He accepts it but warns against becoming indifferent to loss",
+          "He believes it proves language loss is good",
+          "He says it has never been observed in reality"
+        ],
+        "answer": 1,
+        "explain": "第四段承认采用通用语言能带来机遇，但主张这不应导致对语言消亡的冷漠，体现了平衡而审慎的态度。"
+      },
+      {
+        "q": "Which of the following is given as a hopeful sign for endangered languages?",
+        "options": [
+          "Forcing children to forget their mother tongue",
+          "Community-led schools and digital archives",
+          "Banning all foreign media",
+          "Merging small languages into one global tongue"
+        ],
+        "answer": 1,
+        "explain": "第五段列举由社区主导的学校、数字档案库与复兴计划，作为帮助濒危语言重获使用者的积极例证。"
+      }
+    ],
+    "summary": [
+      "全球约一半语言可能在本世纪内消失，语言消亡是一场静默的文化多样性危机，其背后是经济与政治力量的推动。",
+      "语言承载独特的世界观与环境知识，复兴需依靠社区主导的教育与档案保护；守护语言多样性即守护人类思想本身的丰饶。"
+    ]
   }
 ]
