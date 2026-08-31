@@ -2150,5 +2150,158 @@
       "全球约一半语言可能在本世纪内消失，语言消亡是一场静默的文化多样性危机，其背后是经济与政治力量的推动。",
       "语言承载独特的世界观与环境知识，复兴需依靠社区主导的教育与档案保护；守护语言多样性即守护人类思想本身的丰饶。"
     ]
+  },
+  {
+    "date": "2026-09-01",
+    "title": "The Sleep Crisis: Why Rest Has Become a Public Health Priority",
+    "titleCn": "睡眠危机：为何休息已成为公共健康优先议题",
+    "topic": "健康",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "For much of human history, sleep was regarded as a passive and unproductive state — a mere pause between the more important business of being awake. Yet over the past two decades, a growing body of scientific evidence has transformed this assumption, revealing sleep to be an active, restorative process essential to nearly every aspect of physical and mental functioning.",
+        "cn": "在人类历史的大部分时间里，睡眠被视为一种被动且低效的状态——不过是清醒这一更重要活动之间的停顿。然而，过去二十年间，越来越多的科学证据改变了这一假设，揭示睡眠其实是一个主动、具有修复功能的过程，对身心功能的几乎每个方面都至关重要。"
+      },
+      {
+        "en": "Despite its importance, sleep is precisely what modern life seems determined to erode. Across industrialised societies, average nightly sleep has fallen well below the seven to nine hours recommended for adults. Pervasive screen use, irregular working hours, and a culture that equates busyness with virtue have together created what researchers now describe as a silent epidemic of sleep deprivation.",
+        "cn": "尽管睡眠如此重要，现代生活却似乎决意要侵蚀它。在工业化社会中，成年人每晚的平均睡眠时间已远低于推荐的七到九小时。无处不在的屏幕使用、不规律的工作时间，以及将忙碌等同于美德的文化，共同造就了研究者如今所称的睡眠不足的隐性流行病。"
+      },
+      {
+        "en": "The consequences extend far beyond daytime tiredness. Chronic short sleep has been linked to impaired memory consolidation, weakened immune response, and a heightened risk of cardiovascular disease, obesity, and depression. Perhaps most alarmingly, studies suggest that sleep loss subtly degrades our capacity for emotional regulation and sound judgement — the very faculties on which safe driving and rational decision-making depend.",
+        "cn": "其后果远不止白天的困倦。长期睡眠不足与记忆巩固受损、免疫反应减弱，以及心血管疾病、肥胖和抑郁症风险升高相关。或许最令人担忧的是，研究表明睡眠缺失会悄然削弱我们的情绪调节与理性判断能力——而安全驾驶和理性决策正依赖这些官能。"
+      },
+      {
+        "en": "Addressing the sleep crisis requires action at both the individual and societal levels. On a personal scale, maintaining consistent bedtimes, limiting evening exposure to blue light, and treating rest as a legitimate priority can yield measurable benefits. More structurally, public health bodies are beginning to advocate for later school start times, workplace policies that protect downtime, and urban planning that recognises quiet as a component of liveability.",
+        "cn": "应对睡眠危机需要个人与社会两个层面的行动。在个人层面，保持规律的就寝时间、减少夜间蓝光暴露，并将休息视为一项正当的优先事项，都能带来可衡量的改善。在更结构化的层面，公共卫生机构正开始倡导推迟上学时间、保护休息时间的职场政策，以及将安静视为宜居要素的都市规划。"
+      },
+      {
+        "en": "In the end, reclaiming sleep is not a matter of indulgence but of necessity. As our understanding of the brain deepens, the line between rest and productivity grows increasingly blurred; far from being opposites, they are mutually reinforcing. A society that learns to value rest may well find itself, paradoxically, more alert, more creative, and ultimately more accomplished.",
+        "cn": "归根结底，重拾睡眠并非放纵，而是必要之举。随着我们对大脑认知的加深，休息与效率之间的界限日益模糊；二者绝非对立，而是相互促进。一个学会重视休息的社会，或许会出人意料地发现自己更加警觉、更具创造力，并最终更有成就。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "restorative",
+        "phonetic": "/rɪˈstɒr.ə.tɪv/",
+        "pos": "adj.",
+        "cn": "具有修复作用的；恢复健康的",
+        "en_def": "having the ability to make you feel strong or healthy again",
+        "example": "A short walk in the park proved restorative after a long day at the desk.",
+        "example_cn": "在桌前忙碌一天后，去公园散一小会儿步确实让人恢复了精神。"
+      },
+      {
+        "word": "erode",
+        "phonetic": "/ɪˈrəʊd/",
+        "pos": "v.",
+        "cn": "侵蚀；逐渐削弱",
+        "en_def": "to gradually destroy or reduce something",
+        "example": "Trust between colleagues can be eroded by constant criticism.",
+        "example_cn": "同事间的信任会因持续的批评而逐渐消磨。"
+      },
+      {
+        "word": "pervasive",
+        "phonetic": "/pəˈveɪ.sɪv/",
+        "pos": "adj.",
+        "cn": "无处不在的；弥漫的",
+        "en_def": "existing in every part of a place or thing",
+        "example": "The pervasive influence of social media shapes how young people see themselves.",
+        "example_cn": "社交媒体无处不在的影响，塑造着年轻人的自我认知。"
+      },
+      {
+        "word": "deprivation",
+        "phonetic": "/ˌdep.rɪˈveɪ.ʃən/",
+        "pos": "n.",
+        "cn": "剥夺；匮乏（尤指睡眠剥夺）",
+        "en_def": "the state of not having something that you need",
+        "example": "Sleep deprivation has been shown to impair concentration within a single night.",
+        "example_cn": "研究表明，仅一晚的睡眠剥夺就会损害注意力。"
+      },
+      {
+        "word": "consolidation",
+        "phonetic": "/kənˌsɒl.ɪˈdeɪ.ʃən/",
+        "pos": "n.",
+        "cn": "巩固；强化（此处指记忆巩固）",
+        "en_def": "the process of making something stronger or more solid",
+        "example": "During deep sleep, the brain carries out the consolidation of new memories.",
+        "example_cn": "在深度睡眠期间，大脑会完成对新记忆的巩固。"
+      },
+      {
+        "word": "impaired",
+        "phonetic": "/ɪmˈpeəd/",
+        "pos": "adj.",
+        "cn": "受损的；减弱的",
+        "en_def": "made weaker or worse in quality",
+        "example": "Visually impaired travellers may rely on audio guidance systems.",
+        "example_cn": "视力受损的旅客可能依赖语音导览系统。"
+      },
+      {
+        "word": "advocate",
+        "phonetic": "/ˈæd.və.keɪt/",
+        "pos": "v.",
+        "cn": "提倡；主张",
+        "en_def": "to publicly support or recommend a particular policy",
+        "example": "Many doctors advocate a later start to the school day.",
+        "example_cn": "许多医生主张将上学时间推迟。"
+      },
+      {
+        "word": "liveability",
+        "phonetic": "/ˌlɪv.əˈbɪl.ə.ti/",
+        "pos": "n.",
+        "cn": "宜居性",
+        "en_def": "the degree to which a place is pleasant and suitable to live in",
+        "example": "Green spaces and low noise levels improve a city's liveability.",
+        "example_cn": "绿地与低噪音水平能提升城市的宜居性。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, how has scientific understanding of sleep changed over the past two decades?",
+        "options": [
+          "It is now seen as an active, restorative process rather than a passive pause.",
+          "It has been proven that sleep is largely unnecessary for healthy adults.",
+          "Researchers have concluded that less sleep improves productivity.",
+          "Sleep has been shown to have no effect on emotional regulation."
+        ],
+        "answer": 0,
+        "explain": "第一段指出，过去二十年的科学证据揭示睡眠是一个主动、具有修复功能的过程，推翻了它只是清醒之间停顿的看法。"
+      },
+      {
+        "q": "The phrase 'silent epidemic' in paragraph 2 most nearly means:",
+        "options": [
+          "a widespread but largely unrecognised problem",
+          "a contagious disease spread by viruses",
+          "a sudden outbreak that attracts media attention",
+          "a decline in sleep quality caused only by illness"
+        ],
+        "answer": 0,
+        "explain": "第二段将睡眠不足称为隐性流行病，强调它在社会中广泛存在却常被忽视，并非字面意义上的传染病。"
+      },
+      {
+        "q": "Which of the following is NOT mentioned as a consequence of chronic short sleep?",
+        "options": [
+          "Improved capacity for rational decision-making",
+          "Weakened immune response",
+          "Heightened risk of depression",
+          "Impaired memory consolidation"
+        ],
+        "answer": 0,
+        "explain": "第三段说明长期睡眠不足会削弱免疫、升高抑郁风险并损害记忆巩固；理性决策能力是被削弱而非提升，故该选项不仅未提及，且与文意相反。"
+      },
+      {
+        "q": "What structural measures does the author propose to address the sleep crisis?",
+        "options": [
+          "Later school start times and workplace policies that protect downtime",
+          "Banning all screen devices after sunset",
+          "Replacing sleep with short periods of meditation",
+          "Encouraging longer working hours to finish tasks earlier"
+        ],
+        "answer": 0,
+        "explain": "第四段提到结构层面的措施，包括推迟上学时间、保护休息时间的职场政策，以及将安静纳入城市规划，选项一与之完全相符。"
+      }
+    ],
+    "summary": [
+      "睡眠并非被动的停顿，而是对身心修复至关重要的主动过程；现代生活方式却令成年人的睡眠时间普遍低于健康标准。",
+      "应对睡眠危机需个人与社会共同努力，而重视休息非但不是放纵，反而与效率相互促进，能使整个社会更加警觉与富有创造力。"
+    ]
   }
 ]
