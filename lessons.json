@@ -2456,5 +2456,158 @@
       "循环经济以「保留并再生材料」取代线性「获取—制造—丢弃」模式，把废弃物视为放错地方的资源，兼具环境与经济双重收益。",
       "真正实现系统性转型需要政府、企业与公民协同改变激励结构与消费习惯；它本质是一种增长思维范式的转变，而非单一技术。"
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "title": "The Loneliness Epidemic: Rebuilding Connection in a Hyper-Connected Age",
+    "titleCn": "孤独流行病：在高度互联时代重建人际联结",
+    "topic": "社会",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "Despite unprecedented connectivity through digital technologies, rates of loneliness have climbed sharply across industrialised societies, prompting public health authorities to classify chronic social isolation as a pressing concern. This essay examines why modern life fosters disconnection and what can be done to restore meaningful human bonds.",
+        "cn": "尽管数字技术带来了前所未有的联通，工业化社会中的孤独感却急剧上升，促使公共卫生部门将长期的社会孤立列为紧迫议题。本文探讨现代生活为何助长疏离，以及应如何重建有意义的人际纽带。"
+      },
+      {
+        "en": "One major driver is the erosion of traditional community structures. Urbanisation, geographic mobility, and the decline of close-knit neighbourhoods mean that individuals increasingly live far from extended family and long-standing friends, weakening the spontaneous support networks that once cushioned daily life.",
+        "cn": "一个主要驱动因素在于传统社群结构的瓦解。城市化、地理流动以及紧密邻里关系的衰退，意味着人们越来越远离大家庭和老友，削弱了那些曾缓冲日常生活的自发性支持网络。"
+      },
+      {
+        "en": "Technology plays an ambivalent role. While social media promises constant contact, it often substitutes shallow interaction for deep presence, leaving people feeling alone together. Curated online personas can also intensify social comparison and a sense of inadequacy, further undermining genuine connection.",
+        "cn": "技术扮演着矛盾的角色。社交媒体虽承诺随时联络，却常以浅层互动取代深度在场，让人陷入「群体中的孤独」。精心修饰的网络形象还会加剧社会比较与不足感，进一步侵蚀真实的联结。"
+      },
+      {
+        "en": "The consequences are not merely emotional. A growing body of research links chronic loneliness to elevated risks of depression, cardiovascular disease, and cognitive decline, imposing substantial costs on healthcare systems and productivity. In this sense, loneliness is a structural problem rather than a private failing.",
+        "cn": "其后果不止于情绪层面。越来越多研究将长期孤独与抑郁、心血管疾病及认知衰退的风险升高相联系，并为医疗体系与生产力带来沉重负担。就此而言，孤独是一个结构性问题，而非个人缺陷。"
+      },
+      {
+        "en": "Addressing the epidemic requires both policy and personal effort, from urban design that encourages public gathering to community programmes and a cultural shift that values presence over performance. Reconnection is achievable, but it demands treating belonging as a shared social priority rather than a personal luxury.",
+        "cn": "应对这场流行病需要政策与个人共同努力：从鼓励公共聚会的城市设计，到社区项目，再到重视「在场」胜过「表现」的文化转向。重建联结是可以实现的，但它要求我们将归属感视为共同的社会优先项，而非个人的奢侈品。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "epidemic",
+        "phonetic": "/ˌepɪˈdemɪk/",
+        "pos": "n.",
+        "cn": "流行病；泛滥",
+        "en_def": "a sudden rapid spread or outbreak of something undesirable",
+        "example": "Officials have declared loneliness a public-health epidemic.",
+        "example_cn": "官方已将孤独宣布为一场公共卫生流行病。"
+      },
+      {
+        "word": "isolation",
+        "phonetic": "/ˌaɪsəˈleɪʃn/",
+        "pos": "n.",
+        "cn": "孤立，隔离",
+        "en_def": "the state of being separated from others",
+        "example": "Chronic social isolation correlates with poorer mental health.",
+        "example_cn": "长期的社会孤立与更差的心理健康相关。"
+      },
+      {
+        "word": "erosion",
+        "phonetic": "/ɪˈrəʊʒn/",
+        "pos": "n.",
+        "cn": "侵蚀，逐渐削弱",
+        "en_def": "the gradual destruction or weakening of something",
+        "example": "The erosion of community ties weakens everyday support.",
+        "example_cn": "社群纽带的侵蚀削弱了日常的支持。"
+      },
+      {
+        "word": "spontaneous",
+        "phonetic": "/spɒnˈteɪniəs/",
+        "pos": "adj.",
+        "cn": "自发的，自然的",
+        "en_def": "happening naturally without external planning",
+        "example": "Spontaneous conversations build everyday connection.",
+        "example_cn": "自发的闲谈构筑了日常联结。"
+      },
+      {
+        "word": "ambivalent",
+        "phonetic": "/æmˈbɪvələnt/",
+        "pos": "adj.",
+        "cn": "矛盾的，喜忧参半的",
+        "en_def": "having mixed or contradictory feelings about something",
+        "example": "People feel ambivalent about social media's impact.",
+        "example_cn": "人们对社交媒体的影响感到矛盾。"
+      },
+      {
+        "word": "inadequate",
+        "phonetic": "/ɪnˈædɪkwət/",
+        "pos": "adj.",
+        "cn": "不足的，不够好的",
+        "en_def": "not good enough or sufficient for a purpose",
+        "example": "Constant comparison leaves users feeling inadequate.",
+        "example_cn": "不断的比较让人感到不够好。"
+      },
+      {
+        "word": "chronic",
+        "phonetic": "/ˈkrɒnɪk/",
+        "pos": "adj.",
+        "cn": "长期的，慢性的",
+        "en_def": "persisting for a long time or recurring frequently",
+        "example": "Chronic loneliness harms both mind and body.",
+        "example_cn": "长期孤独损害身心。"
+      },
+      {
+        "word": "belonging",
+        "phonetic": "/bɪˈlɒŋɪŋ/",
+        "pos": "n.",
+        "cn": "归属感",
+        "en_def": "the feeling of being accepted and comfortable as part of a group",
+        "example": "A strong sense of belonging protects wellbeing.",
+        "example_cn": "强烈的归属感能保护人的幸福感。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what has paradoxically increased alongside digital connectivity?",
+        "options": [
+          "Rates of loneliness",
+          "The speed of international travel",
+          "The average family size",
+          "Household income levels"
+        ],
+        "answer": 0,
+        "explain": "The text states that despite unprecedented digital connectivity, loneliness rates have climbed sharply across industrialised societies."
+      },
+      {
+        "q": "Which of the following is NOT mentioned as a cause of weakened community bonds?",
+        "options": [
+          "Urbanisation",
+          "Geographic mobility",
+          "The decline of close-knit neighbourhoods",
+          "Higher levels of formal education"
+        ],
+        "answer": 3,
+        "explain": "Urbanisation, mobility, and the decline of neighbourhoods are cited as causes; formal education levels are never mentioned."
+      },
+      {
+        "q": "In the passage, the word 'ambivalent' most nearly means:",
+        "options": [
+          "Having mixed or contradictory feelings",
+          "Completely positive and approving",
+          "Easily forgotten over time",
+          "Proven by scientific experiment"
+        ],
+        "answer": 0,
+        "explain": "Ambivalent describes holding simultaneous contradictory feelings, here about technology's role in connection."
+      },
+      {
+        "q": "What does the author suggest is needed to address the loneliness epidemic?",
+        "options": [
+          "Both policy measures and personal effort",
+          "Medical treatment alone",
+          "Moving permanently to rural areas",
+          "Avoiding all digital technology"
+        ],
+        "answer": 0,
+        "explain": "The conclusion calls for combined policy action and personal or cultural effort to rebuild meaningful connection."
+      }
+    ],
+    "summary": [
+      "Modern hyper-connectivity has coincided with rising loneliness, as traditional community structures erode and shallow online interaction often replaces deep presence.",
+      "Because chronic loneliness harms health and productivity, reconnection should be treated as a shared social priority requiring both policy and personal action."
+    ]
   }
 ]
