@@ -2303,5 +2303,158 @@
       "睡眠并非被动的停顿，而是对身心修复至关重要的主动过程；现代生活方式却令成年人的睡眠时间普遍低于健康标准。",
       "应对睡眠危机需个人与社会共同努力，而重视休息非但不是放纵，反而与效率相互促进，能使整个社会更加警觉与富有创造力。"
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "title": "The Circular Economy: Rethinking Growth Beyond Waste",
+    "titleCn": "循环经济：超越废弃物的增长新思维",
+    "topic": "经济",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "For most of the modern era, economic prosperity has rested on a linear model: we extract raw materials, manufacture products, and ultimately discard them as waste. This take-make-dispose pattern delivered unprecedented material abundance, yet it also placed enormous strain on the planet's finite resources. As populations grow and consumption rises, the costs of this model—pollution, resource depletion, and mounting landfill—have become impossible to ignore.",
+        "cn": "在现代社会的大部分时间里，经济繁荣一直建立在一种线性模式之上：我们开采原材料、制造产品，最后将其作为废弃物丢弃。这种「获取—制造—丢弃」的模式带来了空前的物质富足，却也给地球有限的资源施加了巨大压力。随着人口增长与消费上升，这一模式的代价——污染、资源枯竭与不断增加的垃圾填埋——已变得无法忽视。"
+      },
+      {
+        "en": "The circular economy offers a fundamentally different vision. Instead of treating end-of-life as the finish line, it designs products and systems so that materials are kept in use for as long as possible, then recovered and regenerated. Waste is reframed not as an inevitable byproduct but as a resource out of place. In principle, what one process discards becomes the feedstock for another, mimicking the closed loops found in natural ecosystems.",
+        "cn": "循环经济提供了一种根本不同的愿景。它不把产品寿命的终点视为终结，而是设计产品与系统，使材料尽可能长久地保持使用状态，随后被回收并再生。废弃物不再被视作不可避免的副产品，而是「放错地方的资源」。原则上，某一流程丢弃之物会成为另一流程的原料，仿效自然生态系统中循环闭合的回路。"
+      },
+      {
+        "en": "Proponents argue that circularity benefits both the environment and the economy. By extending product lifetimes and recovering materials, businesses reduce their exposure to volatile commodity prices and supply-chain shocks. Consumers, meanwhile, may gain access to more durable goods through repair, leasing, or sharing models. Some analysts even suggest that a well-designed circular transition could stimulate innovation and create skilled jobs in remanufacturing and reverse logistics.",
+        "cn": "支持者认为，循环性对环境与经济都有利。通过延长产品寿命并回收材料，企业能减少对波动的大宗商品价格与供应链冲击的暴露。与此同时，消费者可通过维修、租赁或共享模式获得更耐用的商品。一些分析人士甚至认为，设计良好的循环转型能刺激创新，并在再制造与逆向物流领域创造技术性岗位。"
+      },
+      {
+        "en": "Nevertheless, the shift is far from straightforward. Many products are engineered for obsolescence rather than repair, and recycling infrastructure remains uneven across regions. Changing entrenched consumer habits—and the incentive structures that reward constant new purchases—requires coordinated action from governments, firms, and citizens alike. Without clear regulation and economic signals, the circular ideal risks remaining a niche practice rather than a systemic norm.",
+        "cn": "然而，这一转变远非易事。许多产品被设计成易于淘汰而非便于维修，且回收基础设施在各地区的分布参差不齐。要改变根深蒂固的消费习惯，以及奖励不断购买新品的激励结构，需要政府、企业与公民协同行动。若缺乏明确的监管与经济信号，循环理想可能只停留在小众实践，而难以成为系统性常态。"
+      },
+      {
+        "en": "Ultimately, the circular economy is less a single technology than a shift in mindset. It asks us to measure progress not only by how much we produce, but by how well we preserve value over time. Policymakers can accelerate this transition through standards, taxes, and public procurement, while individuals can support it through conscious consumption. Whether at the scale of a nation or a household, the challenge is the same: to grow within, rather than against, the limits of a finite world.",
+        "cn": "归根结底，循环经济与其说是一项单一技术，不如说是一种思维方式的转变。它要求我们衡量进步时，不仅看生产了多少，也看价值在时间里被保留得有多好。决策者可通过标准、税收与公共采购加速这一转型，而个人则能通过理性消费予以支持。无论在国家还是家庭层面，挑战都是相同的：在有限世界的边界之内发展，而非与之对抗。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "linear",
+        "phonetic": "/ˈlɪniə(r)/",
+        "pos": "adj.",
+        "cn": "线性的；直线的",
+        "en_def": "arranged in or extending along a straight line; involving a single sequence",
+        "example": "The traditional linear model treats products as having a clear beginning and end.",
+        "example_cn": "传统的线性模式将产品视为有清晰起点与终点。"
+      },
+      {
+        "word": "discard",
+        "phonetic": "/dɪsˈkɑːd/",
+        "pos": "v.",
+        "cn": "丢弃；抛弃",
+        "en_def": "to get rid of something that is no longer wanted or needed",
+        "example": "Valuable materials are often discarded simply because products are hard to repair.",
+        "example_cn": "有价值的材料常被丢弃，只因产品难以维修。"
+      },
+      {
+        "word": "regenerate",
+        "phonetic": "/rɪˈdʒenəreɪt/",
+        "pos": "v.",
+        "cn": "使再生；使复兴",
+        "en_def": "to form or be formed again; to revive or renew",
+        "example": "A circular system seeks to regenerate materials rather than bury them.",
+        "example_cn": "循环系统力求让材料再生，而非将其掩埋。"
+      },
+      {
+        "word": "obsolete",
+        "phonetic": "/ˌɒbsəˈliːt/",
+        "pos": "adj.",
+        "cn": "废弃的；过时的",
+        "en_def": "no longer produced or used; out of date",
+        "example": "Many devices become obsolete long before they stop working.",
+        "example_cn": "许多设备在其停止运作之前很久便已过时。"
+      },
+      {
+        "word": "incentivize",
+        "phonetic": "/ɪnˈsentɪvaɪz/",
+        "pos": "v.",
+        "cn": "激励；刺激",
+        "en_def": "to create incentives for someone to do something",
+        "example": "Taxes can incentivize companies to design for durability.",
+        "example_cn": "税收可激励企业以耐用性为目标进行设计。"
+      },
+      {
+        "word": "resilience",
+        "phonetic": "/rɪˈzɪliəns/",
+        "pos": "n.",
+        "cn": "韧性；复原力",
+        "en_def": "the capacity to recover quickly from difficulties",
+        "example": "A circular economy may build resilience against supply shocks.",
+        "example_cn": "循环经济或能增强抵御供应冲击的韧性。"
+      },
+      {
+        "word": "paradigm",
+        "phonetic": "/ˈpærədaɪm/",
+        "pos": "n.",
+        "cn": "范式；典范",
+        "en_def": "a typical example or model of how something works",
+        "example": "Moving to circularity requires a new economic paradigm.",
+        "example_cn": "转向循环需要一种新的经济范式。"
+      },
+      {
+        "word": "throughput",
+        "phonetic": "/ˈθruːpʊt/",
+        "pos": "n.",
+        "cn": "吞吐量；物料流量",
+        "en_def": "the amount of material or work passing through a system",
+        "example": "Lower material throughput means less strain on natural systems.",
+        "example_cn": "更低的物料流量意味着对自然系统的压力更小。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what is the central problem with the traditional linear economy?",
+        "options": [
+          "It relies on closed loops found in natural ecosystems.",
+          "It extracts, makes, and discards, putting heavy strain on finite resources.",
+          "It keeps materials in use for as long as possible.",
+          "It was designed to recover and regenerate all waste."
+        ],
+        "answer": 1,
+        "explain": "第一段指出线性模式是「获取—制造—丢弃」，给地球有限资源带来巨大压力，对应选项二。"
+      },
+      {
+        "q": "In a circular economy, waste is best understood as",
+        "options": [
+          "an inevitable byproduct of manufacturing.",
+          "a sign that a product reached its natural end.",
+          "a resource out of place that can feed another process.",
+          "something to be buried in landfill."
+        ],
+        "answer": 2,
+        "explain": "第二段将废弃物重新定义为「放错地方的资源」，某一流程丢弃之物可成为另一流程的原料。"
+      },
+      {
+        "q": "Which of the following is mentioned as a benefit of the circular transition?",
+        "options": [
+          "It guarantees lower prices for all new consumer goods.",
+          "It removes the need for any government regulation.",
+          "It may reduce exposure to volatile commodity prices and supply shocks.",
+          "It makes products intentionally obsolete."
+        ],
+        "answer": 2,
+        "explain": "第三段说明循环经济可通过延长寿命与回收材料，降低企业对波动的大宗商品价格与供应链冲击的暴露。"
+      },
+      {
+        "q": "What does the author suggest is the main obstacle to a systemic shift?",
+        "options": [
+          "A lack of any theoretical model for circularity.",
+          "Entrenched habits and incentive structures that reward constant new purchases.",
+          "The impossibility of recycling any material.",
+          "Universal agreement that the linear model is superior."
+        ],
+        "answer": 1,
+        "explain": "第四段指出产品被设计成易于淘汰、回收设施不均，且奖励不断购买的消费习惯与激励结构根深蒂固，是主要障碍。"
+      }
+    ],
+    "summary": [
+      "循环经济以「保留并再生材料」取代线性「获取—制造—丢弃」模式，把废弃物视为放错地方的资源，兼具环境与经济双重收益。",
+      "真正实现系统性转型需要政府、企业与公民协同改变激励结构与消费习惯；它本质是一种增长思维范式的转变，而非单一技术。"
+    ]
   }
 ]
