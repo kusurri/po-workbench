@@ -2609,5 +2609,158 @@
       "Modern hyper-connectivity has coincided with rising loneliness, as traditional community structures erode and shallow online interaction often replaces deep presence.",
       "Because chronic loneliness harms health and productivity, reconnection should be treated as a shared social priority requiring both policy and personal action."
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "title": "Unchaining the Rivers: Why Dam Removal Is Reshaping Our Relationship with Nature",
+    "titleCn": "为河流松绑：拆除水坝如何重塑我们与自然的关系",
+    "topic": "自然",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "For much of the twentieth century, large dams were celebrated as triumphs of engineering — monuments to human control over nature that generated electricity, stored water, and tamed floods. Yet in recent decades a quiet reversal has begun: across Europe, North America, and parts of Asia, ageing dams are being taken down rather than built up.",
+        "cn": "在二十世纪的大部分时间里，大型水坝被视为工程学的胜利——人类征服自然的丰碑，既能发电、蓄水，又能驯服洪水。然而近几十年来，一场静悄悄的逆转已然开始：在欧洲、北美以及亚洲部分地区，老旧水坝正被拆除而非新建。"
+      },
+      {
+        "en": "The reason is ecological. A river blocked by concrete is no longer a living system but a series of stagnant pools. Migration routes for fish such as salmon are severed, sediments that once built floodplains are trapped behind the wall, and the natural rhythm of the waterway is lost. This fragmentation undermines biodiversity far beyond the immediate reservoir.",
+        "cn": "原因在于生态。被混凝土阻断的河流不再是一个活的生态系统，而退化成一连串停滞的水塘。鲑鱼等鱼类的洄游通道被切断，曾经堆积成冲积平原的沉积物被拦截在坝后，水道天然的水文节律也随之消失。这种破碎化对生物多样性的破坏远远超出水库本身的周边范围。"
+      },
+      {
+        "en": "What surprises many engineers is how quickly rivers recover once the barrier is gone. Within a single season, freed currents can redistribute trapped sediment, native plants re-colonise exposed banks, and migratory fish return to spawning grounds they abandoned for generations. The Elwha River in the United States, where two dams were removed in 2014, has become a global precedent for this resilience.",
+        "cn": "令许多工程师惊讶的是，一旦障碍消失，河流恢复得何其迅速。仅仅一个季节之内，获得自由的河道就能重新分配被拦截的沉积物，本土植物会重新占领裸露的河岸，洄游鱼类也会回到它们弃用数代的产卵场。美国的埃尔瓦河在2014年拆除两座水坝后，已成为这种生态恢复力的全球先例。"
+      },
+      {
+        "en": "Critics, however, warn against treating removal as a universal solution. Dams still supply clean hydroelectric power and reliable drinking water to millions; in regions facing energy shortages, demolishing them could increase dependence on fossil fuels. The challenge, therefore, is not to abandon infrastructure but to assess each structure on its ecological and social merits.",
+        "cn": "然而，批评者警告说，不应把拆除水坝当作放之四海皆准的方案。水坝仍在为数百万人提供清洁的水电和可靠的饮用水；在面临能源短缺的地区，拆除它们可能会增加对化石燃料的依赖。因此，挑战不在于放弃基础设施，而在于根据每座水坝的生态与社会价值加以评估。"
+      },
+      {
+        "en": "Perhaps the deepest lesson of the rewilding movement is philosophical. By unchaining our rivers, we acknowledge that nature is not merely a resource to be managed but a partner whose self-healing capacity, given room, can outperform our interventions. The future of conservation may lie less in controlling landscapes and more in knowing when to step back.",
+        "cn": "或许，再野化运动最深刻的启示是哲学层面的。通过为河流松绑，我们承认自然不只是一种待管理的资源，更是一位伙伴——只要给予空间，其自我修复的能力便能胜过人类的干预。保护的未来或许不在于掌控景观，而在于懂得何时抽身而退。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "fragmentation",
+        "phonetic": "/ˌfræɡmənˈteɪʃən/",
+        "pos": "n.",
+        "cn": "破碎化；分裂",
+        "en_def": "the process of breaking into small disconnected parts",
+        "example": "Dam construction caused the fragmentation of once-continuous habitats.",
+        "example_cn": "水坝建设导致曾经连成一片的栖息地出现破碎化。"
+      },
+      {
+        "word": "rewilding",
+        "phonetic": "/riːˈwaɪldɪŋ/",
+        "pos": "n.",
+        "cn": "再野化；恢复自然原貌",
+        "en_def": "the practice of returning land to a wild, natural state",
+        "example": "Rewilding has transformed the abandoned farmland into a thriving wetland.",
+        "example_cn": "再野化已将这片废弃农田变成生机勃勃的湿地。"
+      },
+      {
+        "word": "sediment",
+        "phonetic": "/ˈsedɪmənt/",
+        "pos": "n.",
+        "cn": "沉积物；泥沙",
+        "en_def": "matter that settles at the bottom of a liquid",
+        "example": "Trapped sediment was released downstream after the dam was removed.",
+        "example_cn": "水坝拆除后，被拦截的沉积物向下游释放。"
+      },
+      {
+        "word": "mitigate",
+        "phonetic": "/ˈmɪtɪɡeɪt/",
+        "pos": "v.",
+        "cn": "减轻；缓和",
+        "en_def": "to make something less severe or harmful",
+        "example": "New policies aim to mitigate the impact of floods on local villages.",
+        "example_cn": "新政策旨在减轻洪水对当地村庄的影响。"
+      },
+      {
+        "word": "tributary",
+        "phonetic": "/ˈtrɪbjəteri/",
+        "pos": "n.",
+        "cn": "支流",
+        "en_def": "a river or stream that flows into a larger river",
+        "example": "Several tributaries feed the main river that powers the region.",
+        "example_cn": "数条支流汇入为该区域供电的主河。"
+      },
+      {
+        "word": "indigenous",
+        "phonetic": "/ɪnˈdɪdʒənəs/",
+        "pos": "adj.",
+        "cn": "本土的；土著的",
+        "en_def": "native to a particular place",
+        "example": "Indigenous species returned once the waterway was reconnected.",
+        "example_cn": "水道重新连通后，本土物种便回来了。"
+      },
+      {
+        "word": "resilience",
+        "phonetic": "/rɪˈzɪliəns/",
+        "pos": "n.",
+        "cn": "恢复力；韧性",
+        "en_def": "the ability to recover quickly from difficulties",
+        "example": "The resilience of the river ecosystem surprised the research team.",
+        "example_cn": "河流生态系统的恢复力令研究团队吃惊。"
+      },
+      {
+        "word": "precedent",
+        "phonetic": "/ˈpresɪdənt/",
+        "pos": "n.",
+        "cn": "先例",
+        "en_def": "an earlier event regarded as an example to follow",
+        "example": "The project set a precedent for large-scale dam removal worldwide.",
+        "example_cn": "该项目为全球大规模拆除水坝树立了先例。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what is a major ecological consequence of building large dams?",
+        "options": [
+          "They increase the speed of river currents.",
+          "They fragment habitats and block migratory routes.",
+          "They reduce the amount of rainfall upstream.",
+          "They encourage the growth of floodplains."
+        ],
+        "answer": 1,
+        "explain": "第二段指出水坝将河流变成停滞的水塘，切断鱼类洄游通道，造成栖息地破碎化，破坏生物多样性。"
+      },
+      {
+        "q": "The Elwha River is mentioned as an example of",
+        "options": [
+          "a dam that failed to generate power",
+          "the rapid ecological resilience of a freed river",
+          "a river polluted by industrial sediment",
+          "a successful plan that was never implemented"
+        ],
+        "answer": 1,
+        "explain": "第三段以美国埃尔瓦河为例，说明拆除水坝后河流在很短时间内恢复，成为全球生态恢复力的先例。"
+      },
+      {
+        "q": "What concern do opponents of dam removal raise?",
+        "options": [
+          "Dams may cause more frequent floods.",
+          "Removing dams could raise reliance on fossil fuels in some regions.",
+          "Fish populations will never return.",
+          "Hydroelectric power is too expensive to maintain."
+        ],
+        "answer": 1,
+        "explain": "第四段指出，在能源短缺地区，拆除水坝可能增加对化石燃料的依赖，因此不能一概而论。"
+      },
+      {
+        "q": "What is the author's overall attitude toward rewilding rivers?",
+        "options": [
+          "Completely opposed to all dams.",
+          "Supportive, but in favour of case-by-case assessment.",
+          "Indifferent to the environmental debate.",
+          "Convinced nature should never be touched by humans."
+        ],
+        "answer": 1,
+        "explain": "作者肯定再野化的价值，但强调应根据每座水坝的生态与社会价值个案评估，而非全盘拆除。"
+      }
+    ],
+    "summary": [
+      "拆除老旧水坝能让被阻断的河流迅速恢复生态功能——沉积物重新分布、本土物种回归、生物多样性回升。",
+      "再野化并非要全盘否定基础设施，而是呼吁在生态价值与社会需求之间个案评估；其深层启示是承认自然的自我修复能力，懂得适时'抽身而退'。"
+    ]
   }
 ]
