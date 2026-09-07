@@ -2928,5 +2928,158 @@
       "真正创新在于从'计工时'转向'看结果'的工作契约；四天制只是催化剂，成败取决于是否重构工作的组织与回报方式。",
       "争论本质是对'工作目的'的反思：在技术与经济增长后，应否把释放出的能力还给人用于休息与学习；死守二十世纪作息本身也是一场未经质疑的实验。"
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "title": "The Ground Beneath Us: Why Soil Is the Climate Solution We Overlook",
+    "titleCn": "脚下的大地：为何土壤是被我们忽视的气候解方",
+    "topic": "环境",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "When the world discusses climate change, the conversation almost always turns to smoke-belching factories, roaring traffic, and the endless expansion of renewable energy. Yet beneath our feet lies a quieter, far older ally that rarely makes the headlines: soil. Often dismissed as mere dirt, the thin layer of living earth that covers the planet is in fact one of the largest carbon stores on Earth, holding more carbon than all the world's forests and atmosphere combined.",
+        "cn": "每当讨论气候变化，话题几乎总是转向浓烟滚滚的工厂、喧嚣的交通以及可再生能源的不断扩张。然而在我们脚下，却沉睡着一位更安静、也古老得多的盟友，它很少登上新闻头条：土壤。常被轻视为\"泥土\"的这层覆盖地球的薄薄活土，实际上是地球上最大的碳储存库之一，其所含的碳甚至超过全球森林与大气的总和。"
+      },
+      {
+        "en": "The secret lies in a process scientists call carbon sequestration. Plants absorb carbon dioxide from the air and, through photosynthesis, transform it into the sugars that feed their roots. A portion of this carbon is transferred into the soil, where it is locked away in organic matter known as humus. In a healthy landscape, this underground reservoir grows year by year, quietly drawing down the excess carbon that human activity has pumped into the sky.",
+        "cn": "其奥秘在于科学家所称的\"碳固存\"过程。植物从空气中吸收二氧化碳，并通过光合作用将其转化为滋养根系的糖分。其中一部分碳被输送到土壤中，封存于名为腐殖质的有机物里。在健康的地貌中，这座地下储库逐年增长，默默吸收着人类活动排放到天空中的过量碳。"
+      },
+      {
+        "en": "Tragically, we are losing this ally faster than we are protecting it. Centuries of intensive tillage, monoculture, and the heavy use of chemical fertilisers have stripped the land of its natural richness. Erosion carries away fertile topsoil at a rate that far exceeds nature's ability to replenish it. According to recent estimates, roughly a third of the planet's soils are already degraded, releasing their stored carbon back into the atmosphere and worsening precisely the crisis we hope to solve.",
+        "cn": "可悲的是，我们失去这位盟友的速度，远快于保护它的速度。几个世纪以来高强度的翻耕、单一作物种植以及化肥的过度使用，已使土地丧失了天然肥力。侵蚀带走肥沃表土的速度，远超自然补充的能力。据近期估算，全球约三分之一的土壤已经退化，将其封存的碳重新释放到大气中，反而加剧了我们本希望解决的危机。"
+      },
+      {
+        "en": "There is, however, a growing movement that treats soil not as a victim but as a partner. Regenerative agriculture—a set of practices that includes reduced tillage, crop rotation, and the planting of perennial cover crops—aims to rebuild the living microbiome of the earth. By keeping roots in the ground throughout the year and returning organic matter to the field, farmers can turn their land from a source of emissions into a sponge that soaks up carbon.",
+        "cn": "然而，一场日益壮大的运动正将土壤视为伙伴而非受害者。再生农业——包括减少翻耕、作物轮作以及种植多年生覆盖作物在内的一系列做法——旨在重建土地中充满生机的微生物群落。通过常年让根系留存在地里、并将有机物归还农田，农民可以让土地从排放源转变为吸收碳的海绵。"
+      },
+      {
+        "en": "None of this suggests that soil alone can rescue the climate; cutting fossil fuel use remains essential. But as a complementary solution, the ground beneath us deserves far more attention than it receives. If governments, consumers, and farmers work together to reward land stewardship, the humble soil could become one of our most powerful, and most overlooked, allies in the fight against a warming world.",
+        "cn": "这并非意味着单靠土壤就能拯救气候；削减化石燃料使用依然必不可少。但作为一种补充性方案，我们脚下的大地理应获得远超今日的关注。若政府、消费者与农民携手，对土地养护给予回报，这片朴素的土壤便能成为对抗全球变暖之战中最为有力、也最被忽视的盟友之一。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "sequestration",
+        "phonetic": "/ˌsiːkwəˈstreɪʃn/",
+        "pos": "n.",
+        "cn": "固存；隔离存放",
+        "en_def": "the process of isolating and storing something, especially carbon, so it cannot re-enter the atmosphere",
+        "example": "Soil can play a major role in carbon sequestration.",
+        "example_cn": "土壤能在碳固存中发挥重要作用。"
+      },
+      {
+        "word": "humus",
+        "phonetic": "/ˈhjuːməs/",
+        "pos": "n.",
+        "cn": "腐殖质",
+        "en_def": "the dark organic part of soil formed by the decay of plant and animal matter",
+        "example": "Rich humus gives the soil its capacity to store carbon.",
+        "example_cn": "丰富的腐殖质赋予土壤储存碳的能力。"
+      },
+      {
+        "word": "tillage",
+        "phonetic": "/ˈtɪlɪdʒ/",
+        "pos": "n.",
+        "cn": "耕作；翻耕",
+        "en_def": "the preparation of land for growing crops by ploughing or turning the soil",
+        "example": "Excessive tillage exposes soil and speeds up erosion.",
+        "example_cn": "过度的翻耕使土壤裸露，加速侵蚀。"
+      },
+      {
+        "word": "erosion",
+        "phonetic": "/ɪˈrəʊʒn/",
+        "pos": "n.",
+        "cn": "侵蚀；流失",
+        "en_def": "the gradual destruction of soil or rock by wind, water, or human activity",
+        "example": "Wind and rain cause the erosion of fertile topsoil.",
+        "example_cn": "风雨导致肥沃表土的侵蚀流失。"
+      },
+      {
+        "word": "microbiome",
+        "phonetic": "/ˈmaɪkrəʊbaɪəʊm/",
+        "pos": "n.",
+        "cn": "微生物群落",
+        "en_def": "the community of microorganisms living in a particular environment, such as soil",
+        "example": "A healthy soil microbiome supports plant growth.",
+        "example_cn": "健康的土壤微生物群落有助于植物生长。"
+      },
+      {
+        "word": "regenerative",
+        "phonetic": "/rɪˈdʒenərətɪv/",
+        "pos": "adj.",
+        "cn": "再生的；恢复性的",
+        "en_def": "relating to the renewal or restoration of a system's natural vitality",
+        "example": "Regenerative farming rebuilds soil health over time.",
+        "example_cn": "再生农业随时间推移重建土壤健康。"
+      },
+      {
+        "word": "perennial",
+        "phonetic": "/pəˈreniəl/",
+        "pos": "adj.",
+        "cn": "多年生的",
+        "en_def": "lasting through several years, or living for more than two growing seasons",
+        "example": "Perennial cover crops protect the soil all year.",
+        "example_cn": "多年生覆盖作物全年保护土壤。"
+      },
+      {
+        "word": "stewardship",
+        "phonetic": "/ˈstjuːədʃɪp/",
+        "pos": "n.",
+        "cn": "管理；养护",
+        "en_def": "the responsible managing or protecting of something, such as land or resources",
+        "example": "Good land stewardship rewards both farmers and the planet.",
+        "example_cn": "良好的土地养护让农民与地球双双受益。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, soil is described as one of the largest carbon stores because it holds more carbon than ________.",
+        "options": [
+          "all the world's forests and atmosphere combined",
+          "all the coal reserves underground",
+          "the oceans and the polar ice caps",
+          "every vehicle on the planet"
+        ],
+        "answer": 0,
+        "explain": "第一段明确指出，土壤所含的碳超过全球森林与大气的总和（more carbon than all the world's forests and atmosphere combined）。"
+      },
+      {
+        "q": "The word 'sequestration' in the passage most nearly means ________.",
+        "options": [
+          "the burning of fossil fuels",
+          "the process of locking carbon away in the soil",
+          "the growth of new forests",
+          "the emission of greenhouse gases"
+        ],
+        "answer": 1,
+        "explain": "第二段将 carbon sequestration 解释为碳被转移进土壤、封存在腐殖质中的过程，即把碳\"锁\"在土里。"
+      },
+      {
+        "q": "Which practice is NOT mentioned as part of regenerative agriculture?",
+        "options": [
+          "reduced tillage",
+          "crop rotation",
+          "planting perennial cover crops",
+          "large-scale deforestation"
+        ],
+        "answer": 3,
+        "explain": "第四段列举的再生农业做法包括减少翻耕、作物轮作和种植多年生覆盖作物；大规模砍伐森林并未提及，且与环境目标相悖。"
+      },
+      {
+        "q": "What is the author's final attitude toward soil as a climate solution?",
+        "options": [
+          "Soil alone can fully solve climate change",
+          "Cutting fossil fuels is unnecessary if we protect soil",
+          "Soil is a valuable complementary solution that deserves more attention",
+          "Soil is too degraded to be of any use"
+        ],
+        "answer": 2,
+        "explain": "最后一段强调土壤不能单独拯救气候，但作为补充方案值得更多关注，应被视为对抗变暖最被忽视的盟友之一。"
+      }
+    ],
+    "summary": [
+      "土壤是地球上最大的碳储库之一，通过碳固存将植物吸收的碳封存在腐殖质中，是抗击气候变化却被长期忽视的盟友。",
+      "高强度翻耕、单一耕作与化肥滥用导致约三分之一土壤退化，反而将封存的碳释放回大气；而再生农业（减耕、轮作、多年生覆盖作物）可重建土壤微生物群落，使其从排放源转为吸碳海绵，值得政策与公众更多关注。"
+    ]
   }
 ]
