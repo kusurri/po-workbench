@@ -3081,5 +3081,150 @@
       "土壤是地球上最大的碳储库之一，通过碳固存将植物吸收的碳封存在腐殖质中，是抗击气候变化却被长期忽视的盟友。",
       "高强度翻耕、单一耕作与化肥滥用导致约三分之一土壤退化，反而将封存的碳释放回大气；而再生农业（减耕、轮作、多年生覆盖作物）可重建土壤微生物群落，使其从排放源转为吸碳海绵，值得政策与公众更多关注。"
     ]
+  },
+  {
+    "date": "2026-09-09",
+    "title": "The Synthetic Truth: How AI-Generated Media Is Reshaping Our Sense of Reality",
+    "titleCn": "合成的真实：AI 生成内容如何重塑我们对真实的感知",
+    "topic": "科技",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "The rapid advance of generative artificial intelligence has made it almost trivial to fabricate convincing images, audio, and video. A short clip of a politician appearing to confess a crime, or a photograph of a building that never existed, can now be produced in minutes by anyone with a laptop. We have quietly entered an era in which seeing is no longer believing, and this shift demands a serious reconsideration of how societies establish what is true.",
+        "cn": "生成式人工智能的迅猛发展，使得伪造以假乱真的图像、音频和视频几乎轻而易举。如今，任何拥有一台笔记本电脑的人都能在几分钟内炮制出一段政客\"认罪\"的短片，或一张根本不存在的建筑照片。我们已悄然进入一个\"眼见不再为实\"的时代，这一转变要求我们认真重新审视社会究竟如何确立\"真实\"。"
+      },
+      {
+        "en": "The technology behind so-called deepfakes relies on deep neural networks trained on vast datasets of real faces, voices, and footage. What began as a technical novelty—face-swapping party apps—has matured into a tool that can threaten democratic elections, undermine journalism, and devastate individual reputations. Each improvement in detection software is quickly matched by a new generation of generators, producing an endless arms race between forgers and forensic analysts.",
+        "cn": "所谓深度伪造（deepfake）背后的技术，依赖于在海量真实人脸、声音与影像数据集上训练的深度神经网络。它最初只是换脸派对应用这类技术噱头，如今已演变为可威胁民主选举、破坏新闻业并摧毁个人名誉的工具。每一代检测软件的改进，很快就会被新一代生成器追上，在伪造者与取证分析者之间制造出一场无休止的军备竞赛。"
+      },
+      {
+        "en": "Yet the deeper problem is not merely technical but epistemic. When any recording can plausibly be dismissed as fake, bad actors gain access to what scholars call the \"liar's dividend\": the ability to deny authentic evidence simply by insisting it was synthetically generated. In such a climate, genuine footage of corruption or abuse can be waved away, and public trust in legitimate institutions—courts, press, science—erodes from both directions at once.",
+        "cn": "然而更深层的问题并非纯粹技术层面，而是认识论层面的。当任何一段录像都可能被合理地指为伪造时，作恶者便获得了学者所称的\"说谎者红利\"：只要坚称证据是合成的，就能轻易否认真实证据。在这种环境下，有关腐败或虐待的真实影像也可能被随意打发，而公众对法院、媒体、科学等合法机构的信任会从两个方向同时被侵蚀。"
+      },
+      {
+        "en": "Countermeasures do exist, though none is sufficient alone. Invisible watermarking and cryptographic provenance standards such as C2PA can tag content with its true origin; media-literacy education can teach citizens to interrogate sources rather than trust appearances; and regulation can impose liability on platforms that ignore manipulated material. A layered response, combining technology, education, and law, is the only realistic path forward.",
+        "cn": "对策确实存在，但没有任何单一手段足够。隐形水印与 C2PA 这类加密溯源标准，可为内容标注真实出处；媒介素养教育能教会民众质疑来源而非轻信表象；监管则可让无视被操纵内容的平台承担责任。将技术、教育与法律结合的多层应对，才是唯一现实的出路。"
+      },
+      {
+        "en": "In the end, the challenge posed by synthetic media is less about banning a technology than about rebuilding the shared mechanisms through which a society agrees on reality. Trust, once lost, is painfully slow to recover. In a post-truth age, the capacity to settle on a common set of facts may become the scarcest and most valuable resource we have.",
+        "cn": "归根结底，合成媒体带来的挑战，不在于禁用某项技术，而在于重建社会借以就\"现实\"达成共识的共享机制。信任一旦失去，重建极其缓慢。在后真相时代，就一套共同事实达成一致的能力，或许会成为我们最稀缺也最宝贵的资源。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "fabricate",
+        "phonetic": "/ˈfæbrɪkeɪt/",
+        "pos": "v.",
+        "cn": "捏造，伪造",
+        "en_def": "to invent or produce something false in order to deceive",
+        "example": "Activists warned that it is now easy to fabricate a convincing video of any public figure.",
+        "example_cn": "活动人士警告说，如今伪造一段以假乱真的公众人物视频已轻而易举。"
+      },
+      {
+        "word": "convincing",
+        "phonetic": "/kənˈvɪnsɪŋ/",
+        "pos": "adj.",
+        "cn": "令人信服的，有说服力的",
+        "en_def": "able to make people believe that something is true or real",
+        "example": "The forgery was so convincing that seasoned editors initially accepted it as genuine.",
+        "example_cn": "这段伪造品如此逼真，以至于资深编辑起初都把它当作真品。"
+      },
+      {
+        "word": "epistemic",
+        "phonetic": "/ˌepɪˈstiːmɪk/",
+        "pos": "adj.",
+        "cn": "认识论的，与知识/信念相关的",
+        "en_def": "relating to knowledge, belief, and the ways we justify what is true",
+        "example": "The spread of fake media has created a genuine epistemic crisis for democracy.",
+        "example_cn": "虚假媒体的传播给民主制度制造了一场真正的认识论危机。"
+      },
+      {
+        "word": "provenance",
+        "phonetic": "/ˈprɒvənəns/",
+        "pos": "n.",
+        "cn": "来源，出处",
+        "en_def": "the place of origin or the record of where something came from",
+        "example": "Cryptographic provenance allows a viewer to verify who originally created a file.",
+        "example_cn": "加密溯源让观众能够核实一份文件的原始创作者是谁。"
+      },
+      {
+        "word": "scrutiny",
+        "phonetic": "/ˈskruːtəni/",
+        "pos": "n.",
+        "cn": "仔细审查，细察",
+        "en_def": "careful and critical examination or observation",
+        "example": "Political advertisements now face far greater public scrutiny than a decade ago.",
+        "example_cn": "政治广告如今受到的公众审视，远比十年前要严格得多。"
+      },
+      {
+        "word": "forensic",
+        "phonetic": "/fəˈrenzɪk/",
+        "pos": "adj.",
+        "cn": "司法的，取证（分析）的",
+        "en_def": "relating to the scientific analysis of evidence for legal purposes",
+        "example": "Forensic analysts race to detect manipulated audio before it spreads online.",
+        "example_cn": "取证分析师争分夺秒，在被篡改的音频扩散前将其识别出来。"
+      },
+      {
+        "word": "literacy",
+        "phonetic": "/ˈlɪtərəsi/",
+        "pos": "n.",
+        "cn": "素养，能力",
+        "en_def": "competence or knowledge in a specified area",
+        "example": "Media literacy should be taught in schools as a core civic skill.",
+        "example_cn": "媒介素养应作为核心公民技能在学校中传授。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the central argument of the passage?",
+        "options": [
+          "Generative AI should be banned entirely to protect the public.",
+          "Synthetic media undermines the shared notion of truth and requires layered responses.",
+          "Deepfakes are only a threat to the entertainment industry.",
+          "Detection software has already solved the problem of fake media."
+        ],
+        "answer": 1,
+        "explain": "全文核心是：AI 合成媒体动摇了\"真实\"这一共享共识，且需技术、教育、法律多层并举应对；作者并未主张全面禁用，也未认为问题已被解决。"
+      },
+      {
+        "q": "The phrase \"liar's dividend\" (Paragraph 3) refers to:",
+        "options": [
+          "the profits earned by companies that sell fake news",
+          "the ability to dismiss authentic evidence by claiming it is synthetic",
+          "financial gains from selling watermarking tools",
+          "revenue generated by generative AI subscriptions"
+        ],
+        "answer": 1,
+        "explain": "原文明确：作恶者可借\"指认为合成\"来否认真实证据，这种可乘之机即 \"liar's dividend\"。"
+      },
+      {
+        "q": "Which of the following is NOT mentioned as a countermeasure in the text?",
+        "options": [
+          "Invisible watermarking",
+          "Cryptographic provenance standards such as C2PA",
+          "A total ban on all cameras",
+          "Media-literacy education"
+        ],
+        "answer": 2,
+        "explain": "文中提到的对策包括水印、加密溯源（C2PA）、媒介素养教育与平台监管，并未提及\"全面禁用摄像头\"。"
+      },
+      {
+        "q": "The author's tone toward the technology is best described as:",
+        "options": [
+          "wholly celebratory",
+          "uncritically optimistic",
+          "cautious and balanced",
+          "dismissively hostile"
+        ],
+        "answer": 2,
+        "explain": "作者既指出风险（选举、信任受侵蚀），也承认对策存在，并主张\"重建共识\"而非简单禁用，态度审慎而平衡。"
+      }
+    ],
+    "summary": [
+      "生成式 AI 让伪造逼真媒体易如反掌，\"眼见为实\"失效，真假界限被颠覆，构成认识论层面的危机。",
+      "作恶者可借\"说谎者红利\"将真实证据指为合成，从而侵蚀公众对法院、媒体、科学等合法机构的信任。",
+      "应对需多层手段结合——水印、加密溯源、媒介素养与监管；核心是在后真相时代重建社会就共同事实达成共识的能力。"
+    ]
   }
 ]
