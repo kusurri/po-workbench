@@ -4068,5 +4068,174 @@
       "照护劳动主要由女性承担且报酬偏低，人口老龄化进一步放大了供需缺口与系统脆弱性。",
       "把照护经济纳入核算既关乎公平也关乎经济理性，繁荣的度量需要超出\"产出\"本身。"
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "title": "The Trust Deficit: Why Modern Societies Are Losing Faith in Their Institutions",
+    "titleCn": "信任的流失：为何现代社会正在失去对制度的信心",
+    "topic": "社会",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "Trust is often described as the invisible glue that holds societies together. When citizens believe that institutions--governments, courts, media, and scientific bodies--will act fairly and competently, cooperation becomes effortless and collective problems become solvable. Yet over the past four decades, surveys conducted across both established democracies and emerging economies have recorded a steady and troubling decline in this foundational confidence.",
+        "cn": "信任常被形容为维系社会的隐形粘合剂。当公民相信政府、法院、媒体和科学机构会公正而高效地运作时，合作便轻而易举，集体性的问题也变得可解。然而在过去的四十年里，无论是成熟民主国家还是新兴经济体，其民调都记录到这种基础性信心持续而令人不安的下滑。"
+      },
+      {
+        "en": "The erosion of trust is rarely sudden; it is incremental. A scandal here, a broken promise there, and a growing sense that decision-makers answer to elites rather than to ordinary people. As faith in the center weakens, politics becomes more polarized, and citizens retreat into rival camps that no longer share a common factual ground. The result is a public square increasingly defined by suspicion rather than solidarity.",
+        "cn": "信任的流失很少是骤然发生的，它往往是渐进的。这里一桩丑闻，那里一次食言，再加上一种日益强烈的感受：决策者只对精英负责，而非普通民众。随着对中心的信心减弱，政治愈发两极分化，公民退守进彼此对立的阵营，不再共享同一片事实基础。其结果是一个越来越由猜疑而非团结所定义的公共空间。"
+      },
+      {
+        "en": "Several forces feed this deficit. The rise of digital media has created echo chambers where misinformation travels faster than correction, while widening economic disparity leaves many feeling excluded from the prosperity they were promised. When institutions fail to deliver visible improvements, the gap between official rhetoric and lived experience hardens into cynicism that is difficult to reverse.",
+        "cn": "多重力量共同催生了这一赤字。数字媒体的兴起造就了回音室，虚假信息比纠错传播得更快；而不断扩大的经济不平等，让许多人感到自己被承诺的繁荣排除在外。当制度无法带来可见的改善，官方说辞与生活现实之间的落差便会固化为难以逆转的犬儒心态。"
+      },
+      {
+        "en": "The costs of low trust are concrete and far-reaching. In health crises, vaccine hesitancy rises when authorities are not believed. In elections, disinformation flourishes when no neutral arbiter is trusted. And in everyday life, people simply disengage--paying less tax, volunteering less, and withdrawing from civic institutions that depend on their participation to function.",
+        "cn": "低信任的代价是具体而深远的。在公共卫生危机中，当权威不被相信，疫苗犹豫便会上升。在大选中，当没有中立仲裁者被信任，虚假信息便会泛滥。而在日常生活中，人们干脆选择退出——少缴税、少做志愿、从依赖其参与才能运转的公民机构中抽身。"
+      },
+      {
+        "en": "It would be a mistake, however, to romanticize blind faith. A healthy society needs a measure of skepticism, and distrust can be a rational response to genuine failure or corruption. The danger lies not in questioning power, but in a generalized collapse of belief in any shared mechanism for accountability. The task is therefore not to demand obedience, but to rebuild legitimacy through proven competence and transparency.",
+        "cn": "然而，将盲目信任浪漫化是错误的。一个健康的社会需要一定程度的怀疑精神，而不信任也可能是对真实失败或腐败的理性反应。危险不在于质疑权力，而在于对任何共享的问责机制都丧失信念。因此，任务并非要求服从，而是通过经证实的能力与透明度来重建正当性。"
+      },
+      {
+        "en": "Rebuilding trust is slow, unglamorous work. It requires institutions to admit error, to publish decisions in the open, and to demonstrate that consequences follow misconduct. Crucially, it demands that leaders treat citizens as partners rather than audiences. No slogan can restore confidence overnight, but a decade of consistent, humble, and visible fairness can make even a fractured society resilient again.",
+        "cn": "重建信任是一项缓慢而不显眼的工作。它要求机构承认错误、公开决策，并证明不当行为终将承担后果。关键在于，它要求领导者将公民视为伙伴而非观众。没有口号能在一夜之间挽回信心，但长达十年持续、谦逊而可见的公正，足以让一个分裂的社会重新具备韧性。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "erode",
+        "phonetic": "/ɪˈrəʊd/",
+        "pos": "v.",
+        "cn": "侵蚀；逐渐削弱",
+        "en_def": "to gradually destroy or weaken something over a period of time",
+        "example": "Rising inequality has begun to erode public confidence in the system.",
+        "example_cn": "日益加剧的不平等已开始侵蚀公众对该体制的信心。"
+      },
+      {
+        "word": "polarize",
+        "phonetic": "/ˈpəʊləraɪz/",
+        "pos": "v.",
+        "cn": "使两极分化；使对立",
+        "en_def": "to divide people or opinions into two strongly opposing groups",
+        "example": "Social media tends to polarize debate rather than enrich it.",
+        "example_cn": "社交媒体往往使辩论走向两极分化，而非使其更丰富。"
+      },
+      {
+        "word": "accountability",
+        "phonetic": "/əˌkaʊntəˈbɪləti/",
+        "pos": "n.",
+        "cn": "问责；责任性",
+        "en_def": "the obligation to explain and be responsible for one's actions",
+        "example": "Greater accountability is the first step toward restoring trust.",
+        "example_cn": "更强的问责制是重建信任的第一步。"
+      },
+      {
+        "word": "disparity",
+        "phonetic": "/dɪˈspærəti/",
+        "pos": "n.",
+        "cn": "差距；不平等",
+        "en_def": "a great difference or inequality between two or more things",
+        "example": "The widening wealth disparity fuels resentment toward elites.",
+        "example_cn": "不断扩大的财富差距加剧了对精英阶层的怨恨。"
+      },
+      {
+        "word": "cohesion",
+        "phonetic": "/kəʊˈhiːʒn/",
+        "pos": "n.",
+        "cn": "凝聚力；团结",
+        "en_def": "the act or state of sticking together as a unified whole",
+        "example": "Shared rituals strengthen social cohesion within a community.",
+        "example_cn": "共同的仪式增强了社群内部的社会凝聚力。"
+      },
+      {
+        "word": "disinformation",
+        "phonetic": "/dɪsˌɪnfəˈmeɪʃn/",
+        "pos": "n.",
+        "cn": "虚假信息；误导信息",
+        "en_def": "false information deliberately spread to deceive people",
+        "example": "Disinformation spreads fastest when no trusted source exists.",
+        "example_cn": "当不存在可信信源时，虚假信息传播得最快。"
+      },
+      {
+        "word": "resilient",
+        "phonetic": "/rɪˈzɪliənt/",
+        "pos": "adj.",
+        "cn": "有韧性的；能恢复的",
+        "en_def": "able to recover quickly from difficulties or shock",
+        "example": "A resilient society can absorb shocks without collapsing.",
+        "example_cn": "一个有韧性的社会能够承受冲击而不致崩溃。"
+      },
+      {
+        "word": "legitimacy",
+        "phonetic": "/lɪˈdʒɪtɪməsi/",
+        "pos": "n.",
+        "cn": "正当性；合法性",
+        "en_def": "the quality of being accepted as right or valid",
+        "example": "Institutions must earn their legitimacy through fair conduct.",
+        "example_cn": "制度必须通过公正的行为来赢得自身的正当性。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What is the author's central claim about trust in modern societies?",
+        "options": [
+          "Trust has always been irrelevant to social cooperation.",
+          "Trust is the invisible foundation of society, and it has been declining for decades.",
+          "Trust should be replaced entirely by formal regulation.",
+          "Trust is highest today in emerging economies only."
+        ],
+        "answer": 1,
+        "explain": "首段将信任定义为维系社会的隐形粘合剂，并指出来自多国的民调显示其数十年持续下滑，这正是全文的核心论点。"
+      },
+      {
+        "q": "According to the passage, which of the following contributes to the trust deficit?",
+        "options": [
+          "A single dramatic scandal alone.",
+          "Digital echo chambers and widening economic disparity.",
+          "An excess of government transparency.",
+          "Citizens' unconditional obedience."
+        ],
+        "answer": 1,
+        "explain": "第三段列举了数字媒体回音室和不断扩大的经济不平等作为侵蚀信任的主要力量，而非单一的突发丑闻。"
+      },
+      {
+        "q": "The word 'erode' in the passage is closest in meaning to:",
+        "options": [
+          "strengthen",
+          "ignore",
+          "gradually weaken",
+          "publicly praise"
+        ],
+        "answer": 2,
+        "explain": "'erode' 意为'侵蚀、逐渐削弱'，与'gradually weaken'同义，文中指信心被逐步削弱。"
+      },
+      {
+        "q": "What is one concrete consequence of low social trust mentioned in the text?",
+        "options": [
+          "Faster economic growth.",
+          "Greater electoral turnout.",
+          "Vaccine hesitancy during health crises.",
+          "Stronger civic participation."
+        ],
+        "answer": 2,
+        "explain": "第四段指出，在公共卫生危机中当权威不被信任，会出现疫苗犹豫，这是低信任的具体后果之一。"
+      },
+      {
+        "q": "How does the author suggest trust should be rebuilt?",
+        "options": [
+          "By demanding unquestioning obedience from citizens.",
+          "By replacing all existing institutions.",
+          "Through transparency, accountability, and visible fairness.",
+          "By avoiding all public criticism of power."
+        ],
+        "answer": 2,
+        "explain": "末段与第五段强调，重建信任依靠公开透明、问责以及持续可见的公正，而非要求服从或压制质疑。"
+      }
+    ],
+    "summary": [
+      "信任是社会组织合作的隐形粘合剂，但过去四十年间，无论是成熟民主国家还是新兴经济体，其公众信心都出现了持续下滑。",
+      "数字媒体的回音室、经济不平等的扩大，以及制度承诺与民众现实体验之间的落差，共同侵蚀了信任，并带来疫苗犹豫、虚假信息泛滥与公民退出等具体后果。",
+      "重建信任不能依靠口号或要求服从，而要靠公开透明、问责机制与持续可见的公正治理；这是一项缓慢却必要的工程。"
+    ]
   }
 ]
