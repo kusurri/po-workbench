@@ -4744,5 +4744,174 @@
       "在风险尚不明确时，预防原则要求我们先行动，而不是被动等待确凿的受害证据。",
       "解决之道不是彻底废除塑料，而是通过禁用一次性用品、强制加装过滤装置、延伸生产者责任等系统性措施，重新设计塑料的生命周期。"
     ]
+  },
+  {
+    "date": "2026-10-19",
+    "title": "The Algorithm's Verdict: When Machines Make the Call, Who Takes the Blame?",
+    "titleCn": "算法的裁决：当机器做出决定，谁来承担后果？",
+    "topic": "科技",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "In an increasing number of areas that shape our lives, the decisive voice is no longer human. Algorithms now screen job applicants, approve or reject mortgage applications, recommend prison sentences, and even assist doctors in diagnosing disease. Proponents argue that automated systems are faster, cheaper, and freer from the prejudices that cloud human judgment. Yet as decision-making shifts from people to code, a troubling gap has emerged: when an algorithm gets it wrong, it is often unclear who should be held responsible.",
+        "cn": "在我们生活中越来越多关乎切身利益的领域里，做最终决定的已不再是人。如今，算法会筛选求职者、批准或拒绝房贷申请、建议刑期长短，甚至协助医生诊断疾病。支持者认为，自动化系统更快、更便宜，且摆脱了蒙蔽人类判断的偏见。然而，随着决策权从人转移到代码，一个令人不安的缺口出现了：当算法出错时，往往不清楚该由谁来负责。"
+      },
+      {
+        "en": "The appeal of algorithmic decision-making is not difficult to understand. A well-designed model can process far more information than any individual, detecting patterns across millions of cases in seconds. In theory, this consistency should reduce the uneven treatment that arises when tired, biased, or distracted humans make calls. For organisations facing huge volumes of requests, automation also promises dramatic savings and the ability to serve more people with fewer resources.",
+        "cn": "算法决策的吸引力不难理解。一个设计良好的模型能处理远多于任何个人的信息，在数秒内识别数百万案例中的规律。理论上，这种一致性应当减少疲劳、偏见或分心的决策者所造成的不公平对待。对于面对海量申请的组织而言，自动化还能带来显著的节约，并以更少的资源服务更多人。"
+      },
+      {
+        "en": "These benefits, however, depend on a quality that many systems lack: transparency. Modern machine-learning models are often 'black boxes' whose internal reasoning cannot be easily traced, even by their creators. When an applicant is declined for a loan, the system may be unable to explain which factors tipped the balance. Without a clear rationale, the person affected cannot meaningfully challenge the outcome, and the promise of fairness begins to look hollow.",
+        "cn": "然而，这些好处依赖于许多系统所缺乏的一种特质：透明度。现代机器学习模型往往是'黑箱'，其内部推理即便对创造者而言也难以追溯。当申请人的贷款被拒时，系统可能无法解释究竟是哪些因素导致了这一结果。没有清晰的依据，受影响的人便无法对结果提出有意义的质疑，而公平承诺也开始显得空洞。"
+      },
+      {
+        "en": "A deeper problem is that algorithms are only as fair as the data they learn from. Because models are trained on historical records, they tend to absorb the inequalities of the past. A hiring tool built on a company's earlier successes may learn to favour candidates who resemble the workforce of a decade ago; a predictive-policing system fed with biased arrest data may direct attention to the same neighbourhoods again and again. Far from removing bias, automation can amplify it at scale.",
+        "cn": "一个更深层的问题在于，算法的公平程度取决于它所学习的数据。由于模型是在历史记录上训练的，它们往往会吸收过去的种种不平等。一个基于公司过往成功案例构建的招聘工具，可能会学会偏爱与十年前员工群体相似的候选人；一个用有偏见的逮捕数据训练的预测警务系统，可能会一遍又一遍地把注意力引向相同的社区。自动化非但没有消除偏见，反而可能将其成倍放大。"
+      },
+      {
+        "en": "When such systems cause harm, responsibility becomes diffuse. The software developer can point to the client who deployed it; the deploying organisation can blame the training data; the data, in turn, reflects choices made by society long ago. This diffusion leaves those who are wrongly denied a job, a loan, or their liberty with no obvious party to hold to account. Meanwhile, laws and regulations have struggled to keep pace with the speed at which these tools spread.",
+        "cn": "当此类系统造成伤害时，责任便变得分散。软件开发方可以指向部署它的客户；部署方可以归咎于训练数据；而数据又折射出社会在很久以前所做的选择。这种责任的分散，让那些被错误地拒绝工作、贷款或自由的人，找不到一个明确的追责对象。与此同时，法律法规也难以及时跟上这些工具扩散的速度。"
+      },
+      {
+        "en": "None of this means we should abandon algorithmic tools, many of which deliver genuine value. Rather, it calls for a clearer settlement between efficiency and accountability. Decisions that seriously affect people's lives should remain explainable, auditable, and subject to meaningful human review. Algorithms are best treated as aids to judgment, not substitutes for it — and the question of who answers for their verdicts must be settled before, not after, harm is done.",
+        "cn": "这并非意味着我们应当抛弃算法工具——其中许多确实带来了真正的价值。相反，它呼唤我们在效率与问责之间达成更清晰的平衡。对那些深刻影响人生的决定，应当保持可解释、可审查，并受到有意义的人工复核。算法最好被视为判断的辅助，而非判断的替代——而'谁来为它们的裁决负责'这一问题，必须在危害发生之前，而非之后，就得到解决。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "decisive",
+        "phonetic": "/dɪˈsaɪsɪv/",
+        "pos": "adj.",
+        "cn": "决定性的；关键的",
+        "en_def": "settling an issue; crucial",
+        "example": "The algorithm's recommendation proved decisive in the hiring decision.",
+        "example_cn": "算法的建议在招聘决定中被证明起了决定性作用。"
+      },
+      {
+        "word": "opaque",
+        "phonetic": "/əʊˈpeɪk/",
+        "pos": "adj.",
+        "cn": "不透明的；难以理解的",
+        "en_def": "difficult to understand or explain",
+        "example": "The company's pricing model remains opaque to outsiders.",
+        "example_cn": "该公司的定价模型对外人而言仍难以理解。"
+      },
+      {
+        "word": "rationale",
+        "phonetic": "/ˌræʃəˈnɑːl/",
+        "pos": "n.",
+        "cn": "根本原因；逻辑依据",
+        "en_def": "the underlying reason or logical basis for something",
+        "example": "The rationale for the rejection was never disclosed.",
+        "example_cn": "拒绝背后的逻辑依据从未被披露。"
+      },
+      {
+        "word": "absorb",
+        "phonetic": "/əbˈzɔːb/",
+        "pos": "v.",
+        "cn": "吸收；同化",
+        "en_def": "take in and assimilate",
+        "example": "The model absorbed the biases present in historical records.",
+        "example_cn": "该模型吸收了历史记录中存在的偏见。"
+      },
+      {
+        "word": "amplify",
+        "phonetic": "/ˈæmplɪfaɪ/",
+        "pos": "v.",
+        "cn": "放大；增强",
+        "en_def": "increase the strength or magnitude of",
+        "example": "Automation can amplify existing social inequalities.",
+        "example_cn": "自动化会放大既有的社会不平等。"
+      },
+      {
+        "word": "diffuse",
+        "phonetic": "/dɪˈfjuːz/",
+        "pos": "adj.",
+        "cn": "分散的；弥散的",
+        "en_def": "spread out over a large area; not concentrated",
+        "example": "Responsibility for the error was diffuse and hard to pin down.",
+        "example_cn": "对这一错误的责任十分分散，难以界定。"
+      },
+      {
+        "word": "settlement",
+        "phonetic": "/ˈsetlmənt/",
+        "pos": "n.",
+        "cn": "解决；和解；平衡方案",
+        "en_def": "an official agreement intended to resolve a dispute",
+        "example": "We need a settlement between innovation and accountability.",
+        "example_cn": "我们需要在创新与问责之间达成一种平衡方案。"
+      },
+      {
+        "word": "auditable",
+        "phonetic": "/ˈɔːdɪtəbl/",
+        "pos": "adj.",
+        "cn": "可审查的；可审计的",
+        "en_def": "able to be examined and verified",
+        "example": "High-stakes systems must remain auditable by independent bodies.",
+        "example_cn": "高风险系统必须持续可被独立机构审查。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what is the main 'black box' problem with modern machine-learning models?",
+        "options": [
+          "They require too much human labour to operate.",
+          "Their internal reasoning is hard to trace or explain.",
+          "They are slower than human decision-makers.",
+          "They only work on small datasets."
+        ],
+        "answer": 1,
+        "explain": "The third paragraph states such models are often 'black boxes' whose internal reasoning cannot be easily traced even by their creators, so decisions lack a clear rationale."
+      },
+      {
+        "q": "Why does the author argue that algorithms can actually increase bias?",
+        "options": [
+          "Because developers deliberately program discrimination.",
+          "Because they learn from historical data that already contains inequality.",
+          "Because they ignore all past records.",
+          "Because they are used only by biased organisations."
+        ],
+        "answer": 1,
+        "explain": "Paragraph 4 explains models trained on historical records absorb past inequalities, so automation can amplify rather than remove bias."
+      },
+      {
+        "q": "The word 'diffuse' in the passage is closest in meaning to:",
+        "options": [
+          "concentrated",
+          "spread out / scattered",
+          "secret",
+          "automatic"
+        ],
+        "answer": 1,
+        "explain": "'Diffuse' here describes responsibility that is scattered among many parties and hard to pin down, i.e. spread out rather than concentrated."
+      },
+      {
+        "q": "What does the author recommend as the proper role of algorithms?",
+        "options": [
+          "Replace human judgment entirely in high-stakes cases.",
+          "Be treated as aids to judgment, not substitutes, with human review.",
+          "Operate without any regulation or oversight.",
+          "Only be used for entertainment purposes."
+        ],
+        "answer": 1,
+        "explain": "The conclusion argues algorithms are best treated as aids to judgment, not substitutes, and that high-stakes decisions need explainability, auditability, and human review."
+      },
+      {
+        "q": "Which of the following best captures the author's overall stance?",
+        "options": [
+          "Algorithms should be abandoned because they are always unfair.",
+          "Algorithms are perfect and need no oversight.",
+          "Algorithms bring value but require transparency and accountability.",
+          "Only governments should be allowed to use algorithms."
+        ],
+        "answer": 2,
+        "explain": "The author acknowledges genuine value but calls for a balance of efficiency with accountability, transparency, and human oversight."
+      }
+    ],
+    "summary": [
+      "算法正越来越多地介入招聘、信贷、量刑、医疗等高风险决策，其在效率与一致性上的优势不容忽视，但透明度与可解释性的缺失使其公平承诺存疑。",
+      "算法会从历史数据中吸收并放大既有的社会偏见，且当危害发生时责任被分散到开发者、部署方与数据之间，导致受害者难以追责；法律框架也往往滞后。",
+      "正确做法是保留算法的工具价值，同时要求高风险决策可解释、可审查、并接受有意义的人工复核——问责机制必须在危害发生前就确立。"
+    ]
   }
 ]
