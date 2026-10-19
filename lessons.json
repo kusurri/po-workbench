@@ -5082,5 +5082,174 @@
       "算法会从历史数据中吸收并放大既有的社会偏见，且当危害发生时责任被分散到开发者、部署方与数据之间，导致受害者难以追责；法律框架也往往滞后。",
       "正确做法是保留算法的工具价值，同时要求高风险决策可解释、可审查、并接受有意义的人工复核——问责机制必须在危害发生前就确立。"
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "title": "The Forgetting Curve: How the Science of Memory Is Rewriting the Rules of Learning",
+    "titleCn": "遗忘曲线：记忆科学如何重写学习法则",
+    "topic": "教育",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "For more than a century, schools have been designed to deliver knowledge: teachers explain, students listen, and examinations measure how much has stuck. Yet one question has been strangely absent from the curriculum — not what to learn, but how the brain actually learns. Cognitive science now suggests that many of our most ingrained study habits are quietly backwards.",
+        "cn": "一个多世纪以来，学校的设计都是为了传授知识：教师讲解，学生聆听，考试则衡量记住了多少。然而课程中一直奇怪地缺席了一个问题——不是学什么，而是大脑究竟如何学习。认知科学如今表明，我们许多根深蒂固的学习习惯其实是本末倒置的。"
+      },
+      {
+        "en": "In the 1880s, the German psychologist Hermann Ebbinghaus plotted what he called the 'forgetting curve': immediately after learning, the mind sheds information at a startling pace, losing the majority of new material within days. Intuitively, this looks like a design flaw. But from an evolutionary standpoint, forgetting is not a failure of memory but a feature — it prevents the brain from being paralysed by irrelevant detail.",
+        "cn": "19世纪80年代，德国心理学家赫尔曼·艾宾浩斯描绘了他所谓的“遗忘曲线”：学习之后，心智以惊人的速度丢弃信息，多数新材料在数日内便流失大半。直觉上，这像是一个设计缺陷。但从进化的角度看，遗忘并非记忆的失败，而是一种特性——它防止大脑被无关细节所瘫痪。"
+      },
+      {
+        "en": "One of the most robust findings to emerge from this research is the 'testing effect'. Decades of experiments show that retrieving information — by attempting to recall it without prompts — strengthens memory far more effectively than simply re-reading the same page. Yet students overwhelmingly prefer re-reading, perhaps because it feels fluent and comfortable, while retrieval feels effortful and exposes gaps in understanding.",
+        "cn": "这项研究最确凿的发现之一是“测试效应”。数十年的实验表明，提取信息——即不借助提示而尝试回忆——比单纯重读同一页更能有效地巩固记忆。然而学生压倒性地偏爱重读，或许因为它感觉流畅舒适，而提取则让人费力，并暴露出理解的漏洞。"
+      },
+      {
+        "en": "A second principle is spacing. 'Massed practice' — the all-night cram session — produces rapid short-term gains that evaporate almost as quickly. By contrast, 'distributed practice' spreads study across intervals, allowing the brain to re-encode material each time it is revisited. The cost is immediate: spaced learning feels slower. The benefit is durable: knowledge that survives the test of time.",
+        "cn": "第二条原则是间隔。“集中练习”——通宵填鸭——能带来迅速的短期收益，却也几乎同样快地蒸发。相比之下，“分散练习”将学习分散到不同间隔中，让大脑每次重温时重新编码材料。代价是即时的：间隔学习感觉更慢。好处却是持久的：知识经得起时间的考验。"
+      },
+      {
+        "en": "Together, these insights point to what the psychologist Robert Bjork termed 'desirable difficulties' — conditions that slow down performance in the moment but dramatically improve long-term retention. The paradox is that learners and even teachers often chase the opposite: lessons that feel easy and smooth. In doing so, they optimise for the feeling of knowing rather than the reality of remembering.",
+        "cn": "综合来看，这些洞见指向心理学家罗伯特·比约克所称的“合意困难”——那些当下拖慢表现、却极大提升长期记忆保持的条件。其悖论在于，学习者和甚至教师常常追求相反的东西：感觉轻松顺畅的课。如此一来，他们优化的是“知道的感觉”，而非“记住的现实”。"
+      },
+      {
+        "en": "The implications for education are profound. If the goal is durable understanding, then classrooms should spend less time broadcasting content and more time training metacognition — teaching students how to schedule recall, monitor their own confusion, and embrace struggle. Technology can help, from adaptive flashcards to intelligent tutors, but the deeper shift is cultural: recognising that forgetting is not the enemy of learning, but the very mechanism through which learning is built.",
+        "cn": "这对教育的启示是深远的。如果目标是持久的理解，那么课堂应当少花时间广播内容，多花时间训练元认知——教学生如何安排回忆、监控自身的困惑，并接纳挣扎。技术可以助力，从自适应卡片到智能导师，但更深层的转变是文化上的：认识到遗忘并非学习的敌人，而恰恰是构建学习的机制。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "retention",
+        "phonetic": "/rɪˈtenʃən/",
+        "pos": "n.",
+        "cn": "保持，记忆力",
+        "en_def": "the ability to keep or remember information",
+        "example": "The spacing effect improves long-term retention.",
+        "example_cn": "间隔效应提升了长期记忆保持。"
+      },
+      {
+        "word": "retrieval",
+        "phonetic": "/rɪˈtriːvəl/",
+        "pos": "n.",
+        "cn": "提取，检索",
+        "en_def": "the process of recalling stored information",
+        "example": "Retrieval strengthens memory more than re-reading.",
+        "example_cn": "提取比重读更能强化记忆。"
+      },
+      {
+        "word": "consolidate",
+        "phonetic": "/kənˈsɒlɪdeɪt/",
+        "pos": "v.",
+        "cn": "巩固，加强",
+        "en_def": "to make something stronger or more solid",
+        "example": "Sleep helps the brain consolidate new learning.",
+        "example_cn": "睡眠帮助大脑巩固新学内容。"
+      },
+      {
+        "word": "interval",
+        "phonetic": "/ˈɪntəvəl/",
+        "pos": "n.",
+        "cn": "间隔，间隙",
+        "en_def": "a period of time between two events",
+        "example": "Spaced practice uses longer intervals between reviews.",
+        "example_cn": "间隔练习在复习之间采用更长的时间间隔。"
+      },
+      {
+        "word": "cognitive",
+        "phonetic": "/ˈkɒɡnətɪv/",
+        "pos": "adj.",
+        "cn": "认知的",
+        "en_def": "relating to thinking, knowing, and understanding",
+        "example": "This is a cognitive science finding.",
+        "example_cn": "这是一项认知科学的发现。"
+      },
+      {
+        "word": "deliberate",
+        "phonetic": "/dɪˈlɪbərət/",
+        "pos": "adj.",
+        "cn": "刻意的，故意的",
+        "en_def": "done on purpose; careful and unhurried",
+        "example": "Deliberate practice leads to mastery.",
+        "example_cn": "刻意的练习通向精通。"
+      },
+      {
+        "word": "adaptive",
+        "phonetic": "/əˈdæptɪv/",
+        "pos": "adj.",
+        "cn": "适应的，自适应的",
+        "en_def": "able to change to suit new conditions",
+        "example": "Adaptive flashcards adjust to the learner.",
+        "example_cn": "自适应卡片会根据学习者调整。"
+      },
+      {
+        "word": "metacognition",
+        "phonetic": "/ˌmetəkɒɡˈnɪʃən/",
+        "pos": "n.",
+        "cn": "元认知",
+        "en_def": "awareness and understanding of one's own thinking",
+        "example": "Metacognition helps students monitor confusion.",
+        "example_cn": "元认知帮助学生监控自己的困惑。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does Ebbinghaus's 'forgetting curve' show?",
+        "options": [
+          "The brain never forgets important facts",
+          "Memory is lost most rapidly soon after learning",
+          "Re-reading prevents all forgetting",
+          "Forgetting is purely a design flaw"
+        ],
+        "answer": 1,
+        "explain": "艾宾浩斯发现，学习后记忆最初流失最快，多数新材料在数日内丢失大半。"
+      },
+      {
+        "q": "What is the 'testing effect'?",
+        "options": [
+          "Re-reading improves memory most",
+          "Testing others helps you learn",
+          "Retrieving information strengthens memory more than re-reading",
+          "Exams measure true understanding"
+        ],
+        "answer": 2,
+        "explain": "测试效应指主动提取信息（尝试回忆）比单纯重读更有效地巩固记忆。"
+      },
+      {
+        "q": "What is the main difference between 'massed' and 'distributed' practice?",
+        "options": [
+          "Massed is slower but durable",
+          "Distributed spreads study over time",
+          "They are the same method",
+          "Distributed is only for children"
+        ],
+        "answer": 1,
+        "explain": "集中练习（填鸭）短期见效快但易忘；分散练习将学习分布到不同间隔，效果更持久。"
+      },
+      {
+        "q": "What are 'desirable difficulties'?",
+        "options": [
+          "Mistakes that ruin learning",
+          "Easy lessons that feel smooth",
+          "Conditions that slow immediate performance but improve retention",
+          "Problems to avoid at all costs"
+        ],
+        "answer": 2,
+        "explain": "比约克提出“合意困难”：当下拖慢表现、却能大幅提升长期记忆保持的学习条件。"
+      },
+      {
+        "q": "What is the author's main suggestion for education?",
+        "options": [
+          "Broadcast more content to students",
+          "Replace teachers with technology",
+          "Train metacognition and embrace struggle",
+          "Abolish all examinations"
+        ],
+        "answer": 2,
+        "explain": "作者主张课堂应少广播内容、多训练元认知，并接纳学习中的挣扎。"
+      }
+    ],
+    "summary": [
+      "遗忘并非记忆的缺陷，而是大脑的进化特性；艾宾浩斯遗忘曲线显示信息在学习后最初流失最快。",
+      "主动提取（测试效应）与间隔练习（分散练习）比重读和填鸭更有效地构建长期记忆。",
+      "教育应从单纯传授内容转向训练元认知，把“合意困难”视为学习的引擎而非障碍。"
+    ]
   }
 ]
