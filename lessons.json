@@ -5758,5 +5758,174 @@
       "“奋斗文化”与手机、轮班工作打乱了人体自然的昼夜节律，使社会在明知睡眠重要的同时，行为上却持续牺牲睡眠。",
       "解决睡眠赤字需要个人作息调整与结构层面的政策（推迟上学时间、下班断联权、恢复优先的工作制度）双管齐下，把休息视作公共卫生基础设施而非放纵。"
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "title": "The Nudge Effect: How Small Design Choices Shape Big Economic Decisions",
+    "titleCn": "助推的力量：微小的设计选择如何左右重大的经济决策",
+    "topic": "经济",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "For centuries, classical economics assumed that people are rational actors who weigh costs and benefits before making decisions. Yet in reality, human choices are shaped as much by context as by logic. Behavioural economics challenges this assumption, revealing how subtle changes in how options are presented can steer decisions without restricting freedom.",
+        "cn": "几个世纪以来，古典经济学一直假设人是理性的行为者，会在决策前权衡成本与收益。然而在现实中，人类的选择受情境的影响不亚于受逻辑的影响。行为经济学对这一假设提出了挑战，揭示出呈现选项方式的细微变化如何在不受限制自由的前提下引导人们的决策。"
+      },
+      {
+        "en": "Psychologist Daniel Kahneman distinguished between two modes of thinking. \"System 1\" is fast, intuitive and prone to bias; \"System 2\" is slow, deliberate and analytical. Most daily economic decisions - what to buy, whether to save - are made by System 1, which is easily influenced by framing and emotion.",
+        "cn": "心理学家丹尼尔·卡尼曼区分了两种思维模式。\"系统1\"快速、直觉化且容易受偏见影响；\"系统2\"缓慢、审慎且善于分析。大多数日常经济决策——买什么、是否储蓄——都由系统1完成，而系统1很容易受到表述方式与情绪的左右。"
+      },
+      {
+        "en": "Economist Richard Thaler introduced the \"nudge\": a gentle intervention that alters behaviour while preserving choice. He called the philosophy \"libertarian paternalism\" - policymakers may guide people toward better outcomes, but individuals remain free to opt out. The key is designing the \"choice architecture\" so that the easier path is also the wiser one.",
+        "cn": "经济学家理查德·塞勒提出了\"助推\"这一概念：一种在不剥夺选择权的前提下改变行为的温和干预。他将这一理念称为\"自由家长主义\"——政策制定者可以引导人们走向更好的结果，但个人仍保有退出的自由。其关键在于设计\"选择架构\"，让更轻松的路径同时也是更明智的路径。"
+      },
+      {
+        "en": "The most powerful nudges are often defaults. When employees are automatically enrolled in pension schemes but can choose to leave, participation rises dramatically compared with systems requiring active sign-up. Similarly, placing healthier food at eye level increases its consumption without banning anything. The default exploits inertia rather than intelligence.",
+        "cn": "最有力的助推往往体现在默认选项上。当员工被自动纳入养老金计划、但可以选择退出时，其参与率远高于需要主动登记的制度。同样地，将更健康的食品摆在视线高度，会在不禁止任何选择的情况下提升其消费量。默认选项利用的是人们的惰性，而非智力。"
+      },
+      {
+        "en": "Critics warn that nudging can slip into manipulation, especially when governments or firms nudge people toward outcomes that serve the nudger, not the nudged. Transparency matters: a nudge that hides its purpose erodes trust. The challenge is to use choice architecture to empower, not to exploit.",
+        "cn": "批评者警告，助推可能滑向操纵，尤其是当政府或企业把人们推向只利于助推者而非被助推者的结果时。透明度至关重要：一个隐藏自身目的的助推会侵蚀信任。真正的挑战在于运用选择架构去赋能，而非剥削。"
+      },
+      {
+        "en": "Behavioural economics does not abandon rationality; it refines it by acknowledging our limits. From retirement savings to energy conservation, well-designed nudges can improve lives at low cost. The task ahead is not whether to nudge, but how to do so ethically, transparently and in service of genuine human welfare.",
+        "cn": "行为经济学并未抛弃理性，而是通过承认人类认知的局限对它加以完善。从退休储蓄到节能减排，设计良好的助推能以低成本改善生活。未来的任务不在于是否助推，而在于如何合乎伦理、保持透明，并真正服务于人类的福祉。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "nudge",
+        "phonetic": "/nʌdʒ/",
+        "pos": "n./v.",
+        "cn": "助推；轻推",
+        "en_def": "a subtle intervention that steers behaviour without removing choice",
+        "example": "A simple text reminder can nudge people to pay bills on time.",
+        "example_cn": "一条简单的短信提醒就能助推人们按时缴费。"
+      },
+      {
+        "word": "paternalism",
+        "phonetic": "/pəˈtɜːnəlɪzəm/",
+        "pos": "n.",
+        "cn": "家长式作风；家长主义",
+        "en_def": "the policy of restricting freedom for people's supposed good",
+        "example": "Critics fear that nudging resembles state paternalism.",
+        "example_cn": "批评者担心助推类似于国家的家长式管控。"
+      },
+      {
+        "word": "heuristic",
+        "phonetic": "/hjʊˈrɪstɪk/",
+        "pos": "n.",
+        "cn": "启发法；经验法则",
+        "en_def": "a mental shortcut used to make decisions quickly",
+        "example": "Relying on brand names is a common consumer heuristic.",
+        "example_cn": "依赖品牌名称是一种常见的消费启发法。"
+      },
+      {
+        "word": "cognitive",
+        "phonetic": "/ˈkɒɡnətɪv/",
+        "pos": "adj.",
+        "cn": "认知的",
+        "en_def": "relating to thinking, knowing and understanding",
+        "example": "Cognitive overload leads to poor financial choices.",
+        "example_cn": "认知超载会导致糟糕的财务决策。"
+      },
+      {
+        "word": "default",
+        "phonetic": "/dɪˈfɔːlt/",
+        "pos": "n.",
+        "cn": "默认选项",
+        "en_def": "a pre-selected option used when no active choice is made",
+        "example": "Automatic enrolment makes saving the default.",
+        "example_cn": "自动登记让储蓄成为默认选项。"
+      },
+      {
+        "word": "autonomy",
+        "phonetic": "/ɔːˈtɒnəmi/",
+        "pos": "n.",
+        "cn": "自主权",
+        "en_def": "the right or ability to make one's own decisions",
+        "example": "Citizens must retain autonomy over personal data.",
+        "example_cn": "公民必须保有对个人数据的自主权。"
+      },
+      {
+        "word": "incentive",
+        "phonetic": "/ɪnˈsentɪv/",
+        "pos": "n.",
+        "cn": "激励；刺激",
+        "en_def": "something that motivates a person to act",
+        "example": "Tax breaks are a powerful incentive to invest.",
+        "example_cn": "税收减免是刺激投资的强大激励。"
+      },
+      {
+        "word": "framing",
+        "phonetic": "/ˈfreɪmɪŋ/",
+        "pos": "n.",
+        "cn": "框架效应；表述方式",
+        "en_def": "the way information is presented, affecting choices",
+        "example": "Framing a fee as a loss reduces compliance.",
+        "example_cn": "把费用表述为损失会降低合规率。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to classical economics, how do people typically make decisions?",
+        "options": [
+          "By weighing costs and benefits rationally",
+          "By following intuition and emotion",
+          "By copying others' behaviour",
+          "By avoiding all risk"
+        ],
+        "answer": 0,
+        "explain": "古典经济学假设人是理性行为者，会在决策前权衡成本与收益（第一段）。"
+      },
+      {
+        "q": "What does \"System 1\" thinking describe?",
+        "options": [
+          "Slow and analytical reasoning",
+          "Fast, intuitive and bias-prone thinking",
+          "Long-term financial planning",
+          "Strict mathematical calculation"
+        ],
+        "answer": 1,
+        "explain": "卡尼曼的\"系统1\"是快速、直觉化且容易受偏见影响的思维模式（第二段）。"
+      },
+      {
+        "q": "What is a \"nudge\" in Thaler's sense?",
+        "options": [
+          "A law that forbids certain choices",
+          "A mandatory tax",
+          "A gentle intervention that keeps choice open",
+          "A financial penalty"
+        ],
+        "answer": 2,
+        "explain": "助推是一种在不剥夺选择权的前提下改变行为的温和干预（第三段）。"
+      },
+      {
+        "q": "Why are default options so effective, according to the text?",
+        "options": [
+          "They are legally required",
+          "They remove all other options",
+          "They force people to comply",
+          "They exploit human inertia"
+        ],
+        "answer": 3,
+        "explain": "默认选项利用的是人们的惰性（inertia）而非智力，自动登记因此大幅提升参与率（第四段）。"
+      },
+      {
+        "q": "What is the main criticism of nudging mentioned in the text?",
+        "options": [
+          "It never changes behaviour",
+          "It is always illegal",
+          "It only works for the wealthy",
+          "It may slide into manipulation and erode trust"
+        ],
+        "answer": 3,
+        "explain": "批评者担心助推可能滑向操纵并侵蚀信任，尤其当结果只利于助推者时（第五段）。"
+      }
+    ],
+    "summary": [
+      "行为经济学挑战\"理性人\"假设，指出决策更多受情境与呈现方式影响，而非纯逻辑。",
+      "助推通过设计\"选择架构\"（尤其是默认选项）在不限制自由的情况下引导人们做出更好决策。",
+      "助推须以透明与伦理为前提，避免滑向操纵，真正服务于人类的福祉。"
+    ]
   }
 ]
