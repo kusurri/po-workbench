@@ -6096,5 +6096,174 @@
       "教育是流动性的关键引擎，但单靠学校无法弥补早期不平等；飙升的房价、财富继承、文凭通胀与零工化等结构性力量正在进一步拉大鸿沟。",
       "流动性停滞会浪费社会才华、侵蚀制度信任并加剧极化；扭转之道在于早期投入、累进税制、可负担住房，并将“成功”的定义拓宽到收入之外。"
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "title": "The Quiet Vanishing: Why Biodiversity Loss Is Everyone's Crisis",
+    "titleCn": "静默的消逝：为何生物多样性丧失是每个人的危机",
+    "topic": "自然",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "Every hour, somewhere on Earth, a species vanishes that will never return. Scientists warn that we are living through the planet's sixth mass extinction, the first caused not by asteroids or volcanoes but by a single species: us. Yet conservation is too often framed as a luxury we can ill afford amid pressing human problems. This essay argues that protecting biodiversity is not a distraction from human welfare but a foundation of it.",
+        "cn": "每一小时，地球上某个角落就有一个物种永远消失。科学家警告，我们正身处地球第六次大灭绝之中——这是第一次并非由小行星或火山引发，而是由单一物种造成：人类自己。然而，自然保育常被描绘成一种在众多紧迫的人类问题面前我们难以负担的奢侈。本文主张，保护生物多样性并非对人类福祉的分散，而是其根基。"
+      },
+      {
+        "en": "The scale of the loss is difficult to grasp. Estimates suggest that species are disappearing at tens to hundreds of times the natural background rate, driven by habitat destruction, climate change, pollution, and overexploitation. Forests are cleared, wetlands drained, and reefs bleached. Unlike past extinctions, the current crisis unfolds within a human lifetime, leaving little time for ecosystems to adapt.",
+        "cn": "这一损失的规模难以估量。据估计，在栖息地破坏、气候变化、污染与过度开发的驱动下，物种消失的速度已达自然背景速率的几十到上百倍。森林被砍伐，湿地被排干，珊瑚礁白化。与以往的灭绝不同，当前这场危机在人的一生之内便已展开，生态系统几无时间适应。"
+      },
+      {
+        "en": "A purely economic case already justifies action. Biodiversity underpins the ecosystem services on which economies depend: crops are pollinated, water is filtered, and coastlines are buffered by mangroves. When these systems collapse, the costs fall on people—through food insecurity, disaster vulnerability, and lost livelihoods. Far from being a drain on resources, conservation protects the natural capital that development ultimately relies upon.",
+        "cn": "即便只从经济角度论证，行动也已具有充分理由。生物多样性支撑着经济体所依赖的生态系统服务：作物由昆虫授粉，水体被自然过滤，红树林为海岸提供缓冲。当这些系统崩塌，代价将由人类承担——表现为粮食不安全、灾害脆弱性上升以及生计丧失。保育非但不是对资源的消耗，反而守护着发展最终所依赖的自然资本。"
+      },
+      {
+        "en": "Beyond utility lies an ethical claim. Many argue that other forms of life have value in themselves, independent of what they do for us, and that we hold a stewardship responsibility toward the planet we dominate. To permit the irreversible loss of entire lineages is to diminish the world we bequeath to future generations—a loss no economic growth can later reverse.",
+        "cn": "在功用之外，还存在着一种道德诉求。许多人认为，其他生命形态本身便具有价值，不因它们对人类有何用处而存在；而我们对自己所主导的星球负有管护之责。任由整个物种谱系不可逆地消失，是在削减我们留给后代的世界——这是任何经济增长都无从弥补的损失。"
+      },
+      {
+        "en": "None of this denies the reality of poverty or the legitimacy of development. The challenge is not nature versus people but how to meet human needs without erasing the living systems that sustain them. Top-down bans alone often fail and can alienate local communities; the most durable solutions pair scientific protection with the rights and livelihoods of the people who live closest to the land.",
+        "cn": "以上论断并不意味着否认贫困的现实或发展诉求的正当性。真正的挑战并非自然与人对立，而是如何在不抹除维系人类的生命系统的前提下满足人的需求。单纯自上而下的禁令往往失效，并可能疏远当地社区；最可持续的方案，是将科学保护与最贴近土地之人的权利及生计结合起来。"
+      },
+      {
+        "en": "To treat biodiversity loss as someone else's problem is to misread our own interest. The quiet vanishing of species is, in the end, a quiet vanishing of the conditions that make human life possible. Protecting nature is not a luxury deferred to richer times; it is the most basic investment in our shared future.",
+        "cn": "将生物多样性丧失视为他人的问题，是对自身利益的误读。物种的静默消逝，归根结底是人类生存条件本身的悄然流失。保护自然并非留待富足之时的奢侈，而是对我们共同未来最基础的投资。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "biodiversity",
+        "phonetic": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+        "pos": "n.",
+        "cn": "生物多样性",
+        "en_def": "the variety of plant and animal life in a particular habitat",
+        "example": "The region's biodiversity is threatened by rapid deforestation.",
+        "example_cn": "该地区的生物多样性正受到快速毁林的威胁。"
+      },
+      {
+        "word": "habitat",
+        "phonetic": "/ˈhæbɪtæt/",
+        "pos": "n.",
+        "cn": "栖息地",
+        "en_def": "the natural environment in which a plant or animal lives",
+        "example": "Loss of habitat is the leading cause of species decline.",
+        "example_cn": "栖息地丧失是物种衰退的首要原因。"
+      },
+      {
+        "word": "unprecedented",
+        "phonetic": "/ʌnˈpresɪdentɪd/",
+        "pos": "adj.",
+        "cn": "前所未有的",
+        "en_def": "never having happened or existed before",
+        "example": "The rate of extinction is unprecedented in human history.",
+        "example_cn": "灭绝的速度在人类历史上前所未有。"
+      },
+      {
+        "word": "vulnerability",
+        "phonetic": "/ˌvʌlnərəˈbɪləti/",
+        "pos": "n.",
+        "cn": "脆弱性",
+        "en_def": "the quality of being easily harmed or affected",
+        "example": "Coastal cities face growing vulnerability to flooding.",
+        "example_cn": "沿海城市面临日益加剧的洪涝脆弱性。"
+      },
+      {
+        "word": "stewardship",
+        "phonetic": "/ˈstjuːədʃɪp/",
+        "pos": "n.",
+        "cn": "管护；管理责任",
+        "en_def": "the responsible overseeing and protection of something",
+        "example": "We must exercise stewardship over the planet's resources.",
+        "example_cn": "我们必须对地球资源履行管护之责。"
+      },
+      {
+        "word": "intrinsic",
+        "phonetic": "/ɪnˈtrɪnzɪk/",
+        "pos": "adj.",
+        "cn": "固有的；内在的",
+        "en_def": "belonging to the essential nature of something",
+        "example": "Many believe nature has intrinsic worth beyond its usefulness.",
+        "example_cn": "许多人相信自然具有超越功用的内在价值。"
+      },
+      {
+        "word": "overexploitation",
+        "phonetic": "/ˌəʊvərɪkˌsplɔɪˈteɪʃn/",
+        "pos": "n.",
+        "cn": "过度开发",
+        "en_def": "the excessive use of a resource beyond sustainable limits",
+        "example": "Overexploitation of fisheries has collapsed several stocks.",
+        "example_cn": "渔业的过度开发已导致多个种群崩溃。"
+      },
+      {
+        "word": "mitigate",
+        "phonetic": "/ˈmɪtɪɡeɪt/",
+        "pos": "v.",
+        "cn": "缓解；减轻",
+        "en_def": "to make something less severe or harmful",
+        "example": "Reforestation can help mitigate climate change.",
+        "example_cn": "重新造林有助于缓解气候变化。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to the passage, what makes the current mass extinction different from previous ones?",
+        "options": [
+          "It is caused by a single species—humans.",
+          "It is happening more slowly than before.",
+          "It affects only marine life.",
+          "It is reversible within decades."
+        ],
+        "answer": 0,
+        "explain": "The essay states the current extinction is 'the first caused not by asteroids or volcanoes but by a single species: us,' making it unique in its cause."
+      },
+      {
+        "q": "Which of the following is presented as an economic reason to protect biodiversity?",
+        "options": [
+          "Species have rights like humans.",
+          "Ecosystems provide services such as pollination and water filtration.",
+          "Extinction is morally wrong.",
+          "Development should stop entirely."
+        ],
+        "answer": 1,
+        "explain": "Paragraph 3 argues that biodiversity underpins ecosystem services—pollination, water filtration, coastal buffering—that economies depend on."
+      },
+      {
+        "q": "The word 'intrinsic' in the passage is closest in meaning to:",
+        "options": [
+          "useful",
+          "belonging to the essential nature of something",
+          "temporary",
+          "external"
+        ],
+        "answer": 1,
+        "explain": "'Intrinsic' means belonging to the essential nature of a thing; the text uses it to describe nature's value independent of human use."
+      },
+      {
+        "q": "What does the author suggest is the most durable approach to conservation?",
+        "options": [
+          "Banning all human activity in nature.",
+          "Relying only on international aid.",
+          "Pairing scientific protection with local communities' rights and livelihoods.",
+          "Prioritising economic growth above all."
+        ],
+        "answer": 2,
+        "explain": "Paragraph 5 argues top-down bans often fail and that the most durable solutions combine scientific protection with the rights and livelihoods of local people."
+      },
+      {
+        "q": "What is the author's overall position?",
+        "options": [
+          "Conservation is a luxury we cannot afford.",
+          "Protecting biodiversity is a foundation of human welfare, not a distraction from it.",
+          "Human needs and nature are always in conflict.",
+          "Only poor countries should protect nature."
+        ],
+        "answer": 1,
+        "explain": "The thesis and conclusion hold that protecting biodiversity is a foundation of human welfare, not a distraction from it."
+      }
+    ],
+    "summary": [
+      "物种正以前所未有的速度消失，当前这场由人类驱动的大灭绝在人的一生之内便已展开。",
+      "保护生物多样性既有经济理由（生态系统服务支撑经济），也有道德理由（生命的内在价值与我们的管护之责）。",
+      "真正的挑战是自然与人的协调，而非对立；最可持续的保育需将科学保护与当地社区的权利和生计结合。"
+    ]
   }
 ]
