@@ -6603,5 +6603,174 @@
       "气候改变降雨版图、人口与城市化集中需求、农业低效取用（约七成）与污染叠加，令水危机加速逼近，并外溢为粮食、能源、冲突与移民问题。",
       "应对已见成效：滴灌、废水回收、保护流域与合理核算的海水淡化都表明'最便宜的水常是我们选择不浪费的那部分'——及早行动者将换来长久韧性。"
     ]
+  },
+  {
+    "date": "2026-11-14",
+    "title": "The Price of Free: Why Your Data Has Become the Currency of the Digital Age",
+    "titleCn": "免费的代价：为何你的数据已成为数字时代的货币",
+    "topic": "科技",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "We live in an era where the most valuable services appear to cost nothing. Social networks, search engines, and navigation apps are free to use, yet they are among the most profitable companies in history. The explanation is simple but unsettling: in the digital economy, the product is not the service but the user. Every click, location ping, and late-night message is harvested, packaged, and sold. This essay argues that the erosion of personal data privacy is not a technical glitch to be patched but a structural imbalance that demands a fundamental rethinking of who owns our digital selves.",
+        "cn": "我们生活在一个最有价值的服务看似免费的时代。社交网络、搜索引擎和导航应用可以免费使用，但它们却是史上最赚钱的公司之列。原因简单却令人不安：在数字经济体中，被出售的产品不是服务，而是用户。每一次点击、每一次位置定位和深夜信息都被采集、打包并出售。本文认为，个人隐私的流失并非一个可以打补丁的技术故障，而是一种结构性失衡，迫使我们从根本上重新思考：谁拥有我们的数字自我。"
+      },
+      {
+        "en": "The business model that drives this system has been called 'surveillance capitalism.' Platforms do not merely provide tools; they monitor behavior to predict and influence it. Data is extracted on a scale once unimaginable, then refined into behavioral profiles that advertisers bid upon in real time. The convenience we enjoy is, in effect, a down payment on our autonomy. What makes this troubling is its asymmetry: users surrender intimate details with a single tap, while the full extent of collection remains invisible.",
+        "cn": "驱动这一体系的商业模式被称为\"监视资本主义\"。平台不只是提供工具，它们监控行为以预测并影响用户。数据以前所未有的规模被提取，再被提炼成行为画像，供广告商实时竞价。我们享受到的便利，实际上是拿自主权预付的订金。真正令人不安的是它的不对称性：用户轻轻一点就交出了私密细节，而采集的全部范围却始终不可见。"
+      },
+      {
+        "en": "Defenders of the current model argue that data collection fuels innovation and personalization. Recommendation engines surface music we love; maps reroute us around traffic; medical research benefits from large datasets. From this view, privacy is a luxury we can afford to trade for progress. There is merit to the claim that aggregate data yields public goods, but it conflates two very different things: anonymous statistics and the granular tracking of identifiable individuals.",
+        "cn": "当前模式的辩护者认为，数据采集推动了创新与个性化。推荐引擎推送我们喜欢的音乐，地图为我们绕开拥堵，医学研究得益于庞大的数据集。在这种视角下，隐私是一种我们可以为进步而交易的奢侈品。聚合数据能产生公共品这一点确有道理，但它混淆了两件截然不同的事：匿名统计与对可识别个体的细粒度追踪。"
+      },
+      {
+        "en": "The costs of ubiquitous tracking, however, are rarely counted on the balance sheet. When profiles are built from our weaknesses—insecurities, addictions, moments of despair—they can be exploited to manipulate choices we would not otherwise make. Worse, biased datasets can harden discrimination in lending, hiring, and policing. And every warehouse of personal information is a target; a single breach can expose millions to identity theft for a lifetime.",
+        "cn": "然而，无处不在的追踪所带来的代价，几乎从未被计入资产负债表。当画像建立在我们的弱点之上——不安全感、成瘾、绝望时刻——它们就可能被用来操纵我们本不会作出的选择。更糟的是，有偏差的数据集会加剧贷款、招聘和执法中的歧视。而每一座个人信息仓库都是一个目标；一次泄露就可能让数百万人终身面临身份盗用的风险。"
+      },
+      {
+        "en": "The remedy is not to abandon technology but to rebalance the relationship. Legislation such as the EU's General Data Protection Regulation shows that defaults can shift: consent must be meaningful, data portability guaranteed, and the right to be forgotten enforceable. Equally important is a cultural shift—treating personal data as property to which we hold title, rather than as exhaust to be scooped up. Individuals, too, can act, favoring tools that encrypt by default and refusing services built on surveillance.",
+        "cn": "解决之道不是抛弃技术，而是重新平衡这段关系。欧盟《通用数据保护条例》之类的立法表明，默认设置是可以改变的：同意必须名副其实，数据可携性必须得到保障，\"被遗忘权\"必须可执行。同样重要的是一场文化转向——把个人数据视为我们拥有产权的财产，而非随手被铲起的副产品。个人也可以采取行动：选择默认加密的工具，拒绝建立在监视之上的服务。"
+      },
+      {
+        "en": "Ultimately, the question is not whether technology is useful but on whose terms it operates. A society that treats human experience as free raw material risks hollowing out the very autonomy that makes freedom meaningful. We can keep our maps and our music, but we must insist on a fairer bargain: one in which privacy is a right encoded into design, not a premium feature. The cost of free has been high enough.",
+        "cn": "归根结底，问题不在于技术是否有用，而在于它在谁的条件之下运行。一个把人类体验当作免费原材料的社会，有可能掏空自由之所以有意义的那种自主权。我们可以保留地图和音乐，但必须要求一份更公平的契约：在其中，隐私是被写进设计的权利，而非一项付费增值功能。免费的代价，已经够高了。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "surveillance",
+        "phonetic": "/sərˈveɪləns/",
+        "pos": "n.",
+        "cn": "监视，监控",
+        "en_def": "close observation of a person or group, especially by an authority",
+        "example": "The app's constant surveillance of user location raised public alarms.",
+        "example_cn": "该应用对用户位置的持续监控引发了公众警觉。"
+      },
+      {
+        "word": "autonomy",
+        "phonetic": "/ɔːˈtɒnəmi/",
+        "pos": "n.",
+        "cn": "自主权，自治",
+        "en_def": "the right or condition of self-government; independence",
+        "example": "Users surrender their autonomy in exchange for free services.",
+        "example_cn": "用户以放弃自主权来换取免费服务。"
+      },
+      {
+        "word": "asymmetry",
+        "phonetic": "/eɪˈsɪmətri/",
+        "pos": "n.",
+        "cn": "不对称",
+        "en_def": "lack of equality or equivalence between two parts",
+        "example": "The information asymmetry overwhelmingly favors the platforms.",
+        "example_cn": "信息不对称极其有利于平台方。"
+      },
+      {
+        "word": "granular",
+        "phonetic": "/ˈɡrænjələ(r)/",
+        "pos": "adj.",
+        "cn": "细致入微的，细粒度的",
+        "en_def": "consisting of small, detailed, separate parts",
+        "example": "Granular tracking follows each individual click and pause.",
+        "example_cn": "细粒度的追踪记录每一次点击与停顿。"
+      },
+      {
+        "word": "reroute",
+        "phonetic": "/ˌriːˈruːt/",
+        "pos": "v.",
+        "cn": "改变路线，重新规划",
+        "en_def": "to send someone or something along a different path",
+        "example": "Navigation apps reroute drivers around unexpected congestion.",
+        "example_cn": "导航应用为司机重新规划路线以避开突发拥堵。"
+      },
+      {
+        "word": "harden",
+        "phonetic": "/ˈhɑːdn/",
+        "pos": "v.",
+        "cn": "使固化，加剧",
+        "en_def": "to make or become stronger, more fixed, or less sympathetic",
+        "example": "Biased datasets can harden discrimination in hiring.",
+        "example_cn": "有偏差的数据集会加剧招聘中的歧视。"
+      },
+      {
+        "word": "portability",
+        "phonetic": "/ˌpɔːtəˈbɪləti/",
+        "pos": "n.",
+        "cn": "可携性，可迁移性",
+        "en_def": "the ability to be easily carried or transferred from one place to another",
+        "example": "Data portability lets users move their information between services.",
+        "example_cn": "数据可携性让用户能在不同服务间迁移自己的信息。"
+      },
+      {
+        "word": "hollow out",
+        "phonetic": "/ˈhɒləʊ aʊt/",
+        "pos": "phrasal v.",
+        "cn": "掏空，削弱",
+        "en_def": "to make something weaker by removing its essential inner parts",
+        "example": "Pervasive surveillance can hollow out personal freedom.",
+        "example_cn": "无所不在的监视会掏空个人自由。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What central claim does the author make in the introduction?",
+        "options": [
+          "In the digital economy, users themselves are the product being sold.",
+          "Free services are genuinely free because they are funded by governments.",
+          "Personal data privacy is merely a technical problem that is easily fixed.",
+          "Social networks operate at a loss but provide public value."
+        ],
+        "answer": 0,
+        "explain": "引言指出，数字时代最赚钱的'免费'服务其实把用户当作产品——用户数据被采集、打包并出售。"
+      },
+      {
+        "q": "The term 'surveillance capitalism' (Paragraph 2) refers to a model in which companies:",
+        "options": [
+          "Sell hardware and then charge for software upgrades.",
+          "Monitor user behavior to predict and influence it, then sell the insights.",
+          "Rely entirely on voluntary donations from users.",
+          "Produce anonymous statistics only for academic research."
+        ],
+        "answer": 1,
+        "explain": "第2段将监视资本主义定义为：通过监控行为来预测并影响用户，再把行为画像出售给广告商。"
+      },
+      {
+        "q": "According to the passage, a key flaw in the argument that 'data collection fuels innovation' is that it:",
+        "options": [
+          "Ignores the financial cost of building data centers.",
+          "Conflates anonymous aggregate statistics with the granular tracking of identifiable individuals.",
+          "Assumes users never consent to any data collection.",
+          "Proves conclusively that privacy is no longer valuable."
+        ],
+        "answer": 1,
+        "explain": "第3段指出，该观点把'匿名聚合统计'与'对可识别个体的细粒度追踪'混为一谈。"
+      },
+      {
+        "q": "Which of the following is NOT mentioned as a hidden cost of ubiquitous tracking?",
+        "options": [
+          "Manipulation of choices through profiles built from users' weaknesses.",
+          "Hardening of discrimination in lending, hiring, and policing.",
+          "Increased risk of identity theft after major data breaches.",
+          "Higher prices charged directly to individual users for the service."
+        ],
+        "answer": 3,
+        "explain": "文中列举的隐性代价包括被操纵、歧视固化、数据泄露导致身份盗用；并未提及服务向用户直接收取更高费用。"
+      },
+      {
+        "q": "What does the author propose as the ultimate solution in the conclusion?",
+        "options": [
+          "Abandon all digital technology immediately.",
+          "Accept surveillance as an unavoidable price of convenience.",
+          "Embed privacy as a right in design rather than a premium feature.",
+          "Let platforms decide default privacy settings without any oversight."
+        ],
+        "answer": 2,
+        "explain": "结论主张把隐私作为写进设计的权利，而非付费增值功能，以此建立更公平的契约。"
+      }
+    ],
+    "summary": [
+      "数字时代'免费'服务的真正产品是用户数据——平台通过采集、画像、出售行为数据获利，便利的背后是自主权的让渡。",
+      "监视资本主义虽带来个性化与进步，但其细粒度追踪会操纵选择、固化歧视并放大数据泄露风险，这些代价常被忽视。",
+      "解决之道不是弃用技术，而是通过立法（如GDPR）、将数据视为个人财产权，并在设计中内置隐私，重建更公平的契约。"
+    ]
   }
 ]
