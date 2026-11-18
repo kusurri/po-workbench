@@ -7279,5 +7279,174 @@
       "真正引发争议的是权力不对称：当主导群体从边缘社群抽取带有身份或精神意义的符号、剥离语境并牟利时，欣赏就变成了挪用。",
       "区分二者的关键在于具体做法——署名、协商与利益共享；理想的文化交流应是建立在相互尊重与合作基础上的'有意识对话'，而非单向索取。"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "title": "The Silent Pandemic: Why Antibiotic Resistance Threatens to Undo a Century of Medicine",
+    "titleCn": "无声的瘟疫：为何抗生素耐药性可能让一个世纪的医学成果付诸东流",
+    "topic": "健康",
+    "level": "雅思 6.5-7.5",
+    "paragraphs": [
+      {
+        "en": "When Alexander Fleming noticed that a mould could kill bacteria nearly a century ago, he could hardly have imagined that his discovery would one day be slipping through our fingers. Antibiotics turned once-fatal infections into minor inconveniences and underpinned everything from caesarean sections to cancer chemotherapy. Yet this golden age is quietly ending. Bacteria are evolving faster than we can invent new drugs, and a growing chorus of scientists warns that we are drifting towards a post-antibiotic era in which routine surgery could once again be a gamble with death. The question is no longer whether resistance is a threat, but whether we can act decisively enough to contain it.",
+        "cn": "近一个世纪前，当亚历山大·弗莱明发现一种霉菌能够杀死细菌时，他几乎不可能想到，这一发现有一天会从我们指缝间溜走。抗生素把曾经致命的感染变成小麻烦，并支撑着从剖腹产到癌症化疗的方方面面。然而这个黄金时代正在悄然终结。细菌进化的速度快于我们研发新药的速度，越来越多的科学家警告说，我们正滑向一个'后抗生素时代'——在那里，常规手术可能再次成为与死神的赌博。问题不再是耐药性是否构成威胁，而是我们能否足够果断地加以遏制。"
+      },
+      {
+        "en": "The biology of resistance is both simple and relentless. Antibiotics do not create resistant bacteria; they merely kill the susceptible ones and leave the fortunate mutants to multiply. Every course of treatment therefore acts as an unintentional selection experiment, and the process accelerates wherever drugs are used heavily. This is why resistance has risen in tandem with prescribing rates: the more we deploy our chemical arsenal, the more opportunities bacteria have to learn to defeat it. Unlike a virus, which we might eventually vaccinate against, resistant traits can be passed between bacteria through genes that jump across species, making the problem genuinely borderless.",
+        "cn": "耐药性的生物学原理既简单又无情。抗生素并不会'创造'耐药菌；它们只是杀死敏感菌，让侥幸存活的突变体得以繁殖。因此，每一次疗程都是一场无意识的选择实验，凡是用药频繁之处，这一过程就会加速。这正是耐药性随处方量同步攀升的原因：我们投入的化学武器越多，细菌就越有机会学会如何击败它。病毒或许终有一天能用疫苗对付，而耐药特性却可以通过跨物种传播的基因在细菌间传递，使这个问题真正超越了国界。"
+      },
+      {
+        "en": "Human behaviour has poured fuel on this evolutionary fire. In clinics, antibiotics are still prescribed for viral illnesses against which they are powerless, often because patients expect a prescription and doctors wish to avoid conflict. In many countries the drugs can be bought over the counter without any diagnosis at all. The agricultural sector compounds the problem: substantial quantities are administered not to treat sick animals but to promote growth and prevent disease in crowded, unsanitary conditions. Such routine, low-dose exposure is precisely the training ground that breeds superbugs, and residues then travel from farm to table through the food chain.",
+        "cn": "人类行为给这场进化之火浇上了油。在诊所里，抗生素仍被开给病毒性疾病——它们对此毫无作用——这往往是因为患者期待处方，而医生不愿起冲突。在许多国家，这些药物无需任何诊断即可在柜台买到。农业部门使问题雪上加霜：大量抗生素并非用于治疗生病动物，而是用于促进生长、在拥挤肮脏的环境中预防疾病。这种常规的低剂量暴露恰恰是滋生超级细菌的温床，而药物残留随后又通过食物链从农场进入餐桌。"
+      },
+      {
+        "en": "The consequences of inaction are already visible and deeply unequal. Tuberculosis, malaria and gonorrhoea are becoming harder to treat, while hospital wards increasingly harbour pathogens resistant to last-line drugs. The World Health Organization estimates that resistance already contributes to hundreds of thousands of deaths each year, a figure set to climb sharply in low-income countries where infections are common and diagnostics scarce. The economic burden is equally sobering: prolonged illness, longer hospital stays and abandoned treatments drain health systems and push families into poverty. A medical breakthrough that once benefited all humanity now risks becoming a privilege of the wealthy.",
+        "cn": "不作为的后果已经显现，而且极不平等。结核病、疟疾和淋病正变得越来越难治疗，医院病房里也越来越多地栖居着对最后一线药物都具有耐药性的病原体。世界卫生组织估计，耐药性每年已导致数十万人死亡，而在感染普遍、诊断稀缺的低收入国家，这一数字预计将急剧上升。经济负担同样令人警醒：病程延长、住院时间增加和治疗方案被迫放弃，正在耗尽医疗体系并使家庭陷入贫困。一项曾造福全人类的医学突破，如今有可能沦为富人的特权。"
+      },
+      {
+        "en": "Containing resistance demands a coordinated response that treats human health, animal health and the environment as a single system — an approach known as One Health. Clinicians must adopt sharper diagnostic tools and stricter prescribing guidelines, while the public needs to understand that not demanding an unnecessary course of antibiotics is an act of collective responsibility. Agriculture must phase out growth-promoting use and improve husbandry so that drugs are reserved for genuine illness. Crucially, pharmaceutical companies require incentives to develop new antibiotics, yet those same new drugs must be conserved rather than aggressively marketed — a contradiction that regulators have yet to resolve.",
+        "cn": "遏制耐药性需要一种协调一致的应对方式，把人类健康、动物健康与环境视为一个整体系统——即所谓的'同一健康'（One Health）理念。临床医生必须采用更精准的诊断工具和更严格的处方准则；公众也需要明白，不索要不必要的抗生素疗程本身就是一种集体责任。农业必须逐步淘汰促生长用途、改善饲养方式，让药物只用于真正的疾病。至关重要的一点是，制药公司需要激励来研发新抗生素，但这些新药又必须被谨慎保存而非大力推销——这一矛盾至今仍待监管者解决。"
+      },
+      {
+        "en": "Antibiotics are a finite resource, squandered far more quickly than they can be replaced. The tragedy is that the solution requires less a miraculous new molecule than a change in habits: prescribing less, farming differently, and investing in prevention. If governments, clinicians, farmers and patients each treat every dose as precious, the golden age can be extended rather than mourned. If they do not, the silent pandemic will quietly finish what a century of medicine built. The choice, in short, is ours to make now.",
+        "cn": "抗生素是一种有限的资源，其被挥霍的速度远远快于补充的速度。悲剧在于，解决之道与其说需要一种神奇的新分子，不如说是习惯的改变：少开药、改变养殖方式、投资于预防。如果政府、临床医生、农民和患者都把每一剂抗生素视为珍贵之物，这个黄金时代就能被延长，而不是被哀悼。如果做不到，这场无声的瘟疫将悄然毁掉一个世纪医学所建立的成果。简而言之，选择权此刻就在我们手中。"
+      }
+    ],
+    "vocab": [
+      {
+        "word": "antimicrobial",
+        "phonetic": "/ˌæntimaɪˈkrəʊbiəl/",
+        "pos": "adj./n.",
+        "cn": "抗菌的；抗菌剂",
+        "en_def": "acting against or destroying microorganisms such as bacteria",
+        "example": "Overuse of antimicrobial drugs in both medicine and farming accelerates resistance.",
+        "example_cn": "在医疗和养殖中过度使用抗菌药物会加速耐药性。"
+      },
+      {
+        "word": "susceptible",
+        "phonetic": "/səˈseptəbl/",
+        "pos": "adj.",
+        "cn": "易感的；易受影响的",
+        "en_def": "lacking immunity or resistance and therefore likely to be affected by a disease or drug",
+        "example": "The drug kills susceptible bacteria but leaves resistant mutants behind.",
+        "example_cn": "这种药物杀死敏感菌，却把耐药突变体留了下来。"
+      },
+      {
+        "word": "pathogen",
+        "phonetic": "/ˈpæθədʒən/",
+        "pos": "n.",
+        "cn": "病原体",
+        "en_def": "a microorganism, such as a virus or bacterium, that causes disease",
+        "example": "Hospital wards increasingly harbour pathogens resistant to last-line drugs.",
+        "example_cn": "医院病房里越来越多地栖居着对最后一线药物耐药的病原体。"
+      },
+      {
+        "word": "over-the-counter",
+        "phonetic": "/ˌəʊvə ðə ˈkaʊntə(r)/",
+        "pos": "adj.",
+        "cn": "非处方的（无需处方即可购买的）",
+        "en_def": "of medicine, legally sold without a doctor's prescription",
+        "example": "In many countries antibiotics can still be bought over the counter without any diagnosis.",
+        "example_cn": "在许多国家，抗生素仍无需任何诊断即可在柜台买到。"
+      },
+      {
+        "word": "husbandry",
+        "phonetic": "/ˈhʌzbəndri/",
+        "pos": "n.",
+        "cn": "畜牧业；饲养",
+        "en_def": "the practice of breeding and raising animals, especially farm animals",
+        "example": "Better husbandry can reduce the need for routine antibiotic use in livestock.",
+        "example_cn": "更好的饲养方式可以减少牲畜中常规使用抗生素的需求。"
+      },
+      {
+        "word": "residue",
+        "phonetic": "/ˈrezɪdjuː/",
+        "pos": "n.",
+        "cn": "残留物；残余",
+        "en_def": "a small amount of a substance that remains after it has been used",
+        "example": "Drug residues travel from farm to table through the food chain.",
+        "example_cn": "药物残留通过食物链从农场进入餐桌。"
+      },
+      {
+        "word": "stewardship",
+        "phonetic": "/ˈstjuːədʃɪp/",
+        "pos": "n.",
+        "cn": "（资源的）妥善管理；保管",
+        "en_def": "the responsible and careful management of a resource",
+        "example": "Antibiotic stewardship means conserving these drugs for the cases where they are truly needed.",
+        "example_cn": "抗生素的妥善管理意味着把这些药物留给真正需要的病例。"
+      },
+      {
+        "word": "in tandem",
+        "phonetic": "/ɪn ˈtændəm/",
+        "pos": "phrase",
+        "cn": "并肩地；同步地",
+        "en_def": "happening together or in parallel with something else",
+        "example": "Resistance has risen in tandem with prescribing rates.",
+        "example_cn": "耐药性与处方量同步攀升。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "According to Paragraph 2, why does a course of antibiotics promote resistance?",
+        "options": [
+          "It creates brand-new resistant bacteria from nothing.",
+          "It strengthens the patient's immune system too rapidly.",
+          "It kills susceptible bacteria and leaves resistant mutants to multiply.",
+          "It changes human DNA so that drugs stop working."
+        ],
+        "answer": 2,
+        "explain": "第2段指出，抗生素并不'创造'耐药菌，而是杀死敏感菌、留下幸存的耐药突变体繁殖，构成一场无意的自然选择实验。"
+      },
+      {
+        "q": "What does the author say about antibiotic use in agriculture?",
+        "options": [
+          "It is strictly banned in all countries.",
+          "It is used mainly to cure individual sick animals.",
+          "It has no measurable effect on human health.",
+          "It is often used to promote growth and prevent disease in crowded conditions."
+        ],
+        "answer": 3,
+        "explain": "第3段说明，大量抗生素并非用于治疗病畜，而是用于促进生长、在拥挤肮脏的环境中预防疾病，从而滋生超级细菌。"
+      },
+      {
+        "q": "The phrase 'One Health' in Paragraph 5 refers to the idea that:",
+        "options": [
+          "human, animal and environmental health are interconnected.",
+          "only doctors should be allowed to prescribe medicine.",
+          "human health should always take priority over animal health.",
+          "health care systems should be privately funded."
+        ],
+        "answer": 0,
+        "explain": "第5段明确将'同一健康'定义为把人类健康、动物健康与环境视为一个整体系统的协调应对方式。"
+      },
+      {
+        "q": "What contradiction does the author identify in developing new antibiotics?",
+        "options": [
+          "They are too cheap to be worth researching.",
+          "They are ineffective against all resistant strains.",
+          "Companies need incentives to develop them, yet the drugs must be conserved rather than aggressively marketed.",
+          "Regulators have already resolved the issue completely."
+        ],
+        "answer": 2,
+        "explain": "第5段指出这一矛盾：制药公司需要研发激励，但新药又必须被谨慎保存而非大力推销，而监管者尚未解决这一矛盾。"
+      },
+      {
+        "q": "What is the author's main conclusion in the final paragraph?",
+        "options": [
+          "A miraculous new drug will solve the problem on its own.",
+          "Routine surgery should be abandoned altogether.",
+          "Resistance is an exaggerated threat that can be ignored.",
+          "Changing habits and conserving existing drugs can extend the antibiotic era."
+        ],
+        "answer": 3,
+        "explain": "结尾段强调，解决之道在于改变习惯——少开药、改善养殖、投资预防——并把每一剂抗生素视为珍贵资源，从而延长抗生素时代。"
+      }
+    ],
+    "summary": [
+      "抗生素耐药性源于细菌的自然选择：药物杀死敏感菌、留下耐药突变体繁殖，而医疗滥用与非处方销售、农业促生长用药进一步加速了这一进程，使其通过基因跨物种传播、超越国界。",
+      "不作为的后果既沉重又不平等：结核、疟疾、淋病等日益难治，住院与治疗成本推高医疗负担、使家庭陷入贫困，而低收入国家因诊断稀缺首当其冲，曾普惠全人类的医学突破有沦为富人特权之虞。",
+      "遏制耐药性需要'同一健康'的整体思路：精准诊断与严格处方、公众不索要不必要药物、农业淘汰促生长用药并改善饲养；同时须解决'研发需激励、新药却要慎用'的矛盾——核心在于把抗生素当作有限资源来珍惜管理。"
+    ]
   }
 ]
